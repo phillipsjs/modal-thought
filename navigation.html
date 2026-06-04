@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modal thought Navigation</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; padding: 2rem; background: #eef1fa; color: #111; }
+    .page { max-width: 860px; margin: 0 auto; }
+    h1 { margin-bottom: 0.25rem; }
+    .card { background: white; border-radius: 16px; box-shadow: 0 18px 48px rgba(0,0,0,0.08); padding: 2rem; margin-bottom: 1.5rem; }
+    .nav-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); }
+    a { display: inline-block; color: #1f4fc1; text-decoration: none; font-weight: 600; }
+    .nav-card { border: 1px solid #d4d7e4; border-radius: 14px; padding: 1.25rem; transition: border-color 0.2s ease, transform 0.2s ease; }
+    .nav-card:hover { border-color: #1f4fc1; transform: translateY(-2px); }
+    .note { margin-top: 1rem; color: #555; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header class="card">
+      <h1>Modal thought navigation</h1>
+      <p>Jump directly to the key research areas for this project: data, code, text, and documentation.</p>
+    </header>
+
+    <section class="nav-grid">
+      <article class="nav-card">
+        <h2><a href="index.html#data">Data</a></h2>
+        <p>Track datasets and data preparation notes in the `data/` directory.</p>
+      </article>
+      <article class="nav-card">
+        <h2><a href="index.html#code">Code</a></h2>
+        <p>Review analysis scripts and reproducible workflows in the `code/` directory.</p>
+      </article>
+      <article class="nav-card">
+        <h2><a href="index.html#text">Text</a></h2>
+        <p>Find manuscripts, documentation, and research notes in the `text/` directory.</p>
+      </article>
+      <article class="nav-card">
+        <h2><a href="README.md">Project docs</a></h2>
+        <p>Open the repository README for setup details, workflow notes, and publishing guidance.</p>
+      </article>
+    </section>
+
+    <section class="card">
+      <p class="note">If you want, I can also add individual index anchors for the sections on the landing page so those links scroll smoothly to the right content.</p>
+    </section>
+  </div>
+</body>
+</html>
