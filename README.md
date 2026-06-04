@@ -22,6 +22,11 @@ This repository includes an automated GitHub Pages deployment workflow. When you
 Published site URL:
 - `https://phillipsjs.github.io/modal-thought/`
 
+## Example data import
+
+This project now includes an initial example import from the `modal-spaces` dataset.
+See `external/modal-spaces/README.md` for the imported files and `text/modal-spaces-context.md` for context about how the data are structured.
+
 ## Living paper and versioning
 
 This repository is intended to be a living paper rather than a static report. The `living-paper.html` page explains the project philosophy, and `version.json` tracks the current release metadata. Future updates should add version history and interactive exploration pages.
