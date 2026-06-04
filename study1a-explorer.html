@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Study 1a Explorer — Modal thought</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; padding: 2rem; background: #f2f5fb; color: #111; }
+    .page { max-width: 1080px; margin: 0 auto; }
+    header, section { background: white; border-radius: 20px; box-shadow: 0 18px 48px rgba(0,0,0,0.08); padding: 1.75rem; margin-bottom: 1.5rem; }
+    h1, h2, h3 { margin-top: 0; }
+    .controls { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit,minmax(240px,1fr)); margin-bottom: 1rem; }
+    select, input { width: 100%; padding: 0.75rem 1rem; border: 1px solid #cbd5e1; border-radius: 12px; font-size: 1rem; }
+    .summary-grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); margin-top: 1rem; }
+    .summary-card { background: #eef4ff; border-radius: 16px; padding: 1rem; }
+    table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+    th, td { border: 1px solid #e2e8f0; padding: 0.75rem; text-align: left; }
+    th { background: #f8fafc; }
+    .note { color: #475569; }
+    code { background: #f4f6fc; border-radius: 6px; padding: 0.15rem 0.35rem; }
+    .button { display: inline-flex; align-items: center; justify-content: center; border:none; border-radius: 999px; padding: 0.8rem 1.4rem; background: #1f4fc1; color: white; font-weight: 600; cursor: pointer; transition: transform 0.2s ease; }
+    .button:hover { transform: translateY(-1px); }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div style="display:flex; align-items:center; gap:1rem; flex-wrap:wrap; margin-bottom:1rem;">
+        <div style="background:#eef4ff;color:#1f4fc1;padding:0.5rem 1rem;border-radius:999px;font-weight:600;">Interactive Explorer</div>
+        <div style="color:#475569;font-size:0.98rem;">Example dataset: Study 1a from the imported modal-spaces corpus.</div>
+      </div>
+      <h1>Study 1a Explorer</h1>
+      <p class="note">Browse Study 1a participant data alongside scenario context. Use the controls below to select a scenario and filter by demographics. This is an early prototype for interactive evidence exploration.</p>
+      <p><a href="index.html">← Home</a> · <a href="living-paper.html">Living paper overview</a> · <a href="text/modal-spaces-context.md">modal-spaces context</a></p>
+    </header>
+
+    <section>
+      <h2>Explorer controls</h2>
+      <div class="controls">
+        <label>
+          Scenario
+          <select id="scenarioSelect"></select>
+        </label>
+        <label>
+          Gender
+          <select id="genderSelect"><option value="all">All</option></select>
+        </label>
+        <label>
+          Minimum age
+          <input id="minAgeInput" type="number" placeholder="e.g. 18" min="0" />
+        </label>
+      </div>
+      <button class="button" id="refreshButton">Refresh explorer</button>
+    </section>
+
+    <section>
+      <h2>Scenario context</h2>
+      <div id="scenarioContext"></div>
+    </section>
+
+    <section>
+      <h2>Filtered sample summary</h2>
+      <div class="summary-grid" id="summaryGrid"></div>
+    </section>
+
+    <section>
+      <h2>Participant data preview</h2>
+      <p class="note">The table below shows a preview of participant rows for the selected scenario and filter criteria.</p>
+      <div id="tableContainer"></div>
+    </section>
+  </div>
+
+  <script>
+    const studyPath = 'external/modal-spaces/data/study1a.csv';
+    const contextPath = 'external/modal-spaces/materials/contextsTable.csv';
+    let studyData = [];
+    let studyHeaders = [];
+    let contexts = [];
+    let scenarioIds = [];
+
+    function parseCsv(text) {
+      const rows = [];
+      let row = [];
+      let field = '';
+      let inQuotes = false;
+      for (let i = 0; i < text.length; i++) {
+        const char = text[i];
+        const nextChar = text[i + 1];
+        if (inQuotes) {
+          if (char === '"') {
+            if (nextChar === '"') {
+              field += '"';
+              i += 1;
+            } else {
+              inQuotes = false;
+            }
+          } else {
+            field += char;
+          }
+        } else {
+          if (char === '"') {
+            inQuotes = true;
+          } else if (char === ',') {
+            row.push(field);
+            field = '';
+          } else if (char === '\r') {
+            continue;
+          } else if (char === '\n') {
+            row.push(field);
+            rows.push(row);
+            row = [];
+            field = '';
+          } else {
+            field += char;
+          }
+        }
+      }
+      if (field !== '' || row.length > 0) {
+        row.push(field);
+        rows.push(row);
+      }
+      return rows;
+    }
+
+    function parseTable(csvText) {
+      const rows = parseCsv(csvText.trim());
+      const headers = rows[0] || [];
+      return rows.slice(1).map(row => {
+        const rowObj = {};
+        headers.forEach((header, index) => rowObj[header] = row[index] || '');
+        return rowObj;
+      });
+    }
+
+    async function loadData() {
+      const [studyText, contextText] = await Promise.all([
+        fetch(studyPath).then(r => r.text()),
+        fetch(contextPath).then(r => r.text())
+      ]);
+      const studyRows = parseCsv(studyText.trim());
+      studyHeaders = studyRows[0] || [];
+      studyData = studyRows.slice(1).map(row => {
+        const item = {};
+        studyHeaders.forEach((header, index) => item[header] = row[index] || '');
+        return item;
+      });
+      contexts = parseTable(contextText);
+      scenarioIds = Array.from(new Set(contexts.map(row => row.context))).sort((a,b) => Number(a) - Number(b));
+    }
+
+    function setOptions() {
+      const scenarioSelect = document.getElementById('scenarioSelect');
+      scenarioSelect.innerHTML = scenarioIds.map(id => `<option value="${id}">Scenario ${id}</option>`).join('');
+
+      const genders = new Set(studyData.map(row => row.gender).filter(Boolean));
+      const genderSelect = document.getElementById('genderSelect');
+      genderSelect.innerHTML = '<option value="all">All</option>' + Array.from(genders).sort().map(g => `<option value="${g}">${g}</option>`).join('');
+    }
+
+    function getScenarioColumns(scenarioId) {
+      const prefix = `S${scenarioId}`;
+      return studyHeaders.filter(header => header.startsWith(prefix))
+        .filter(header => !/(time|Click Count|Click|FRtime)/i.test(header));
+    }
+
+    function getScenarioContext(scenarioId) {
+      return contexts.find(item => item.context === scenarioId.toString());
+    }
+
+    function countValues(rows, key) {
+      const counts = {};
+      rows.forEach(row => {
+        const value = row[key] || 'Unknown';
+        counts[value] = (counts[value] || 0) + 1;
+      });
+      return counts;
+    }
+
+    function renderContext(scenarioId) {
+      const context = getScenarioContext(scenarioId);
+      const container = document.getElementById('scenarioContext');
+      if (!context) {
+        container.innerHTML = '<p class="note">Scenario metadata not found.</p>';
+        return;
+      }
+      const actions = [context.action_1, context.action_2, context.action_3, context.action_4, context.action_5, context.action_6].filter(Boolean);
+      container.innerHTML = `
+        <h3>Scenario ${scenarioId}</h3>
+        <p><strong>Prompt:</strong> ${context.text}</p>
+        <p><strong>Your perspective:</strong> ${context.text_second_person}</p>
+        <p><strong>Options:</strong></p>
+        <ol>${actions.map(action => `<li>${action}</li>`).join('')}</ol>
+        <p><strong>Downstream event:</strong> ${context.downstream_event || 'N/A'}</p>
+      `;
+    }
+
+    function renderSummary(filteredRows) {
+      const summaryGrid = document.getElementById('summaryGrid');
+      const genderCounts = countValues(filteredRows, 'gender');
+      const ageCounts = countValues(filteredRows, 'age');
+      const total = filteredRows.length;
+      const uniqueAges = Object.keys(ageCounts).length;
+      summaryGrid.innerHTML = `
+        <div class="summary-card"><strong>Total participants</strong><div>${total}</div></div>
+        <div class="summary-card"><strong>Gender groups</strong><div>${Object.entries(genderCounts).map(([k,v]) => `${k}: ${v}`).join('<br>')}</div></div>
+        <div class="summary-card"><strong>Age values</strong><div>${uniqueAges} unique ages</div></div>
+      `;
+    }
+
+    function renderTable(filteredRows, scenarioId) {
+      const tableContainer = document.getElementById('tableContainer');
+      const scenarioColumns = getScenarioColumns(scenarioId);
+      const columns = ['gender', 'age', 'education', 'ses', 'ethnicity', ...scenarioColumns];
+      const rows = filteredRows.slice(0, 15);
+      const headerHtml = columns.map(col => `<th>${col}</th>`).join('');
+      const bodyHtml = rows.map(row => `
+        <tr>${columns.map(col => `<td>${row[col] || ''}</td>`).join('')}</tr>
+      `).join('');
+      tableContainer.innerHTML = `
+        <div class="note">Showing ${rows.length} of ${filteredRows.length} matching participants.</div>
+        <table>
+          <thead><tr>${headerHtml}</tr></thead>
+          <tbody>${bodyHtml}</tbody>
+        </table>
+      `;
+    }
+
+    function filterRows(scenarioId, gender, minAge) {
+      return studyData.filter(row => {
+        if (gender !== 'all' && row.gender !== gender) return false;
+        if (minAge !== null) {
+          const ageValue = Number(row.age);
+          if (!isNaN(ageValue) && ageValue < minAge) return false;
+        }
+        return true;
+      });
+    }
+
+    function renderExplorer() {
+      const scenarioId = document.getElementById('scenarioSelect').value;
+      const gender = document.getElementById('genderSelect').value;
+      const minAgeRaw = document.getElementById('minAgeInput').value;
+      const minAge = minAgeRaw ? Number(minAgeRaw) : null;
+      renderContext(scenarioId);
+      const filteredRows = filterRows(scenarioId, gender, minAge);
+      renderSummary(filteredRows);
+      renderTable(filteredRows, scenarioId);
+    }
+
+    document.getElementById('refreshButton').addEventListener('click', renderExplorer);
+
+    window.addEventListener('load', async () => {
+      await loadData();
+      setOptions();
+      renderExplorer();
+    });
+  </script>
+</body>
+</html>
