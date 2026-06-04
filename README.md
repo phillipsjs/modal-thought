@@ -27,8 +27,9 @@ Published site URL:
 This project now includes an initial example import from the `modal-spaces` dataset.
 See `external/modal-spaces/README.md` for the imported files and `text/modal-spaces-context.md` for context about how the data are structured.
 
-Interactive example:
+Interactive examples:
 - `study1a-explorer.html` — explore Study 1a data with scenario context and participant filtering.
+- `figure1.html` — recreate the Figure 1 plot from the modal-spaces write-up with interactive controls.
 
 ## Living paper and versioning
 

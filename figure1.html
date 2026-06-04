@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Figure 1 Explorer — Modal thought</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 0; padding: 2rem; background: #f2f5fb; color: #111; }
+    .page { max-width: 1120px; margin: 0 auto; }
+    header, section { background: white; border-radius: 20px; box-shadow: 0 18px 48px rgba(0,0,0,0.08); padding: 1.75rem; margin-bottom: 1.5rem; }
+    h1, h2, h3 { margin-top: 0; }
+    .controls { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); margin-bottom: 1rem; }
+    select, input { width: 100%; padding: 0.75rem 1rem; border: 1px solid #cbd5e1; border-radius: 12px; font-size: 1rem; }
+    label { display: block; }
+    .checkbox-group { display: flex; flex-wrap: wrap; gap: 1rem; }
+    .checkbox-group label { font-weight: 500; }
+    .note { color: #475569; }
+    .plot-container { min-height: 520px; }
+    .button { display: inline-flex; align-items: center; justify-content: center; border:none; border-radius: 999px; padding: 0.75rem 1.35rem; background: #1f4fc1; color: white; font-weight: 600; cursor: pointer; transition: transform 0.2s ease; }
+    .button:hover { transform: translateY(-1px); }
+  </style>
+  <script src="https://cdn.plot.ly/plotly-2.31.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" integrity="sha512-Xq3GHTunqG6vaxK0EhgLBdgsEU+gUggt7zYd2M3Ip1mUnfY6q0T+v9lfR6+IYshr5dPh4ZzdbBrHyk8Mbmp7mw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div style="display:flex; align-items:center; gap:1rem; flex-wrap:wrap; margin-bottom:1rem;">
+        <div style="background:#eef4ff;color:#1f4fc1;padding:0.5rem 1rem;border-radius:999px;font-weight:600;">Interactive Figure 1</div>
+        <div style="color:#475569;font-size:0.98rem;">Recreating the Figure 1 plot from the writeUP.Rmd analysis using Study 1a-c data.</div>
+      </div>
+      <h1>Figure 1 Explorer</h1>
+      <p class="note">This page recreates the Figure 1 analysis from the modal-spaces write-up. Use the controls below to filter the data by scenario, gender, and age, and to choose which rating dimensions to display.</p>
+      <p><a href="index.html">← Home</a> · <a href="living-paper.html">Living paper overview</a> · <a href="study1a-explorer.html">Study 1a explorer</a></p>
+    </header>
+
+    <section>
+      <h2>Plot controls</h2>
+      <div class="controls">
+        <label>
+          Scenario
+          <select id="scenarioSelect"></select>
+        </label>
+        <label>
+          Gender
+          <select id="genderSelect">
+            <option value="all">All</option>
+          </select>
+        </label>
+        <label>
+          Minimum age
+          <input id="minAgeInput" type="number" placeholder="e.g. 18" min="0" />
+        </label>
+      </div>
+      <div class="checkbox-group">
+        <label><input type="checkbox" id="probabilityCheckbox" value="Probability" checked> Probability</label>
+        <label><input type="checkbox" id="moralityCheckbox" value="Morality" checked> Morality</label>
+        <label><input type="checkbox" id="normalityCheckbox" value="Normality" checked> Normality</label>
+      </div>
+      <button class="button" id="updatePlotButton">Update figure</button>
+    </section>
+
+    <section>
+      <h2>Figure 1</h2>
+      <p class="note">This figure shows generation number on the x-axis and rated value on the y-axis. Points are jittered for visibility and the lines show linear trends for each rating dimension.</p>
+      <div id="figureContainer" class="plot-container"></div>
+    </section>
+  </div>
+
+  <script>
+    const studyFiles = [
+      'external/modal-spaces/data/study1a.csv',
+      'external/modal-spaces/data/study1b.csv',
+      'external/modal-spaces/data/study1c.csv'
+    ];
+    const excludeIds = [57, 88, 91, 135, 151, 153, 158, 189, 248, 229];
+    let pgL = [];
+    let contexts = [];
+
+    function parseQuestionLabel(num) {
+      const n = Number(num);
+      if (n === 4 || n === 7) return 'Probability';
+      if (n === 5 || n === 8) return 'Morality';
+      return 'Normality';
+    }
+
+    function loadCsvFile(path) {
+      return fetch(path)
+        .then(response => response.text())
+        .then(text => {
+          const parsed = Papa.parse(text.trim(), { header: true, skipEmptyLines: true });
+          return parsed.data.map(row => {
+            const cleaned = {};
+            Object.keys(row).forEach(k => {
+              cleaned[k.trim()] = row[k] === undefined ? '' : row[k].trim();
+            });
+            return cleaned;
+          });
+        });
+    }
+
+    function normalizeRows(rows) {
+      return rows.map(row => {
+        if (row.Progress) row.Progress = Number(row.Progress);
+        if (row.age === '2525') row.age = '25';
+        if (row.age) row.age = Number(row.age);
+        return row;
+      });
+    }
+
+    function parsePgL(rows) {
+      const questionCols = Object.keys(rows[0] || {}).filter(col => /^S\d+A\d+_\d+$/.test(col));
+      const result = [];
+      rows.forEach(row => {
+        if (row.Progress !== 100) return;
+        if (excludeIds.includes(row.id)) return;
+        questionCols.forEach(col => {
+          const match = col.match(/^S(\d+)A(\d+)_(\d+)$/);
+          if (!match) return;
+          const context = Number(match[1]);
+          const answer = Number(match[2]);
+          const questionNum = Number(match[3]);
+          const response = Number(row[col]);
+          if (Number.isNaN(response)) return;
+          const question = parseQuestionLabel(questionNum);
+          result.push({
+            id: row.id,
+            context,
+            answer,
+            question,
+            response,
+            gender: row.gender || 'Unknown',
+            age: row.age || null,
+            education: row.education || 'Unknown',
+            ses: row.ses || 'Unknown',
+            ethnicity: row.ethnicity || 'Unknown'
+          });
+        });
+      });
+      return result;
+    }
+
+    function loadContextData() {
+      return fetch('external/modal-spaces/materials/contextsTable.csv')
+        .then(response => response.text())
+        .then(text => {
+          const parsed = Papa.parse(text.trim(), { header: true, skipEmptyLines: true });
+          contexts = parsed.data.map(row => ({
+            context: Number(row.context),
+            text: row.text || '',
+            text_second_person: row.text_second_person || '',
+            action_1: row.action_1 || '',
+            action_2: row.action_2 || '',
+            action_3: row.action_3 || '',
+            action_4: row.action_4 || '',
+            action_5: row.action_5 || '',
+            action_6: row.action_6 || ''
+          }));
+        });
+    }
+
+    function buildData() {
+      return Promise.all(studyFiles.map(path => loadCsvFile(path)))
+        .then(arrays => {
+          const rows = arrays.flat();
+          let nextId = 1;
+          const withIds = rows.map(row => ({ ...row, id: nextId++ }));
+          return normalizeRows(withIds);
+        })
+        .then(rows => {
+          pgL = parsePgL(rows);
+          const scenarioSelect = document.getElementById('scenarioSelect');
+          const uniqueContexts = Array.from(new Set(pgL.map(r => r.context))).sort((a,b) => a - b);
+          scenarioSelect.innerHTML = '<option value="all">All scenarios</option>' + uniqueContexts.map(id => `<option value="${id}">Scenario ${id}</option>`).join('');
+          const genders = Array.from(new Set(pgL.map(r => r.gender).filter(g => g))).sort();
+          const genderSelect = document.getElementById('genderSelect');
+          genders.forEach(g => genderSelect.insertAdjacentHTML('beforeend', `<option value="${g}">${g}</option>`));
+        });
+    }
+
+    function filterRows() {
+      const scenarioValue = document.getElementById('scenarioSelect').value;
+      const genderValue = document.getElementById('genderSelect').value;
+      const minAgeValue = Number(document.getElementById('minAgeInput').value);
+      return pgL.filter(row => {
+        if (scenarioValue !== 'all' && row.context !== Number(scenarioValue)) return false;
+        if (genderValue !== 'all' && row.gender !== genderValue) return false;
+        if (!Number.isNaN(minAgeValue) && row.age !== null && row.age < minAgeValue) return false;
+        return true;
+      });
+    }
+
+    function getSelectedQuestions() {
+      return ['Probability', 'Morality', 'Normality'].filter(label => document.getElementById(`${label.toLowerCase()}Checkbox`).checked);
+    }
+
+    function summarizeByQuestionAndAnswer(rows) {
+      const summary = {};
+      rows.forEach(row => {
+        const key = `${row.question}|${row.answer}`;
+        if (!summary[key]) summary[key] = { question: row.question, answer: row.answer, values: [] };
+        summary[key].values.push(row.response);
+      });
+      return Object.values(summary).map(item => ({
+        ...item,
+        mean: item.values.reduce((a,b) => a + b, 0) / item.values.length,
+        count: item.values.length
+      }));
+    }
+
+    function renderPlot() {
+      const rows = filterRows();
+      const selectedQuestions = getSelectedQuestions();
+      const filtered = rows.filter(row => selectedQuestions.includes(row.question));
+      const grouped = {};
+
+      const colors = {
+        Probability: '#1f77b4',
+        Morality: '#ff7f0e',
+        Normality: '#2ca02c'
+      };
+
+      const boxTraces = selectedQuestions.map(question => {
+        const rowValues = filtered.filter(row => row.question === question);
+        return {
+          type: 'box',
+          x: rowValues.map(row => row.answer),
+          y: rowValues.map(row => row.response),
+          name: question,
+          boxpoints: 'all',
+          jitter: 0.35,
+          pointpos: -1.8,
+          marker: { color: colors[question], opacity: 0.5, size: 4, symbol: 'circle' },
+          line: { color: colors[question] },
+          fillcolor: colors[question]
+        };
+      });
+
+      const summary = summarizeByQuestionAndAnswer(filtered);
+      const lineTraces = selectedQuestions.map(question => {
+        const points = summary
+          .filter(item => item.question === question)
+          .sort((a,b) => a.answer - b.answer);
+        return {
+          x: points.map(item => item.answer),
+          y: points.map(item => item.mean),
+          mode: 'lines+markers',
+          name: `${question} trend`,
+          marker: { color: colors[question], size: 8 },
+          line: { color: colors[question], width: 3, dash: 'solid' },
+          hoverinfo: 'x+y+name'
+        };
+      });
+
+      const layout = {
+        title: 'Figure 1 recreation: Generation number vs. value of option generated',
+        xaxis: { title: 'Generation number', dtick: 1, range: [0.75, 5.25] },
+        yaxis: { title: 'Value of option generated', range: [0, 100] },
+        legend: { orientation: 'h', y: 1.15 },
+        margin: { t: 60, b: 60, l: 80, r: 40 },
+        hovermode: 'closest'
+      };
+
+      const data = [...boxTraces, ...lineTraces];
+      if (data.length === 0) {
+        document.getElementById('figureContainer').innerHTML = '<p class="note">Please select at least one rating dimension to display.</p>';
+        return;
+      }
+      Plotly.newPlot('figureContainer', data, layout, { responsive: true, displayModeBar: false });
+    }
+
+    document.getElementById('updatePlotButton').addEventListener('click', renderPlot);
+
+    Promise.all([buildData(), loadContextData()]).then(renderPlot).catch(error => {
+      document.getElementById('figureContainer').innerHTML = `<p class="note">Error loading data: ${error.message}</p>`;
+      console.error(error);
+    });
+  </script>
+</body>
+</html>
