@@ -14,3 +14,10 @@
 1. Add project data and analysis code.
 2. Expand the site with interactive visualizations.
 3. Configure GitHub Pages once the remote repo is created.
+
+## GitHub Pages
+
+This repository includes an automated GitHub Pages deployment workflow. When you push changes to `main`, the Pages Action will build and publish the site from the repository root.
+
+Published site URL:
+- `https://phillipsjs.github.io/modal-thought/`
