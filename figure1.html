@@ -20,7 +20,6 @@
     .button:hover { transform: translateY(-1px); }
   </style>
   <script src="https://cdn.plot.ly/plotly-2.31.0.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js" integrity="sha512-Xq3GHTunqG6vaxK0EhgLBdgsEU+gUggt7zYd2M3Ip1mUnfY6q0T+v9lfR6+IYshr5dPh4ZzdbBrHyk8Mbmp7mw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
   <div class="page">
@@ -84,11 +83,62 @@
       return 'Normality';
     }
 
+    function parseCsv(text, { header = true, skipEmptyLines = true } = {}) {
+      const normalized = text.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+      const lines = normalized.split('\n');
+      const rows = [];
+
+      function parseLine(line) {
+        const values = [];
+        let current = '';
+        let inQuotes = false;
+        for (let i = 0; i < line.length; i += 1) {
+          const char = line[i];
+          if (char === '"') {
+            if (inQuotes && line[i + 1] === '"') {
+              current += '"';
+              i += 1;
+            } else {
+              inQuotes = !inQuotes;
+            }
+          } else if (char === ',' && !inQuotes) {
+            values.push(current);
+            current = '';
+          } else {
+            current += char;
+          }
+        }
+        values.push(current);
+        return values;
+      }
+
+      let headers = [];
+      for (const rawLine of lines) {
+        const line = rawLine.trim();
+        if (skipEmptyLines && line === '') continue;
+        const values = parseLine(rawLine);
+        if (header && headers.length === 0) {
+          headers = values.map(value => value.trim());
+          continue;
+        }
+        if (header) {
+          const row = {};
+          headers.forEach((col, index) => {
+            row[col.trim()] = values[index] === undefined ? '' : values[index].trim();
+          });
+          rows.push(row);
+        } else {
+          rows.push(values.map(value => value.trim()));
+        }
+      }
+      return { data: rows };
+    }
+
     function loadCsvFile(path) {
       return fetch(path)
         .then(response => response.text())
         .then(text => {
-          const parsed = Papa.parse(text.trim(), { header: true, skipEmptyLines: true });
+          const parsed = parseCsv(text.trim(), { header: true, skipEmptyLines: true });
           return parsed.data.map(row => {
             const cleaned = {};
             Object.keys(row).forEach(k => {
@@ -144,7 +194,7 @@
       return fetch('external/modal-spaces/materials/contextsTable.csv')
         .then(response => response.text())
         .then(text => {
-          const parsed = Papa.parse(text.trim(), { header: true, skipEmptyLines: true });
+          const parsed = parseCsv(text.trim(), { header: true, skipEmptyLines: true });
           contexts = parsed.data.map(row => ({
             context: Number(row.context),
             text: row.text || '',
