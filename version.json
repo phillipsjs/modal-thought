@@ -1,0 +1,13 @@
+{
+  "version": "0.1.0",
+  "title": "Modal thought — living paper prototype",
+  "date": "2026-06-04",
+  "status": "current",
+  "summary": "Initial living paper scaffold with navigation, version metadata, and concept documentation.",
+  "changes": [
+    "Created core site scaffold",
+    "Added living paper narrative and version metadata",
+    "Added navigation page and project plan"
+  ],
+  "author": "PhillipsJS"
+}

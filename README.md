@@ -21,3 +21,7 @@ This repository includes an automated GitHub Pages deployment workflow. When you
 
 Published site URL:
 - `https://phillipsjs.github.io/modal-thought/`
+
+## Living paper and versioning
+
+This repository is intended to be a living paper rather than a static report. The `living-paper.html` page explains the project philosophy, and `version.json` tracks the current release metadata. Future updates should add version history and interactive exploration pages.
