@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 12px 8px 0;
+      background: white;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+
+    /* ── Context selector ──────────────────────────────────────── */
+    #controls { margin-top: 10px; }
+
+    .selector-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 5px;
+      margin-bottom: 10px;
+    }
+
+    .selector-label {
+      font-size: 0.78rem;
+      color: #888;
+      margin-right: 2px;
+      white-space: nowrap;
+    }
+
+    .ctx-btn {
+      font-size: 0.76rem;
+      padding: 2px 8px;
+      border: 1px solid #d1d5db;
+      border-radius: 999px;
+      background: white;
+      color: #6b7280;
+      cursor: pointer;
+      font-family: inherit;
+      transition: background 0.12s, color 0.12s, border-color 0.12s;
+      line-height: 1.6;
+    }
+
+    .ctx-btn:hover { border-color: #9ca3af; color: #374151; }
+
+    .ctx-btn.active {
+      background: #334155;
+      border-color: #334155;
+      color: white;
+    }
+
+    .all-btn { font-weight: 500; }
+
+    /* ── Scenario panel ────────────────────────────────────────── */
+    .scenario-panel {
+      display: none;
+      border-left: 3px solid #cbd5e1;
+      padding: 8px 12px;
+      margin-bottom: 8px;
+      background: #f8fafc;
+    }
+
+    .scenario-panel.visible { display: block; }
+
+    .scenario-label {
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #94a3b8;
+      margin-bottom: 4px;
+    }
+
+    .scenario-text {
+      font-size: 0.84rem;
+      color: #374151;
+      line-height: 1.55;
+      font-family: Georgia, serif;
+    }
+
+    /* ── Chart ─────────────────────────────────────────────────── */
+    #fig { width: 100%; height: 520px; }
+    #status { color: #888; font-size: 0.85rem; padding: 1rem; }
+  </style>
+</head>
+<body>
+
+  <div id="status">Loading data…</div>
+
+  <div id="fig"></div>
+
+  <div id="controls" style="display:none">
+    <div class="selector-row">
+      <span class="selector-label">Scenarios:</span>
+      <button class="ctx-btn all-btn active" data-ctx="all">All</button>
+    </div>
+    <div class="scenario-panel" id="scenario-panel">
+      <div class="scenario-label">Scenario</div>
+      <div class="scenario-text" id="scenario-text"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3-dsv@3/dist/d3-dsv.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+  <script>
+    const CSV_FILES = [
+      '../data/study1a.csv',
+      '../data/study1b.csv',
+      '../data/study1c.csv',
+    ];
+    const CONTEXTS_CSV = '../data/contextsTable.csv';
+
+    const RATING = { '4': 'Probability', '5': 'Morality', '6': 'Normality' };
+    const COL_RE = /^S(\d+)A(\d+)_([456])$/;
+    const FR_RE  = /^S(\d+)-FR_(\d+)$/;
+
+    // Colors for generation numbers 1–5
+    const GEN_COLOR = {
+      1: '#4e79a7',
+      2: '#f28e2b',
+      3: '#59a14f',
+      4: '#e15759',
+      5: '#b07aa1',
+    };
+
+    let allPoints     = [];   // { pid, context, answer, prob, moral, norm, text }
+    let contextMeta   = {};   // { n: row }
+    let selectedCtxs  = new Set();
+    let availableCtxs = [];
+
+    // ── Load ─────────────────────────────────────────────────────
+    async function loadAll() {
+      const [csvTexts, ctxRaw] = await Promise.all([
+        Promise.all(CSV_FILES.map(f => fetch(f).then(r => r.text()))),
+        fetch(CONTEXTS_CSV).then(r => r.text()),
+      ]);
+
+      d3.csvParse(ctxRaw).forEach(row => { contextMeta[+row.context] = row; });
+
+      csvTexts.forEach((text, fi) => {
+        d3.csvParse(text).forEach((row, ri) => {
+          const pid = `${fi}-${ri}`;
+          const frText  = {};  // ctx → ans → string
+          const ratings = {};  // ctx → ans → { Probability, Morality, Normality }
+
+          Object.entries(row).forEach(([col, val]) => {
+            // Free-response text
+            const fm = col.match(FR_RE);
+            if (fm && val) {
+              const frNum = +fm[2];
+              if (frNum >= 4 && frNum <= 8) {
+                const ctx = +fm[1], ans = frNum - 3;
+                if (!frText[ctx]) frText[ctx] = {};
+                frText[ctx][ans] = val;
+              }
+            }
+
+            // Ratings
+            const cm = col.match(COL_RE);
+            if (cm) {
+              const v = parseFloat(val);
+              if (!isNaN(v)) {
+                const ctx = +cm[1], ans = +cm[2], qName = RATING[cm[3]];
+                if (!ratings[ctx]) ratings[ctx] = {};
+                if (!ratings[ctx][ans]) ratings[ctx][ans] = {};
+                ratings[ctx][ans][qName] = v;
+              }
+            }
+          });
+
+          // Emit one point per context×answer with all 3 ratings
+          Object.entries(ratings).forEach(([ctx, byAns]) => {
+            Object.entries(byAns).forEach(([ans, r]) => {
+              if (r.Probability !== undefined && r.Morality !== undefined && r.Normality !== undefined) {
+                allPoints.push({
+                  pid, context: +ctx, answer: +ans,
+                  prob:  r.Probability,
+                  moral: r.Morality,
+                  norm:  r.Normality,
+                  text:  (frText[+ctx] || {})[+ans] || '',
+                });
+              }
+            });
+          });
+        });
+      });
+
+      availableCtxs = [...new Set(allPoints.map(d => d.context))].sort((a, b) => a - b);
+      selectedCtxs  = new Set(availableCtxs);
+    }
+
+    // ── Traces ───────────────────────────────────────────────────
+    function buildTraces() {
+      const sub = allPoints.filter(d => selectedCtxs.has(d.context));
+      const traces = [];
+
+      [1, 2, 3, 4, 5].forEach(gen => {
+        const gd = sub.filter(d => d.answer === gen);
+        if (!gd.length) return;
+
+        traces.push({
+          type: 'scatter3d',
+          mode: 'markers',
+          name: `${gen}`,
+          x: gd.map(d => d.prob),
+          y: gd.map(d => d.moral),
+          z: gd.map(d => d.norm),
+          text: gd.map(d => d.text),
+          hovertemplate: '%{text}<extra></extra>',
+          marker: {
+            color: GEN_COLOR[gen],
+            size: 3.5,
+            opacity: 0.6,
+            line: { width: 0 },
+          },
+        });
+      });
+
+      return traces;
+    }
+
+    const LAYOUT = {
+      scene: {
+        xaxis: {
+          title: { text: 'Probability', font: { size: 13 } },
+          range: [0, 100],
+          showgrid: true,
+          gridcolor: '#e5e7eb',
+          backgroundcolor: '#f9fafb',
+          showbackground: true,
+        },
+        yaxis: {
+          title: { text: 'Morality', font: { size: 13 } },
+          range: [0, 100],
+          showgrid: true,
+          gridcolor: '#e5e7eb',
+          backgroundcolor: '#f9fafb',
+          showbackground: true,
+        },
+        zaxis: {
+          title: { text: 'Normality', font: { size: 13 } },
+          range: [0, 100],
+          showgrid: true,
+          gridcolor: '#e5e7eb',
+          backgroundcolor: '#f9fafb',
+          showbackground: true,
+        },
+        camera: { eye: { x: 1.6, y: -1.6, z: 0.8 } },
+      },
+      legend: {
+        orientation: 'h',
+        x: 0, xanchor: 'left',
+        y: 1.02, yanchor: 'bottom',
+        title: { text: 'Generation:', font: { size: 15 } },
+        font: { size: 15 },
+      },
+      margin: { t: 50, r: 10, b: 10, l: 10 },
+      paper_bgcolor: 'white',
+      font: { family: 'Georgia, serif', size: 13 },
+    };
+
+    // ── Scenario display ─────────────────────────────────────────
+    function updateScenario() {
+      const panel  = document.getElementById('scenario-panel');
+      const textEl = document.getElementById('scenario-text');
+      if (selectedCtxs.size === 1) {
+        const info = contextMeta[[...selectedCtxs][0]];
+        if (info) { textEl.textContent = info.text; panel.classList.add('visible'); return; }
+      }
+      panel.classList.remove('visible');
+    }
+
+    function update() {
+      updateScenario();
+      Plotly.react('fig', buildTraces(), LAYOUT);
+    }
+
+    // ── Buttons ───────────────────────────────────────────────────
+    function buildUI() {
+      const row    = document.querySelector('.selector-row');
+      const allBtn = row.querySelector('.all-btn');
+
+      availableCtxs.forEach(ctx => {
+        const btn = document.createElement('button');
+        btn.className   = 'ctx-btn active';
+        btn.dataset.ctx = ctx;
+        btn.textContent = ctx;
+        row.appendChild(btn);
+      });
+
+      row.addEventListener('click', e => {
+        const btn = e.target.closest('.ctx-btn');
+        if (!btn) return;
+
+        row.querySelectorAll('.ctx-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        if (btn.dataset.ctx === 'all') {
+          selectedCtxs = new Set(availableCtxs);
+        } else {
+          selectedCtxs = new Set([+btn.dataset.ctx]);
+        }
+
+        update();
+      });
+    }
+
+    // ── Main ──────────────────────────────────────────────────────
+    async function main() {
+      await loadAll();
+      document.getElementById('status').remove();
+      document.getElementById('controls').style.display = '';
+      buildUI();
+      Plotly.newPlot('fig', buildTraces(), LAYOUT, { responsive: true, displayModeBar: false });
+    }
+
+    main().catch(err => {
+      document.getElementById('status').textContent = 'Error loading figure: ' + err.message;
+    });
+  </script>
+</body>
+</html>

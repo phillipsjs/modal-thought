@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modal Thought</title>
+  <title>$title$</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; }
 
@@ -354,57 +354,18 @@
   </nav>
 
   <header class="article-header">
-    <h1 class="title">Modal Thought</h1>
+    <h1 class="title">$title$</h1>
     <div class="byline">
-      <span>Jonathan Phillips</span>
-      <span>2026</span>
+      $if(author)$<span>$for(author)$$author$$sep$, $endfor$</span>$endif$
+      $if(date)$<span>$date$</span>$endif$
     </div>
-      </header>
+    $if(abstract)$
+    <div class="abstract"><p>$abstract$</p></div>
+    $endif$
+  </header>
 
   <article>
-    <h2 id="introduction">Introduction</h2>
-    <p>Thought about possibilities—modal thought—is central to our
-    lives.</p>
-    <h2 id="background">Background</h2>
-    <p>In prior work I argued for a single unified representation of
-    possibility <span class="citation"
-    data-cites="phillips2018psychological">(<a
-    href="#ref-phillips2018psychological" role="doc-biblioref">Phillips
-    &amp; Knobe, 2018</a>)</span>.</p>
-    <p>More placeholder text here to demonstrate how sections flow into
-    one another in the article layout.</p>
-    <h2 id="exploring-possibilities">Exploring possibilities</h2>
-    <p>Here’s an example of how the quality of possible actions change
-    as more are generated.</p>
-    <figure>
-    <iframe src="figures/fig1.html" width="100%" height="580" style="border:none; display:block;">
-    </iframe>
-    <figcaption>
-    <strong>Figure 1.</strong> Ratings of generated options by
-    generation number, broken down by Probability, Morality, and
-    Normality. Boxes show median and interquartile range; points show
-    individual ratings (jittered); lines show the linear trend for each
-    rating type.
-    </figcaption>
-    </figure>
-    <h2 id="visualizing-possibilities">Visualizing possibilities</h2>
-    <p>Each action participants generated can be placed in a
-    three-dimensional space defined by its rated probability, morality,
-    and normality. Points are colored by generation number — whether the
-    action was the first, second, third, fourth, or fifth option the
-    participant thought of.</p>
-    <iframe src="figures/fig2.html" width="100%" height="620" style="border:none; display:block;">
-    </iframe>
-    <h2 id="references">References</h2>
-    <div id="refs" class="references csl-bib-body hanging-indent"
-    data-entry-spacing="0" data-line-spacing="2" role="list">
-    <div id="ref-phillips2018psychological" class="csl-entry"
-    role="listitem">
-    Phillips, J., &amp; Knobe, J. (2018). The psychological
-    representation of modality. <em>Mind &amp; Language</em>,
-    <em>33</em>(1), 65–94.
-    </div>
-    </div>
+    $body$
   </article>
 
   <script>
@@ -415,7 +376,7 @@
 
       headings.forEach(h2 => {
         const slug = h2.textContent.trim().toLowerCase()
-          .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+          .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$$/g, '');
 
         const details = document.createElement('details');
         details.open = true;
@@ -482,7 +443,7 @@
             const a  = document.createElement('a');
             a.href        = 'publications.html';
             a.textContent = p.title;
-            a.title       = ``;
+            a.title       = `${p.year}`;
             li.appendChild(a);
             pubList.appendChild(li);
           });

@@ -1,4 +1,4 @@
-name: Deploy GitHub Pages
+name: Build and deploy
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  pages:
+  build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -14,10 +14,17 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v4
+
+      - name: Install Pandoc
+        run: |
+          wget -q https://github.com/jgm/pandoc/releases/download/3.6/pandoc-3.6-1-amd64.deb
+          sudo dpkg -i pandoc-3.6-1-amd64.deb
+
+      - name: Build
+        run: bash build.sh
+
       - uses: actions/configure-pages@v4
-        with:
-          enablement: false
       - uses: actions/upload-pages-artifact@v4
         with:
           path: .
-      - uses: actions/deploy-pages@v1
+      - uses: actions/deploy-pages@v4

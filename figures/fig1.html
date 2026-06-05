@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 12px 8px 0;
+      background: white;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+
+    /* ── Context selector ──────────────────────────────────────── */
+    #controls { margin-top: 10px; }
+
+    .selector-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 5px;
+      margin-bottom: 10px;
+    }
+
+    .selector-label {
+      font-size: 0.78rem;
+      color: #888;
+      margin-right: 2px;
+      white-space: nowrap;
+    }
+
+    .ctx-btn {
+      font-size: 0.76rem;
+      padding: 2px 8px;
+      border: 1px solid #d1d5db;
+      border-radius: 999px;
+      background: white;
+      color: #6b7280;
+      cursor: pointer;
+      font-family: inherit;
+      transition: background 0.12s, color 0.12s, border-color 0.12s;
+      line-height: 1.6;
+    }
+
+    .ctx-btn:hover { border-color: #9ca3af; color: #374151; }
+
+    .ctx-btn.active {
+      background: #334155;
+      border-color: #334155;
+      color: white;
+    }
+
+    .all-btn { font-weight: 500; }
+
+    /* ── Scenario panel ────────────────────────────────────────── */
+    .scenario-panel {
+      display: none;
+      border-left: 3px solid #cbd5e1;
+      padding: 8px 12px;
+      margin-bottom: 8px;
+      background: #f8fafc;
+    }
+
+    .scenario-panel.visible { display: block; }
+
+    .scenario-label {
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #94a3b8;
+      margin-bottom: 4px;
+    }
+
+    .scenario-text {
+      font-size: 0.84rem;
+      color: #374151;
+      line-height: 1.55;
+      font-family: Georgia, serif;
+    }
+
+    /* ── Chart ─────────────────────────────────────────────────── */
+    #fig { width: 100%; height: 420px; }
+    #status { color: #888; font-size: 0.85rem; padding: 1rem; }
+  </style>
+</head>
+<body>
+
+  <div id="status">Loading data…</div>
+
+  <div id="fig"></div>
+
+  <div id="controls" style="display:none">
+    <div class="selector-row">
+      <span class="selector-label">Scenarios:</span>
+      <button class="ctx-btn all-btn active" data-ctx="all">All</button>
+    </div>
+    <div class="scenario-panel" id="scenario-panel">
+      <div class="scenario-label">Scenario</div>
+      <div class="scenario-text" id="scenario-text"></div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3-dsv@3/dist/d3-dsv.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
+  <script>
+    const CSV_FILES = [
+      '../data/study1a.csv',
+      '../data/study1b.csv',
+      '../data/study1c.csv',
+    ];
+    const CONTEXTS_CSV = '../data/contextsTable.csv';
+
+    const RATING = { '4': 'Probability', '5': 'Morality', '6': 'Normality' };
+    const COLOR  = { Probability: '#4e79a7', Morality: '#f28e2b', Normality: '#59a14f' };
+    const COL_RE = /^S(\d+)A(\d+)_([456])$/;
+    const FR_RE  = /^S(\d+)-FR_(\d+)$/;   // S[context]-FR_[4-8], where frNum-3 = answer
+
+    let allData        = [];
+    let contextMeta    = {};        // { n: { text, ... } }
+    let selectedCtxs   = new Set();
+    let availableCtxs  = [];
+
+    // ── Load ─────────────────────────────────────────────────────
+    async function loadAll() {
+      const [csvTexts, ctxRaw] = await Promise.all([
+        Promise.all(CSV_FILES.map(f => fetch(f).then(r => r.text()))),
+        fetch(CONTEXTS_CSV).then(r => r.text()),
+      ]);
+
+      d3.csvParse(ctxRaw).forEach(row => { contextMeta[+row.context] = row; });
+
+      // First pass: collect participant-generated text per pid|context|answer
+      const textMap = {};
+      csvTexts.forEach((text, fi) => {
+        d3.csvParse(text).forEach((row, ri) => {
+          Object.entries(row).forEach(([col, val]) => {
+            const m = col.match(FR_RE);
+            if (!m || !val) return;
+            const frNum = +m[2];
+            if (frNum < 4 || frNum > 8) return;
+            textMap[`${fi}-${ri}|${+m[1]}|${frNum - 3}`] = val;
+          });
+        });
+      });
+
+      const long = [];
+      csvTexts.forEach((text, fi) => {
+        d3.csvParse(text).forEach((row, ri) => {
+          Object.entries(row).forEach(([col, val]) => {
+            const m = col.match(COL_RE);
+            if (!m) return;
+            const v = parseFloat(val);
+            if (isNaN(v)) return;
+            const pid = `${fi}-${ri}`, ctx = +m[1], ans = +m[2];
+            long.push({ pid, context: ctx, answer: ans, question: RATING[m[3]], response: v,
+                        responseText: textMap[`${pid}|${ctx}|${ans}`] || '' });
+          });
+        });
+      });
+
+      // Complete-rows filter (5 answers × 3 ratings = 15 per pid+context)
+      const counts = {};
+      long.forEach(d => { const k = `${d.pid}|${d.context}`; counts[k] = (counts[k] || 0) + 1; });
+      allData = long.filter(d => counts[`${d.pid}|${d.context}`] === 15);
+
+      availableCtxs = [...new Set(allData.map(d => d.context))].sort((a, b) => a - b);
+      selectedCtxs  = new Set(availableCtxs);
+    }
+
+    // ── OLS ──────────────────────────────────────────────────────
+    function ols(xs, ys) {
+      const mx = xs.reduce((a, b) => a + b, 0) / xs.length;
+      const my = ys.reduce((a, b) => a + b, 0) / ys.length;
+      const sl = xs.reduce((s, x, i) => s + (x - mx) * (ys[i] - my), 0) /
+                 xs.reduce((s, x)    => s + (x - mx) ** 2, 0);
+      return { slope: sl, intercept: my - sl * mx };
+    }
+
+    // ── Traces ───────────────────────────────────────────────────
+    // In Plotly's grouped box mode the boxes at each tick are spread over
+    // (1 - boxgroupgap) of the tick spacing. With 3 groups and boxgroupgap=0.3,
+    // each slot = 0.7/3 ≈ 0.233, giving offsets -0.233, 0, +0.233.
+    const RATINGS      = ['Probability', 'Morality', 'Normality'];
+    const BOX_GRP_GAP  = 0.3;
+    const SLOT         = (1 - BOX_GRP_GAP) / RATINGS.length;  // ≈ 0.233
+    const grpOffset    = i => (i - (RATINGS.length - 1) / 2) * SLOT;
+
+    function buildTraces() {
+      const sub = allData.filter(d => selectedCtxs.has(d.context));
+      const traces = [];
+
+      RATINGS.forEach((q, qi) => {
+        const qd = sub.filter(d => d.question === q);
+        if (!qd.length) return;
+
+        traces.push({
+          type: 'box', name: q,
+          x: qd.map(d => d.answer), y: qd.map(d => d.response),
+          text: qd.map(d => d.responseText),
+          hovertemplate: '%{text}<extra></extra>',
+          hoveron: 'points',
+          boxpoints: 'all', jitter: 0.35, pointpos: 0,
+          marker:    { color: COLOR[q], opacity: 0.12, size: 3 },
+          fillcolor: COLOR[q] + '55',
+          line:      { color: COLOR[q], width: 1.5 },
+          whiskerwidth: 0.5,
+          legendgroup: q,
+        });
+
+        const { slope, intercept } = ols(qd.map(d => d.answer), qd.map(d => d.response));
+        const xOff = grpOffset(qi);
+        traces.push({
+          type: 'scatter', mode: 'lines',
+          x: [1 + xOff, 5 + xOff], y: [slope + intercept, slope * 5 + intercept],
+          line: { color: COLOR[q], width: 2 },
+          legendgroup: q, showlegend: false, hoverinfo: 'skip',
+        });
+      });
+
+      return traces;
+    }
+
+    const LAYOUT = {
+      boxmode: 'group',
+      xaxis: { title: { text: 'Generation number', font: { size: 14 } }, tickvals: [1,2,3,4,5], range: [0.5,5.5], showgrid: false, zeroline: false },
+      yaxis: { title: { text: 'Value of option generated', font: { size: 14 } }, range: [0,100], showgrid: false, zeroline: false },
+      legend: { orientation: 'h', x: 0.5, xanchor: 'center', y: 1.0, yanchor: 'bottom', title: { text: 'Rating:' } },
+      margin: { t: 80, r: 20, b: 60, l: 65 },
+      paper_bgcolor: 'white', plot_bgcolor: 'white',
+      font: { family: 'Georgia, serif', size: 13 },
+    };
+
+    // ── Scenario display ─────────────────────────────────────────
+    function updateScenario() {
+      const panel = document.getElementById('scenario-panel');
+      const textEl = document.getElementById('scenario-text');
+      if (selectedCtxs.size === 1) {
+        const info = contextMeta[[...selectedCtxs][0]];
+        if (info) { textEl.textContent = info.text; panel.classList.add('visible'); return; }
+      }
+      panel.classList.remove('visible');
+    }
+
+    function update() {
+      updateScenario();
+      Plotly.react('fig', buildTraces(), LAYOUT);
+    }
+
+    // ── Buttons ───────────────────────────────────────────────────
+    function buildUI() {
+      const row    = document.querySelector('.selector-row');
+      const allBtn = row.querySelector('.all-btn');
+
+      availableCtxs.forEach(ctx => {
+        const btn = document.createElement('button');
+        btn.className    = 'ctx-btn active';
+        btn.dataset.ctx  = ctx;
+        btn.textContent  = ctx;
+        row.appendChild(btn);
+      });
+
+      row.addEventListener('click', e => {
+        const btn = e.target.closest('.ctx-btn');
+        if (!btn) return;
+
+        row.querySelectorAll('.ctx-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        if (btn.dataset.ctx === 'all') {
+          selectedCtxs = new Set(availableCtxs);
+        } else {
+          selectedCtxs = new Set([+btn.dataset.ctx]);
+        }
+
+        update();
+      });
+    }
+
+    // ── Main ──────────────────────────────────────────────────────
+    async function main() {
+      await loadAll();
+      document.getElementById('status').remove();
+      document.getElementById('controls').style.display = '';
+      buildUI();
+      Plotly.newPlot('fig', buildTraces(), LAYOUT, { responsive: true, displayModeBar: false });
+    }
+
+    main().catch(err => {
+      document.getElementById('status').textContent = 'Error loading figure: ' + err.message;
+    });
+  </script>
+</body>
+</html>

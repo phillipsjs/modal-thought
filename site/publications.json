@@ -1,0 +1,61 @@
+[
+  {
+    "title": "How we know what not to think",
+    "authors": ["Phillips, J.", "Morris, A.", "Cushman, F."],
+    "year": 2019,
+    "journal": "Trends in Cognitive Sciences",
+    "volume": "23",
+    "issue": "12",
+    "pages": "1026–1040",
+    "doi": "10.1016/j.tics.2019.09.007",
+    "tags": ["modal cognition", "possibility", "morality"],
+    "links": {
+      "journal": "https://doi.org/10.1016/j.tics.2019.09.007"
+    }
+  },
+  {
+    "title": "Morality constrains the default representation of what is possible",
+    "authors": ["Phillips, J.", "Cushman, F."],
+    "year": 2017,
+    "journal": "Proceedings of the National Academy of Sciences",
+    "volume": "114",
+    "issue": "18",
+    "pages": "4649–4654",
+    "doi": "10.1073/pnas.1619717114",
+    "slug": "implicitModality",
+    "tags": ["modal cognition", "possibility", "morality"],
+    "links": {
+      "journal": "https://doi.org/10.1073/pnas.1619717114",
+      "pdf": "materials/implicitModality/paper.pdf"
+    }
+  },
+  {
+    "title": "Unifying morality's influence on non-moral judgments: The relevance of alternative possibilities",
+    "authors": ["Phillips, J.", "Luguri, J. B.", "Knobe, J."],
+    "year": 2015,
+    "journal": "Cognition",
+    "volume": "145",
+    "pages": "30–42",
+    "doi": "10.1016/j.cognition.2015.08.001",
+    "slug": "RoA",
+    "tags": ["modal cognition", "possibility", "morality"],
+    "links": {
+      "journal": "https://doi.org/10.1016/j.cognition.2015.08.001",
+      "pdf": "materials/RoA/paper.pdf"
+    }
+  },
+  {
+    "title": "The psychological representation of modality",
+    "authors": ["Phillips, J.", "Knobe, J."],
+    "year": 2018,
+    "journal": "Mind & Language",
+    "volume": "33",
+    "issue": "1",
+    "pages": "65–94",
+    "doi": "10.1111/mila.12165",
+    "tags": ["modal cognition", "possibility"],
+    "links": {
+      "journal": "https://doi.org/10.1111/mila.12165"
+    }
+  }
+]

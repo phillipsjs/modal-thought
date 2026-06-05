@@ -1,0 +1,64 @@
+{
+  "paper": {
+    "title": "Unifying morality's influence on non-moral judgments: The relevance of alternative possibilities",
+    "authors": ["Phillips, J.", "Luguri, J. B.", "Knobe, J."],
+    "year": 2015,
+    "journal": "Cognition",
+    "volume": "145",
+    "pages": "30–42",
+    "doi": "10.1016/j.cognition.2015.08.001"
+  },
+  "github": "https://github.com/phillipsjs/RoA",
+  "sections": [
+    {
+      "label": "Manuscript",
+      "files": [
+        { "name": "Full manuscript (PDF)", "path": "paper.pdf" }
+      ]
+    },
+    {
+      "label": "Code",
+      "files": [
+        { "name": "Statistical analyses (R)", "path": "code/RoA_analyses.R" }
+      ]
+    },
+    {
+      "label": "Data",
+      "files": [
+        { "name": "Study 1a — Force judgments", "path": "data/Study1a_force.csv" },
+        { "name": "Study 1b — Force judgments (replication)", "path": "data/Study1b_force.csv" },
+        { "name": "Study 2a — Causation judgments", "path": "data/Study2a_causation.csv" },
+        { "name": "Study 2a follow-up — Causation judgments", "path": "data/Study2afn_causation.csv" },
+        { "name": "Study 2b — Causation judgments (replication)", "path": "data/Study2b_causation.csv" },
+        { "name": "Study 3a — Doing vs. allowing", "path": "data/Study3a_doingVallowing.csv" },
+        { "name": "Study 3b — Doing vs. allowing (replication)", "path": "data/Study3b_doingVallowing.csv" },
+        { "name": "Study 4a — Intentional action", "path": "data/Study4a_intentionalAction.csv" },
+        { "name": "Study 4b — Intentional action (replication)", "path": "data/Study4b_intentionalAction.csv" },
+        { "name": "Study 5", "path": "data/Study5.csv" }
+      ]
+    },
+    {
+      "label": "Stimuli",
+      "files": [
+        { "name": "Study 1a (Word)", "path": "stimuli/study1a.docx" },
+        { "name": "Study 1a (Qualtrics)", "path": "stimuli/study1a.qsf" },
+        { "name": "Study 1b (Word)", "path": "stimuli/study1b.docx" },
+        { "name": "Study 1b (Qualtrics)", "path": "stimuli/study1b.qsf" },
+        { "name": "Study 2a (Word)", "path": "stimuli/study2a.docx" },
+        { "name": "Study 2a (Qualtrics)", "path": "stimuli/study2a.qsf" },
+        { "name": "Study 2b (Word)", "path": "stimuli/study2b.docx" },
+        { "name": "Study 2b (Qualtrics)", "path": "stimuli/study2b.qsf" },
+        { "name": "Study 3a (Word)", "path": "stimuli/study3a.docx" },
+        { "name": "Study 3a (Qualtrics)", "path": "stimuli/study3a.qsf" },
+        { "name": "Study 3b (Word)", "path": "stimuli/study3b.docx" },
+        { "name": "Study 3b (Qualtrics)", "path": "stimuli/study3b.qsf" },
+        { "name": "Study 4a (Word)", "path": "stimuli/study4a.docx" },
+        { "name": "Study 4a (Qualtrics)", "path": "stimuli/study4a.qsf" },
+        { "name": "Study 4b (Word)", "path": "stimuli/study4b.docx" },
+        { "name": "Study 4b (Qualtrics)", "path": "stimuli/study4b.qsf" },
+        { "name": "Study 5 (Word)", "path": "stimuli/study5.docx" },
+        { "name": "Study 5 (Qualtrics)", "path": "stimuli/study5.qsf" }
+      ]
+    }
+  ]
+}

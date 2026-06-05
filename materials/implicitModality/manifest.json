@@ -1,0 +1,57 @@
+{
+  "paper": {
+    "title": "Morality constrains the default representation of what is possible",
+    "authors": ["Phillips, J.", "Cushman, F."],
+    "year": 2017,
+    "journal": "Proceedings of the National Academy of Sciences",
+    "volume": "114",
+    "pages": "4649–4654",
+    "doi": "10.1073/pnas.1619717114"
+  },
+  "github": "https://github.com/phillipsjs/implicitModality",
+  "sections": [
+    {
+      "label": "Manuscript",
+      "files": [
+        { "name": "Full manuscript (PDF)", "path": "paper.pdf" },
+        { "name": "Supplemental information (PDF)", "path": "si.pdf" },
+        { "name": "Supplemental stimuli (PDF)", "path": "si_stimuli.pdf" }
+      ]
+    },
+    {
+      "label": "Code",
+      "files": [
+        { "name": "Statistical analyses (R)", "path": "code/implicitModalityAnalysis.R" }
+      ]
+    },
+    {
+      "label": "Data",
+      "files": [
+        { "name": "Study 1 — Event ratings", "path": "data/study1eventData.csv" },
+        { "name": "Study 1 — Possibility ratings", "path": "data/study1possibilityData.csv" },
+        { "name": "Study 2 — \"Could\" ratings", "path": "data/study2couldData.csv" },
+        { "name": "Study 2 — \"May\" ratings", "path": "data/study2mayData.csv" },
+        { "name": "Study 2 — \"Might\" ratings", "path": "data/study2mightData.csv" },
+        { "name": "Study 2 — \"Ought\" ratings", "path": "data/study2oughtData.csv" },
+        { "name": "Study 2 — \"Should\" ratings", "path": "data/study2shouldData.csv" },
+        { "name": "Study 2 supplemental — \"Possible\" ratings", "path": "data/study2possibleData.csv" },
+        { "name": "Study 3 — Force ratings", "path": "data/study3forceData.csv" },
+        { "name": "Study 3 — Want ratings", "path": "data/study3wantData.csv" }
+      ]
+    },
+    {
+      "label": "Stimuli",
+      "files": [
+        { "name": "Study 1a trial file (CSV)", "path": "stimuli/study1a.csv" },
+        { "name": "Study 1b trial file (CSV)", "path": "stimuli/study1b.csv" },
+        { "name": "Study 2a trial file (CSV)", "path": "stimuli/study2a.csv" },
+        { "name": "Study 2b trial file (CSV)", "path": "stimuli/study2b.csv" },
+        { "name": "Study 2c trial file (CSV)", "path": "stimuli/study2c.csv" },
+        { "name": "Study 2d trial file (CSV)", "path": "stimuli/study2d.csv" },
+        { "name": "Study 2e trial file (CSV)", "path": "stimuli/study2e.csv" },
+        { "name": "Study 3 (Qualtrics)", "path": "stimuli/study3.qsf" },
+        { "name": "Study 3b (Qualtrics)", "path": "stimuli/study3b.qsf" }
+      ]
+    }
+  ]
+}

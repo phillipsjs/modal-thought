@@ -1,0 +1,820 @@
+type,condition1,condition2,condition3,trialNo,target,stim1,stim2,stim3,key,ITI,presTime,ISI,presTimeS2,stimFormat,title,content,trialText,button1,feedbackIncorrect,feedbackTime,random,randomBlock,keyboard,subjectGroup,responseWindow
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,Instructions,"In this study, we'd like you to tell us whether it is true or false that something could happen. To indicate that it is true that something could happen, please press the [f] key; to indicate that it is false that something could happen, please press the [j] key. To get you used to the task, you will first go through a warm-up phase. On these trials, press [f] if you see the word ""true"" and [j] if you see the word ""false"". ***You will have to respond very quickly, so please pay attention!***",na,na,na,na,na,0,,1,na
+practice,practice,practice,,1,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,1,1250
+practice,practice,practice,,2,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,1,1250
+practice,practice,practice,,3,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,1,1250
+practice,practice,practice,,4,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,1,1250
+practice,practice,practice,,5,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,1,1250
+practice,practice,practice,,6,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,1,1250
+practice,practice,practice,,7,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,1,1250
+practice,practice,practice,,8,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,1,1250
+practice,practice,practice,,9,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,1,1250
+practice,practice,practice,,10,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,1,1250
+practice,practice,practice,,11,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,1,1250
+practice,practice,practice,,12,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,1,1250
+practice,practice,practice,,13,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,1,1250
+practice,practice,practice,,14,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,1,1250
+practice,practice,practice,,15,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,1,1250
+practice,practice,practice,,16,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,1,1250
+practice,practice,practice,,17,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,1,1250
+practice,practice,practice,,18,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,1,1250
+practice,practice,practice,,19,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,1,1250
+practice,practice,practice,,20,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,1,1250
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,"In this part, you will read a story and then will be judging whether it is true or false that certain things could happen.",***Please answer as quickly and accurately as you possibly can. You will only have about 1 second to respond to each event.***,na,na,na,na,na,0,na,1,na
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Heinz's wife has recently fallen ill and needs an expensive medication that is not covered by her medical insurance. They do not have the money needed to purchase the expensive prescription medication, but they know that it is vital for her to have it if she is going to recover.",na,na,na,na,na,1,na,1,na
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,"Given Heinz's situation, please tell us whether it is true or false that Heinz could do the following things.","press [space] when you are ready to begin. *** Remember, this will go very quickly!***",na,na,na,na,na,1,na,1,na
+test,na,na,,na,Is it true or false that Heinz could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,1,na,1,1550
+test,immoral,scenario1,speeded,13,steal the money from his work,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,1,1550
+test,immoral,scenario1,speeded,14,blackmail someone for the money,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,1,1550
+test,immoral,scenario1,speeded,15,commit credit card fraud,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,1,1550
+test,immoral,scenario1,speeded,16,get the medicine by stealing,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,1,1550
+test,possible,scenario1,speeded,1,sell some of his stocks or bonds,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,1,1550
+test,possible,scenario1,speeded,2,use a generic medication instead,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,1,1550
+test,possible,scenario1,speeded,3,buy a different insurance plan,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,1,1550
+test,possible,scenario1,speeded,4,enroll in federal healthcare,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,1,1550
+test,possible,scenario1,speeded,5,borrow the money from a bank,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,1,1550
+test,possible,scenario1,speeded,6,be given the money by a friend,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,1,1550
+test,possible,scenario1,speeded,7,loan the money from his family,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,1,1550
+test,possible,scenario1,speeded,8,sell an extra car for the money,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,1,1550
+test,impossible,scenario1,speeded,9,be given the money by a turtle,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,1,1550
+test,impossible,scenario1,speeded,10,make the money time traveling,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,1,1550
+test,impossible,scenario1,speeded,11,grow the money on a tree,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,1,1550
+test,impossible,scenario1,speeded,12,get the money by clapping,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,1,1550
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Josh is on the way to the airport to catch a flight for a hunting safari in Africa. He leaves with plenty of time to make it there, but his car breaks down on the highway. Now Josh is sitting in his car near a busy intersection, and knows he needs to get to airport soon if he is going to catch his flight.",na,na,na,na,na,2,na,1,na
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,"Given Josh's situation, please tell us whether it is true or false that Josh could do the following things.","press [space] when you are ready to begin. *** Remember, this will go very quickly!***",na,na,na,na,na,2,na,1,na
+test,na,na,,na,Is it true or false that Josh could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,2,na,1,1550
+test,improbable,scenario2,speeded,41,beckon a friend passing by,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,1,1550
+test,improbable,scenario2,speeded,42,convince airport to delay flight,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,1,1550
+test,improbable,scenario2,speeded,43,get a stranger to drive him,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,1,1550
+test,improbable,scenario2,speeded,44,arrange for a private plane,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,1,1550
+test,possible,scenario2,speeded,25,reschedule for a later flight,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,1,1550
+test,possible,scenario2,speeded,26,ask the gas station clerk for help,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,1,1550
+test,possible,scenario2,speeded,27,take the public bus there,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,1,1550
+test,possible,scenario2,speeded,28,request aiport shuttle pickup,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,1,1550
+test,possible,scenario2,speeded,29,ask a relative to pick him up,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,1,1550
+test,possible,scenario2,speeded,30,hail a taxi at the intersection,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,1,1550
+test,possible,scenario2,speeded,31,call a friend for a ride,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,1,1550
+test,possible,scenario2,speeded,32,take public transportation,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,1,1550
+test,impossible,scenario2,speeded,33,get a new car by thinking,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,1,1550
+test,impossible,scenario2,speeded,34,ride a cat to the airport,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,1,1550
+test,impossible,scenario2,speeded,35,teleport himself to the airport,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,1,1550
+test,impossible,scenario2,speeded,36,levitate and fly to the airport,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,1,1550
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Brian is the evening manager at a bakery. Near the end of the day, he realizes that $50.75 is missing from the register and that he is responsible for accounting for the money at the end of the day. Brian knows he has to make sure the register is balanced or he might lose his job.",na,na,na,na,na,3,na,1,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Brian's situation, please tell us whether it is true or false that Brian could do the following things.","press [space] when you are ready to begin. *** Remember, this will go very quickly!***",na,na,na,na,na,3,na,1,na
+test,na,,,na,Is it true or false that Brian could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,3,na,1,1550
+test,irrational,scenario3,speeded,69,close the store five hours early,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,1,1550
+test,irrational,scenario3,speeded,70,pay with his retirement fund,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,1,1550
+test,irrational,scenario3,speeded,71,try to invent new pastries,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,1,1550
+test,irrational,scenario3,speeded,72,discount food to encourage tipping,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,1,1550
+test,possible,scenario3,speeded,49,explain the situation to his boss,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,1,1550
+test,possible,scenario3,speeded,50,ask other employees what to do,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,1,1550
+test,possible,scenario3,speeded,51,get a payday advance loan,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,1,1550
+test,possible,scenario3,speeded,52,sell something he owns for money,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,1,1550
+test,possible,scenario3,speeded,53,use money from his own wallet,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,1,1550
+test,possible,scenario3,speeded,54,add in money from his daily tips,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,1,1550
+test,possible,scenario3,speeded,55,borrow money from a friend,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,1,1550
+test,possible,scenario3,speeded,56,write a check for $50.75,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,1,1550
+test,impossible,scenario3,speeded,57,turn the cash register invisible,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,1,1550
+test,impossible,scenario3,speeded,58,use some monopoly money instead,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,1,1550
+test,impossible,scenario3,speeded,59,take pictures of missing bills,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,1,1550
+test,impossible,scenario3,speeded,60,get the money by sneezing a lot,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,1,1550
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Liz decides to go to the gym on her lunch break because she is going to have to work late tonight and won't have time during the evening. When she gets to the gym, she realizes that her membership has expired since she last went.",na,na,na,na,na,4,na,1,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Liz's situation, please tell us whether it is true or false that Liz could do the following things.","press [space] when you are ready to begin. *** Remember, this will go very quickly!***",na,na,na,na,na,4,na,1,na
+test,na,,,na,Is it true or false that Liz could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,4,na,1,1550
+test,immoral,scenario4,speeded,85,take someone else's gym card,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,1,1550
+test,immoral,scenario4,speeded,86,claim she left her wallet inside,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,1,1550
+test,immoral,scenario4,speeded,87,sneak past the gym attendant,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,1,1550
+test,immoral,scenario4,speeded,88,go in the back door without paying,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,1,1550
+test,possible,scenario4,speeded,73,wait to go to the gym tomorrow,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,1,1550
+test,possible,scenario4,speeded,74,go for a run outside instead,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,1,1550
+test,possible,scenario4,speeded,75,decide to lift weights at home,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,1,1550
+test,possible,scenario4,speeded,76,eat lunch instead of working out,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,1,1550
+test,possible,scenario4,speeded,77,use a friend's guest pass,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,1,1550
+test,possible,scenario4,speeded,78,pay for a one-day gym pass,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,1,1550
+test,possible,scenario4,speeded,79,be allowed in just this once,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,1,1550
+test,possible,scenario4,speeded,80,renew her gym membership,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,1,1550
+test,impossible,scenario4,speeded,81,turn invisible and go in,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,1,1550
+test,impossible,scenario4,speeded,82,wish all gyms to be free forever,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,1,1550
+test,impossible,scenario4,speeded,83,renew her membership by blinking,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,1,1550
+test,impossible,scenario4,speeded,84,turn her hat into a gym pass,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,1,1550
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,Mary is about to go to her final class of the day when she remembers that there is a homework assignment that is due. Mary's mom accidentally took her homework assignment out of her backpack when she was making room for her lunch. Now Mary has nothing to turn in for credit.,na,na,na,na,na,5,na,1,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Mary's situation, please tell us whether it is true or false that Mary could do the following things.","press [space] when you are ready to begin. *** Remember, this will go very quickly!***",na,na,na,na,na,5,na,1,na
+test,na,,,na,Is it true or false that Mary could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,5,na,1,1550
+test,improbable,scenario5,speeded,113,discover her teacher is absent,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,1,1550
+test,improbable,scenario5,speeded,114,learn school is canceled today,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,1,1550
+test,improbable,scenario5,speeded,115,remember she has an extra copy,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,1,1550
+test,improbable,scenario5,speeded,116,be given an A by mistake,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,1,1550
+test,possible,scenario5,speeded,97,run home to get her homework,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,1,1550
+test,possible,scenario5,speeded,98,bring in her homework tomorrow,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,1,1550
+test,possible,scenario5,speeded,99,ask for an extra-credit assignment,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,1,1550
+test,possible,scenario5,speeded,100,ask her mom what she should do,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,1,1550
+test,possible,scenario5,speeded,101,explain what happened to her teacher,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,1,1550
+test,possible,scenario5,speeded,102,quickly redo the homework assignment,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,1,1550
+test,possible,scenario5,speeded,103,ask her mom to bring the homework,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,1,1550
+test,possible,scenario5,speeded,104,have her parents call the teacher,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,1,1550
+test,impossible,scenario5,speeded,105,have her homework teleported,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,1,1550
+test,impossible,scenario5,speeded,106,remind herself yesterday evening,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,1,1550
+test,impossible,scenario5,speeded,107,turn in several socks instead,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,1,1550
+test,impossible,scenario5,speeded,108,erase the teacher's memory,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,1,1550
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Brad and some friends are hiking through the mountains in the Canadian wilderness. A couple of days into their hike, Brad realizes that they are lost. He knows that a rescue crew could arrive before long, but it is extremely cold and they don't have much food or water left.",na,na,na,na,na,6,na,1,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Brad's situation, please tell us whether it is true or false that Brad could do the following things.","press [space] when you are ready to begin. *** Remember, this will go very quickly!***",na,na,na,na,na,6,na,1,na
+test,na,,,na,Is it true or false that Brad could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,6,na,1,1550
+test,irrational,scenario6,speeded,141,go hunting for water buffalo,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,1,1550
+test,irrational,scenario6,speeded,142,eat random berries and leaves,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,1,1550
+test,irrational,scenario6,speeded,143,venture off independently,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,1,1550
+test,irrational,scenario6,speeded,144,eat all his food immediately,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,1,1550
+test,possible,scenario6,speeded,121,stay put and wait for help,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,1,1550
+test,possible,scenario6,speeded,122,follow a river out of the wilderness,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,1,1550
+test,possible,scenario6,speeded,123,alert rescuers with emergency flares,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,1,1550
+test,possible,scenario6,speeded,124,find a river for fresh water and fish,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,1,1550
+test,possible,scenario6,speeded,125,get more food by hunting and fishing,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,1,1550
+test,possible,scenario6,speeded,126,build a large fire to alert rescuers,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,1,1550
+test,possible,scenario6,speeded,127,create a shelter to stay warm,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,1,1550
+test,possible,scenario6,speeded,128,be found by the rescue crew,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,1,1550
+test,impossible,scenario6,speeded,129,use his mind to keep everyone warm,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,1,1550
+test,impossible,scenario6,speeded,130,make new jackets from pine trees,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,1,1550
+test,impossible,scenario6,speeded,131,alert airplanes overhead  by yelling,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,1,1550
+test,impossible,scenario6,speeded,132,grind up rocks for food and water,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,1,1550
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Instructions,"In this study, we'd like you to tell us whether it is true or false that something could happen. To indicate that it is true that something could happen, please press the [f] key; to indicate that it is false that something could happen, please press the [j] key. To get you used to the task, you will first go through a warm-up phase. On these trials, press [f] if you see the word ""true"" and [j] if you see the word ""false"".  ***Please take your time and answer as correctly as possible.***
+",na,na,na,na,na,0,,2,na
+practice,practice,,,1,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,2,1250
+practice,practice,,,2,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,2,1250
+practice,practice,,,3,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,2,1250
+practice,practice,,,4,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,2,1250
+practice,practice,,,5,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,2,1250
+practice,practice,,,6,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,2,1250
+practice,practice,,,7,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,2,1250
+practice,practice,,,8,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,2,1250
+practice,practice,,,9,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,2,1250
+practice,practice,,,10,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,2,1250
+practice,practice,,,11,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,2,1250
+practice,practice,,,12,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,2,1250
+practice,practice,,,13,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,2,1250
+practice,practice,,,14,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,2,1250
+practice,practice,,,15,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,2,1250
+practice,practice,,,16,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,2,1250
+practice,practice,,,17,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,2,1250
+practice,practice,,,18,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,2,1250
+practice,practice,,,19,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,2,1250
+practice,practice,,,20,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,2,1250
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"In this part, you will read a story and then will be judging whether it is true or false that certain things could happen.",***Please take your time and carefully reflect on these questions. Make sure you do not answer too quickly or carelessly.***,na,na,na,na,na,0,na,2,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Heinz's wife has recently fallen ill and needs an expensive medication that is not covered by her medical insurance. They do not have the money needed to purchase the expensive prescription medication, but they know that it is vital for her to have it if she is going to recover.",na,na,na,na,na,1,na,2,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Heinz's situation, please tell us whether it is true or false that Heinz could do the following things.",press [space] when you are ready to begin. *** Remember to slowly and carefully consider each event!***,na,na,na,na,na,1,na,2,na
+test,na,,,na,Is it true or false that Heinz could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,1,na,2,2000
+test,immoral,scenario1,reflective,13,steal the money from his work,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,2,na
+test,immoral,scenario1,reflective,14,blackmail someone for the money,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,2,na
+test,immoral,scenario1,reflective,15,commit credit card fraud,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,2,na
+test,immoral,scenario1,reflective,16,get the medicine by stealing,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,2,na
+test,possible,scenario1,reflective,1,sells some of his stocks or bonds,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,2,na
+test,possible,scenario1,reflective,2,use a generic medication instead,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,2,na
+test,possible,scenario1,reflective,3,buy a different insurance plan,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,2,na
+test,possible,scenario1,reflective,4,enroll in federal healthcare,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,2,na
+test,possible,scenario1,reflective,5,borrow the money from a bank,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,2,na
+test,possible,scenario1,reflective,6,be given the money by a friend,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,2,na
+test,possible,scenario1,reflective,7,loan the money from his family,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,2,na
+test,possible,scenario1,reflective,8,sell an extra car for the money,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,2,na
+test,impossible,scenario1,reflective,9,be given the money by a turtle,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,2,na
+test,impossible,scenario1,reflective,10,make the money time traveling,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,2,na
+test,impossible,scenario1,reflective,11,grow the money on a tree,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,2,na
+test,impossible,scenario1,reflective,12,get the money by clapping,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,2,na
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Josh is on the way to the airport to catch a flight for a hunting safari in Africa. He leaves with plenty of time to make it there, but his car breaks down on the highway. Now Josh is sitting in his car near a busy intersection, and knows he needs to get to airport soon if he is going to catch his flight.",na,na,na,na,na,2,na,2,na
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,"Given Josh's situation, please tell us whether it is true or false that Josh could do the following things.",press [space] when you are ready to begin. *** Remember to slowly and carefully consider each event!***,na,na,na,na,na,2,na,2,na
+test,na,na,,na,Is it true or false that Josh could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,2,na,2,2000
+test,improbable,scenario2,reflective,41,beckon a friend passing by,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,2,na
+test,improbable,scenario2,reflective,42,convince airport to delay flight,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,2,na
+test,improbable,scenario2,reflective,43,get a stranger to drive him,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,2,na
+test,improbable,scenario2,reflective,44,arrange for a private plane,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,2,na
+test,possible,scenario2,reflective,25,reschedule for a later flight,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,2,na
+test,possible,scenario2,reflective,26,ask the gas station clerk for help,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,2,na
+test,possible,scenario2,reflective,27,take the public bus there,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,2,na
+test,possible,scenario2,reflective,28,request aiport shuttle pickup,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,2,na
+test,possible,scenario2,reflective,29,ask a relative to pick him up,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,2,na
+test,possible,scenario2,reflective,30,hail a taxi at the intersection,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,2,na
+test,possible,scenario2,reflective,31,call a friend for a ride,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,2,na
+test,possible,scenario2,reflective,32,take public transportation,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,2,na
+test,impossible,scenario2,reflective,33,get a new car by thinking,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,2,na
+test,impossible,scenario2,reflective,34,ride a cat to the airport,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,2,na
+test,impossible,scenario2,reflective,35,teleport himself to the airport,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,2,na
+test,impossible,scenario2,reflective,36,levitate and fly to the airport,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,2,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Brian is the evening manager at a bakery. Near the end of the day, he realizes that $50.75 is missing from the register and that he is responsible for accounting for the money at the end of the day. Brian knows he has to make sure the register is balanced or he might lose his job.",na,na,na,na,na,3,na,2,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Brian's situation, please tell us whether it is true or false that Brian could do the following things.",press [space] when you are ready to begin. *** Remember to slowly and carefully consider each event!***,na,na,na,na,na,3,na,2,na
+test,na,,,na,Is it true or false that Brian could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,3,na,2,2000
+test,irrational,scenario3,reflective,69,close the store five hours early,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,2,na
+test,irrational,scenario3,reflective,70,pay with his retirement fund,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,2,na
+test,irrational,scenario3,reflective,71,try to invent new pastries,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,2,na
+test,irrational,scenario3,reflective,72,discount food to encourage tipping,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,2,na
+test,possible,scenario3,reflective,49,explain the situation to his boss,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,2,na
+test,possible,scenario3,reflective,50,ask other employees what to do,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,2,na
+test,possible,scenario3,reflective,51,get a payday advance loan,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,2,na
+test,possible,scenario3,reflective,52,sell something he owns for money,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,2,na
+test,possible,scenario3,reflective,53,use money from his own wallet,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,2,na
+test,possible,scenario3,reflective,54,add in money from his daily tips,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,2,na
+test,possible,scenario3,reflective,55,borrow money from a friend,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,2,na
+test,possible,scenario3,reflective,56,write a check for $50.75,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,2,na
+test,impossible,scenario3,reflective,57,turn the cash register invisible,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,2,na
+test,impossible,scenario3,reflective,58,use some monopoly money instead,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,2,na
+test,impossible,scenario3,reflective,59,take pictures of missing bills,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,2,na
+test,impossible,scenario3,reflective,60,get the money by sneezing a lot,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,2,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Liz decides to go to the gym on her lunch break because she is going to have to work late tonight and won't have time during the evening. When she gets to the gym, she realizes that her membership has expired since she last went.",na,na,na,na,na,4,na,2,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Liz's situation, please tell us whether it is true or false that Liz could do the following things.",press [space] when you are ready to begin. *** Remember to slowly and carefully consider each event!***,na,na,na,na,na,4,na,2,na
+test,na,,,na,Is it true or false that Liz could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,4,na,2,2000
+test,immoral,scenario4,reflective,85,take someone else's gym card,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,2,na
+test,immoral,scenario4,reflective,86,claim she left her wallet inside,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,2,na
+test,immoral,scenario4,reflective,87,sneak past the gym attendant,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,2,na
+test,immoral,scenario4,reflective,88,go in the back door without paying,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,2,na
+test,possible,scenario4,reflective,73,wait to go to the gym tomorrow,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,2,na
+test,possible,scenario4,reflective,74,go for a run outside instead,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,2,na
+test,possible,scenario4,reflective,75,decide to lift weights at home,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,2,na
+test,possible,scenario4,reflective,76,eat lunch instead of working out,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,2,na
+test,possible,scenario4,reflective,77,use a friend's guest pass,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,2,na
+test,possible,scenario4,reflective,78,pay for a one-day gym pass,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,2,na
+test,possible,scenario4,reflective,79,be allowed in just this once,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,2,na
+test,possible,scenario4,reflective,80,renew her gym membership,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,2,na
+test,impossible,scenario4,reflective,81,turn invisible and go in,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,2,na
+test,impossible,scenario4,reflective,82,wish all gyms to be free forever,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,2,na
+test,impossible,scenario4,reflective,83,renew her membership by blinking,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,2,na
+test,impossible,scenario4,reflective,84,turn her hat into a gym pass,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,2,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,Mary is about to go to her final class of the day when she remembers that there is a homework assignment that is due. Mary's mom accidentally took her homework assignment out of her backpack when she was making room for her lunch. Now Mary has nothing to turn in for credit.,na,na,na,na,na,5,na,2,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Mary's situation, please tell us whether it is true or false that Mary could do the following things.",press [space] when you are ready to begin. *** Remember to slowly and carefully consider each event!***,na,na,na,na,na,5,na,2,na
+test,na,,,na,Is it true or false that Mary could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,5,na,2,2000
+test,improbable,scenario5,reflective,113,discover her teacher is absent,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,2,na
+test,improbable,scenario5,reflective,114,learn school is canceled today,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,2,na
+test,improbable,scenario5,reflective,115,remember she has an extra copy,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,2,na
+test,improbable,scenario5,reflective,116,be given an A by mistake,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,2,na
+test,possible,scenario5,reflective,97,run home to get her homework,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,2,na
+test,possible,scenario5,reflective,98,bring in her homework tomorrow,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,2,na
+test,possible,scenario5,reflective,99,ask for an extra-credit assignment,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,2,na
+test,possible,scenario5,reflective,100,ask her mom what she should do,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,2,na
+test,possible,scenario5,reflective,101,explain what happened to her teacher,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,2,na
+test,possible,scenario5,reflective,102,quickly redo the homework assignment,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,2,na
+test,possible,scenario5,reflective,103,ask her mom to bring the homework,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,2,na
+test,possible,scenario5,reflective,104,have her parents call the teacher,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,2,na
+test,impossible,scenario5,reflective,105,have her homework teleported,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,2,na
+test,impossible,scenario5,reflective,106,remind herself yesterday evening,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,2,na
+test,impossible,scenario5,reflective,107,turn in several socks instead,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,2,na
+test,impossible,scenario5,reflective,108,erase the teacher's memory,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,2,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Brad and some friends are hiking through the mountains in the Canadian wilderness. A couple of days into their hike, Brad realizes that they are lost. He knows that a rescue crew could arrive before long, but it is extremely cold and they don't have much food or water left.",na,na,na,na,na,6,na,2,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Brad's situation, please tell us whether it is true or false that Brad could do the following things.",press [space] when you are ready to begin. *** Remember to slowly and carefully consider each event!***,na,na,na,na,na,6,na,2,na
+test,na,,,na,Is it true or false that Brad could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,6,na,2,2000
+test,irrational,scenario6,reflective,141,go hunting for water buffalo,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,2,na
+test,irrational,scenario6,reflective,142,eat random berries and leaves,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,2,na
+test,irrational,scenario6,reflective,143,each venture off independently,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,2,na
+test,irrational,scenario6,reflective,144,eat all their food immediately,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,2,na
+test,possible,scenario6,reflective,121,stay put and wait for help,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,2,na
+test,possible,scenario6,reflective,122,follow a river out of the wilderness,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,2,na
+test,possible,scenario6,reflective,123,alert rescuers with emergency flares,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,2,na
+test,possible,scenario6,reflective,124,find a river for fresh water and fish,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,2,na
+test,possible,scenario6,reflective,125,get more food by hunting and fishing,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,2,na
+test,possible,scenario6,reflective,126,build a large fire to alert rescuers,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,2,na
+test,possible,scenario6,reflective,127,create a shelter to stay warm,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,2,na
+test,possible,scenario6,reflective,128,be found by the rescue crew,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,2,na
+test,impossible,scenario6,reflective,129,use his mind to keep everyone warm,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,2,na
+test,impossible,scenario6,reflective,130,make new jackets from pine trees,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,2,na
+test,impossible,scenario6,reflective,131,alert airplanes overhead  by yelling,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,2,na
+test,impossible,scenario6,reflective,132,grind up rocks for food and water,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,2,na
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,Instructions,"In this study, we'd like you to tell us whether it is true or false that something could happen. To indicate that it is true that something could happen, please press the [f] key; to indicate that it is false that something could happen, please press the [j] key. To get you used to the task, you will first go through a warm-up phase. On these trials, press [f] if you see the word ""true"" and [j] if you see the word ""false"".  ***You will have to respond very quickly, so please pay attention!***",na,na,na,na,na,0,,3,na
+practice,practice,practice,,1,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,3,1250
+practice,practice,practice,,2,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,3,1250
+practice,practice,practice,,3,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,3,1250
+practice,practice,practice,,4,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,3,1250
+practice,practice,practice,,5,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,3,1250
+practice,practice,practice,,6,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,3,1250
+practice,practice,practice,,7,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,3,1250
+practice,practice,practice,,8,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,3,1250
+practice,practice,practice,,9,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,3,1250
+practice,practice,practice,,10,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,3,1250
+practice,practice,practice,,11,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,3,1250
+practice,practice,practice,,12,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,3,1250
+practice,practice,practice,,13,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,3,1250
+practice,practice,practice,,14,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,3,1250
+practice,practice,practice,,15,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,3,1250
+practice,practice,practice,,16,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,3,1250
+practice,practice,practice,,17,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,3,1250
+practice,practice,practice,,18,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,3,1250
+practice,practice,practice,,19,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,3,1250
+practice,practice,practice,,20,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,3,1250
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,"In this part, you will read a story and then will be judging whether it is true or false that certain things could happen.",***Please answer as quickly and accurately as you possibly can. You will only have about 1 second to respond to each event.***,na,na,na,na,na,0,na,3,na
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Heinz's wife has recently fallen ill and needs an expensive medication that is not covered by her medical insurance. They do not have the money needed to purchase the expensive prescription medication, but they know that it is vital for her to have it if she is going to recover.",na,na,na,na,na,1,na,3,na
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,"Given Heinz's situation, please tell us whether it is true or false that Heinz could do the following things.","press [space] when you are ready to begin. *** Remember, this will go very quickly!***",na,na,na,na,na,1,na,3,na
+test,na,na,,na,Is it true or false that Heinz could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,1,na,3,1550
+test,irrational,scenario1,speeded,21,sell his own medication,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,3,1550
+test,irrational,scenario1,speeded,22,sell all his clothes for money,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,3,1550
+test,irrational,scenario1,speeded,23,go on strike until wages increase,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,3,1550
+test,irrational,scenario1,speeded,24,try random other medicines,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,3,1550
+test,possible,scenario1,speeded,1,sells some of his stocks or bonds,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,3,1550
+test,possible,scenario1,speeded,2,use a generic medication instead,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,3,1550
+test,possible,scenario1,speeded,3,buy a different insurance plan,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,3,1550
+test,possible,scenario1,speeded,4,enroll in federal healthcare,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,3,1550
+test,possible,scenario1,speeded,5,borrow the money from a bank,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,3,1550
+test,possible,scenario1,speeded,6,be given the money by a friend,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,3,1550
+test,possible,scenario1,speeded,7,loan the money from his family,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,3,1550
+test,possible,scenario1,speeded,8,sell an extra car for the money,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,3,1550
+test,impossible,scenario1,speeded,9,be given the money by a turtle,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,3,1550
+test,impossible,scenario1,speeded,10,make the money time traveling,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,3,1550
+test,impossible,scenario1,speeded,11,grow the money on a tree,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,3,1550
+test,impossible,scenario1,speeded,12,get the money by clapping,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,3,1550
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Josh is on the way to the airport to catch a flight for a hunting safari in Africa. He leaves with plenty of time to make it there, but his car breaks down on the highway. Now Josh is sitting in his car near a busy intersection, and knows he needs to get to airport soon if he is going to catch his flight.",na,na,na,na,na,2,na,3,na
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,"Given Josh's situation, please tell us whether it is true or false that Josh could do the following things.","press [space] when you are ready to begin. *** Remember, this will go very quickly!***",na,na,na,na,na,2,na,3,na
+test,na,na,,na,Is it true or false that Josh could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,2,na,3,1550
+test,immoral,scenario2,speeded,37,steal another person's car,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,3,1550
+test,immoral,scenario2,speeded,38,take a taxi without paying,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,3,1550
+test,immoral,scenario2,speeded,39,take another driver hostage,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,3,1550
+test,immoral,scenario2,speeded,40,sneak onto public transportation,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,3,1550
+test,possible,scenario2,speeded,25,reschedule for a later flight,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,3,1550
+test,possible,scenario2,speeded,26,ask the gas station clerk for help,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,3,1550
+test,possible,scenario2,speeded,27,take the public bus there,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,3,1550
+test,possible,scenario2,speeded,28,request aiport shuttle pickup,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,3,1550
+test,possible,scenario2,speeded,29,ask a relative to pick him up,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,3,1550
+test,possible,scenario2,speeded,30,hail a taxi at the intersection,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,3,1550
+test,possible,scenario2,speeded,31,call a friend for a ride,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,3,1550
+test,possible,scenario2,speeded,32,take public transportation,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,3,1550
+test,impossible,scenario2,speeded,33,get a new car by thinking,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,3,1550
+test,impossible,scenario2,speeded,34,ride a cat to the airport,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,3,1550
+test,impossible,scenario2,speeded,35,teleport himself to the airport,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,3,1550
+test,impossible,scenario2,speeded,36,levitate and fly to the airport,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,3,1550
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Brian is the evening manager at a bakery. Near the end of the day, he realizes that $50.75 is missing from the register and that he is responsible for accounting for the money at the end of the day. Brian knows he has to make sure the register is balanced or he might lose his job.",na,na,na,na,na,3,na,3,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Brian's situation, please tell us whether it is true or false that Brian could do the following things.","press [space] when you are ready to begin. *** Remember, this will go very quickly!***",na,na,na,na,na,3,na,3,na
+test,na,,,na,Is it true or false that Brian could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,3,na,3,1550
+test,improbable,scenario3,speeded,65,find the money on the ground,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,3,1550
+test,improbable,scenario3,speeded,66,discover the money is in his pocket,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,3,1550
+test,improbable,scenario3,speeded,67,get a child to donate the money,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,3,1550
+test,improbable,scenario3,speeded,68,receive a 100 dollar tip,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,3,1550
+test,possible,scenario3,speeded,49,explain the situation to his boss,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,3,1550
+test,possible,scenario3,speeded,50,ask other employees what to do,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,3,1550
+test,possible,scenario3,speeded,51,get a payday advance loan,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,3,1550
+test,possible,scenario3,speeded,52,sell something he owns for money,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,3,1550
+test,possible,scenario3,speeded,53,use money from his own wallet,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,3,1550
+test,possible,scenario3,speeded,54,add in money from his daily tips,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,3,1550
+test,possible,scenario3,speeded,55,borrow money from a friend,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,3,1550
+test,possible,scenario3,speeded,56,write a check for $50.75,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,3,1550
+test,impossible,scenario3,speeded,57,turn the cash register invisible,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,3,1550
+test,impossible,scenario3,speeded,58,use some monopoly money instead,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,3,1550
+test,impossible,scenario3,speeded,59,take pictures of missing bills,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,3,1550
+test,impossible,scenario3,speeded,60,get the money by sneezing a lot,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,3,1550
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Liz decides to go to the gym on her lunch break because she is going to have to work late tonight and won't have time during the evening. When she gets to the gym, she realizes that her membership has expired since she last went.",na,na,na,na,na,4,na,3,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Liz's situation, please tell us whether it is true or false that Liz could do the following things.","press [space] when you are ready to begin. *** Remember, this will go very quickly!***",na,na,na,na,na,4,na,3,na
+test,na,,,na,Is it true or false that Liz could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,4,na,3,1550
+test,irrational,scenario4,speeded,93,decide to never exercise again,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,3,1550
+test,irrational,scenario4,speeded,94,try again in three minutes,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,3,1550
+test,irrational,scenario4,speeded,95,complain in a foreign language,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,3,1550
+test,irrational,scenario4,speeded,96,run back and forth across lobby,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,3,1550
+test,possible,scenario4,speeded,73,wait to go to the gym tomorrow,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,3,1550
+test,possible,scenario4,speeded,74,go for a run outside instead,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,3,1550
+test,possible,scenario4,speeded,75,decide to lift weights at home,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,3,1550
+test,possible,scenario4,speeded,76,eat lunch instead of working out,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,3,1550
+test,possible,scenario4,speeded,77,use a friend's guest pass,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,3,1550
+test,possible,scenario4,speeded,78,pay for a one-day gym pass,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,3,1550
+test,possible,scenario4,speeded,79,be allowed in just this once,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,3,1550
+test,possible,scenario4,speeded,80,renew her gym membership,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,3,1550
+test,impossible,scenario4,speeded,81,turn invisible and go in,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,3,1550
+test,impossible,scenario4,speeded,82,wish all gyms to be free forever,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,3,1550
+test,impossible,scenario4,speeded,83,renew her membership by blinking,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,3,1550
+test,impossible,scenario4,speeded,84,turn her hat into a gym pass,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,3,1550
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,Mary is about to go to her final class of the day when she remembers that there is a homework assignment that is due. Mary's mom accidentally took her homework assignment out of her backpack when she was making room for her lunch. Now Mary has nothing to turn in for credit.,na,na,na,na,na,5,na,3,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Mary's situation, please tell us whether it is true or false that Mary could do the following things.","press [space] when you are ready to begin. *** Remember, this will go very quickly!***",na,na,na,na,na,5,na,3,na
+test,na,,,na,Is it true or false that Mary could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,5,na,3,1550
+test,immoral,scenario5,speeded,109,quickly copy someone's homework,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,3,1550
+test,immoral,scenario5,speeded,110,put her name on a friend's homework,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,3,1550
+test,immoral,scenario5,speeded,111,forge an excuse note,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,3,1550
+test,immoral,scenario5,speeded,112,lie about being sick to go home,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,3,1550
+test,possible,scenario5,speeded,97,run home to get her homework,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,3,1550
+test,possible,scenario5,speeded,98,bring in her homework tomorrow,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,3,1550
+test,possible,scenario5,speeded,99,ask for an extra-credit assignment,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,3,1550
+test,possible,scenario5,speeded,100,ask her mom what she should do,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,3,1550
+test,possible,scenario5,speeded,101,explain what happened to her teacher,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,3,1550
+test,possible,scenario5,speeded,102,quickly redo the homework assignment,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,3,1550
+test,possible,scenario5,speeded,103,ask her mom to bring the homework,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,3,1550
+test,possible,scenario5,speeded,104,have her parents call the teacher,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,3,1550
+test,impossible,scenario5,speeded,105,have her homework teleported,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,3,1550
+test,impossible,scenario5,speeded,106,remind herself yesterday evening,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,3,1550
+test,impossible,scenario5,speeded,107,turn in several socks instead,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,3,1550
+test,impossible,scenario5,speeded,108,erase the teacher's memory,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,3,1550
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Brad and some friends are hiking through the mountains in the Canadian wilderness. A couple of days into their hike, Brad realizes that they are lost. He knows that a rescue crew could arrive before long, but it is extremely cold and they don't have much food or water left.",na,na,na,na,na,6,na,3,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Brad's situation, please tell us whether it is true or false that Brad could do the following things.","press [space] when you are ready to begin. *** Remember, this will go very quickly!***",na,na,na,na,na,6,na,3,na
+test,na,,,na,Is it true or false that Brad could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,6,na,3,1550
+test,improbable,scenario6,speeded,137,find thermal vent to keep warm,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,3,1550
+test,improbable,scenario6,speeded,138,find stream showing the path out,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,3,1550
+test,improbable,scenario6,speeded,139,meet a former expedition guide,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,3,1550
+test,improbable,scenario6,speeded,140,find an abandoned bear cave,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,3,1550
+test,possible,scenario6,speeded,121,stay put and wait for help,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,3,1550
+test,possible,scenario6,speeded,122,follow a river out of the wilderness,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,3,1550
+test,possible,scenario6,speeded,123,alert rescuers with emergency flares,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,3,1550
+test,possible,scenario6,speeded,124,find a river for fresh water and fish,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,3,1550
+test,possible,scenario6,speeded,125,get more food by hunting and fishing,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,3,1550
+test,possible,scenario6,speeded,126,build a large fire to alert rescuers,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,3,1550
+test,possible,scenario6,speeded,127,create a shelter to stay warm,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,3,1550
+test,possible,scenario6,speeded,128,be found by the rescue crew,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,3,1550
+test,impossible,scenario6,speeded,129,use his mind to keep everyone warm,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,3,1550
+test,impossible,scenario6,speeded,130,make new jackets from pine trees,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,3,1550
+test,impossible,scenario6,speeded,131,alert airplanes overhead  by yelling,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,3,1550
+test,impossible,scenario6,speeded,132,grind up rocks for food and water,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,3,1550
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Instructions,"In this study, we'd like you to tell us whether it is true or false that something could happen. To indicate that it is true that something could happen, please press the [f] key; to indicate that it is false that something could happen, please press the [j] key. To get you used to the task, you will first go through a warm-up phase. On these trials, press [f] if you see the word ""true"" and [j] if you see the word ""false"". ***Please take your time and answer as correctly as possible.***
+",na,na,na,na,na,0,,4,na
+practice,practice,,,1,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,4,1250
+practice,practice,,,2,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,4,1250
+practice,practice,,,3,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,4,1250
+practice,practice,,,4,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,4,1250
+practice,practice,,,5,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,4,1250
+practice,practice,,,6,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,4,1250
+practice,practice,,,7,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,4,1250
+practice,practice,,,8,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,4,1250
+practice,practice,,,9,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,4,1250
+practice,practice,,,10,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,4,1250
+practice,practice,,,11,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,4,1250
+practice,practice,,,12,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,4,1250
+practice,practice,,,13,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,4,1250
+practice,practice,,,14,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,4,1250
+practice,practice,,,15,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,4,1250
+practice,practice,,,16,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,4,1250
+practice,practice,,,17,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,4,1250
+practice,practice,,,18,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,4,1250
+practice,practice,,,19,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,4,1250
+practice,practice,,,20,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,4,1250
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"In this part, you will read a story and then will be judging whether it is true or false that certain things could happen.",***Please take your time and carefully reflect on these questions. Make sure you do not answer too quickly or carelessly.***,na,na,na,na,na,0,na,4,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Heinz's wife has recently fallen ill and needs an expensive medication that is not covered by her medical insurance. They do not have the money needed to purchase the expensive prescription medication, but they know that it is vital for her to have it if she is going to recover.",na,na,na,na,na,1,na,4,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Heinz's situation, please tell us whether it is true or false that Heinz could do the following things.",press [space] when you are ready to begin. *** Remember to slowly and carefully consider each event!***,na,na,na,na,na,1,na,4,na
+test,na,,,na,Is it true or false that Heinz could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,1,na,4,2000
+test,irrational,scenario1,reflective,21,sell his own medication,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,4,na
+test,irrational,scenario1,reflective,22,sell all his clothes for money,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,4,na
+test,irrational,scenario1,reflective,23,go on strike until wages increase,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,4,na
+test,irrational,scenario1,reflective,24,try random other medicines,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,4,na
+test,possible,scenario1,reflective,1,sells some of his stocks or bonds,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,4,na
+test,possible,scenario1,reflective,2,use a generic medication instead,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,4,na
+test,possible,scenario1,reflective,3,buy a different insurance plan,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,4,na
+test,possible,scenario1,reflective,4,enroll in federal healthcare,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,4,na
+test,possible,scenario1,reflective,5,borrow the money from a bank,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,4,na
+test,possible,scenario1,reflective,6,be given the money by a friend,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,4,na
+test,possible,scenario1,reflective,7,loan the money from his family,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,4,na
+test,possible,scenario1,reflective,8,sell an extra car for the money,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,4,na
+test,impossible,scenario1,reflective,9,be given the money by a turtle,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,4,na
+test,impossible,scenario1,reflective,10,make the money time traveling,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,4,na
+test,impossible,scenario1,reflective,11,grow the money on a tree,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,4,na
+test,impossible,scenario1,reflective,12,get the money by clapping,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,4,na
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Josh is on the way to the airport to catch a flight for a hunting safari in Africa. He leaves with plenty of time to make it there, but his car breaks down on the highway. Now Josh is sitting in his car near a busy intersection, and knows he needs to get to airport soon if he is going to catch his flight.",na,na,na,na,na,2,na,4,na
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,"Given Josh's situation, please tell us whether it is true or false that Josh could do the following things.",press [space] when you are ready to begin. *** Remember to slowly and carefully consider each event!***,na,na,na,na,na,2,na,4,na
+test,na,na,,na,Is it true or false that Josh could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,2,na,4,2000
+test,immoral,scenario2,reflective,37,steal another person's car,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,4,na
+test,immoral,scenario2,reflective,38,take a taxi without paying,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,4,na
+test,immoral,scenario2,reflective,39,take another driver hostage,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,4,na
+test,immoral,scenario2,reflective,40,sneak onto public transportation,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,4,na
+test,possible,scenario2,reflective,25,reschedule for a later flight,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,4,na
+test,possible,scenario2,reflective,26,ask the gas station clerk for help,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,4,na
+test,possible,scenario2,reflective,27,take the public bus there,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,4,na
+test,possible,scenario2,reflective,28,request aiport shuttle pickup,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,4,na
+test,possible,scenario2,reflective,29,ask a relative to pick him up,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,4,na
+test,possible,scenario2,reflective,30,hail a taxi at the intersection,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,4,na
+test,possible,scenario2,reflective,31,call a friend for a ride,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,4,na
+test,possible,scenario2,reflective,32,take public transportation,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,4,na
+test,impossible,scenario2,reflective,33,get a new car by thinking,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,4,na
+test,impossible,scenario2,reflective,34,ride a cat to the airport,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,4,na
+test,impossible,scenario2,reflective,35,teleport himself to the airport,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,4,na
+test,impossible,scenario2,reflective,36,levitate and fly to the airport,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,4,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Brian is the evening manager at a bakery. Near the end of the day, he realizes that $50.75 is missing from the register and that he is responsible for accounting for the money at the end of the day. Brian knows he has to make sure the register is balanced or he might lose his job.",na,na,na,na,na,3,na,4,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Brian's situation, please tell us whether it is true or false that Brian could do the following things.",press [space] when you are ready to begin. *** Remember to slowly and carefully consider each event!***,na,na,na,na,na,3,na,4,na
+test,na,,,na,Is it true or false that Brian could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,3,na,4,2000
+test,improbable,scenario3,reflective,65,find the money on the ground,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,4,na
+test,improbable,scenario3,reflective,66,discover the money is in his pocket,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,4,na
+test,improbable,scenario3,reflective,67,get a child to donate the money,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,4,na
+test,improbable,scenario3,reflective,68,receive a 100 dollar tip,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,4,na
+test,possible,scenario3,reflective,49,explain the situation to his boss,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,4,na
+test,possible,scenario3,reflective,50,ask other employees what to do,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,4,na
+test,possible,scenario3,reflective,51,get a payday advance loan,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,4,na
+test,possible,scenario3,reflective,52,sell something he owns for money,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,4,na
+test,possible,scenario3,reflective,53,use money from his own wallet,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,4,na
+test,possible,scenario3,reflective,54,add in money from his daily tips,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,4,na
+test,possible,scenario3,reflective,55,borrow money from a friend,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,4,na
+test,possible,scenario3,reflective,56,write a check for $50.75,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,4,na
+test,impossible,scenario3,reflective,57,turn the cash register invisible,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,4,na
+test,impossible,scenario3,reflective,58,use some monopoly money instead,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,4,na
+test,impossible,scenario3,reflective,59,take pictures of missing bills,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,4,na
+test,impossible,scenario3,reflective,60,get the money by sneezing a lot,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,4,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Liz decides to go to the gym on her lunch break because she is going to have to work late tonight and won't have time during the evening. When she gets to the gym, she realizes that her membership has expired since she last went.",na,na,na,na,na,4,na,4,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Liz's situation, please tell us whether it is true or false that Liz could do the following things.",press [space] when you are ready to begin. *** Remember to slowly and carefully consider each event!***,na,na,na,na,na,4,na,4,na
+test,na,,,na,Is it true or false that Liz could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,4,na,4,2000
+test,irrational,scenario4,reflective,93,decide to never exercise again,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,4,na
+test,irrational,scenario4,reflective,94,try again in three minutes,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,4,na
+test,irrational,scenario4,reflective,95,complain in a foreign language,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,4,na
+test,irrational,scenario4,reflective,96,run back and forth across lobby,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,4,na
+test,possible,scenario4,reflective,73,wait to go to the gym tomorrow,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,4,na
+test,possible,scenario4,reflective,74,go for a run outside instead,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,4,na
+test,possible,scenario4,reflective,75,decide to lift weights at home,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,4,na
+test,possible,scenario4,reflective,76,eat lunch instead of working out,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,4,na
+test,possible,scenario4,reflective,77,use a friend's guest pass,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,4,na
+test,possible,scenario4,reflective,78,pay for a one-day gym pass,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,4,na
+test,possible,scenario4,reflective,79,be allowed in just this once,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,4,na
+test,possible,scenario4,reflective,80,renew her gym membership,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,4,na
+test,impossible,scenario4,reflective,81,turn invisible and go in,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,4,na
+test,impossible,scenario4,reflective,82,wish all gyms to be free forever,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,4,na
+test,impossible,scenario4,reflective,83,renew her membership by blinking,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,4,na
+test,impossible,scenario4,reflective,84,turn her hat into a gym pass,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,4,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,Mary is about to go to her final class of the day when she remembers that there is a homework assignment that is due. Mary's mom accidentally took her homework assignment out of her backpack when she was making room for her lunch. Now Mary has nothing to turn in for credit.,na,na,na,na,na,5,na,4,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Mary's situation, please tell us whether it is true or false that Mary could do the following things.",press [space] when you are ready to begin. *** Remember to slowly and carefully consider each event!***,na,na,na,na,na,5,na,4,na
+test,na,,,na,Is it true or false that Mary could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,5,na,4,2000
+test,immoral,scenario5,reflective,109,quickly copy someone's homework,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,4,na
+test,immoral,scenario5,reflective,110,put her name on a friend's homework,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,4,na
+test,immoral,scenario5,reflective,111,forge an excuse note,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,4,na
+test,immoral,scenario5,reflective,112,lie about being sick to go home,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,4,na
+test,possible,scenario5,reflective,97,run home to get her homework,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,4,na
+test,possible,scenario5,reflective,98,bring in her homework tomorrow,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,4,na
+test,possible,scenario5,reflective,99,ask for an extra-credit assignment,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,4,na
+test,possible,scenario5,reflective,100,ask her mom what she should do,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,4,na
+test,possible,scenario5,reflective,101,explain what happened to her teacher,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,4,na
+test,possible,scenario5,reflective,102,quickly redo the homework assignment,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,4,na
+test,possible,scenario5,reflective,103,ask her mom to bring the homework,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,4,na
+test,possible,scenario5,reflective,104,have her parents call the teacher,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,4,na
+test,impossible,scenario5,reflective,105,have her homework teleported,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,4,na
+test,impossible,scenario5,reflective,106,remind herself yesterday evening,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,4,na
+test,impossible,scenario5,reflective,107,turn in several socks instead,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,4,na
+test,impossible,scenario5,reflective,108,erase the teacher's memory,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,4,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Brad and some friends are hiking through the mountains in the Canadian wilderness. A couple of days into their hike, Brad realizes that they are lost. He knows that a rescue crew could arrive before long, but it is extremely cold and they don't have much food or water left.",na,na,na,na,na,6,na,4,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Brad's situation, please tell us whether it is true or false that Brad could do the following things.",press [space] when you are ready to begin. *** Remember to slowly and carefully consider each event!***,na,na,na,na,na,6,na,4,na
+test,na,,,na,Is it true or false that Brad could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,6,na,4,2000
+test,improbable,scenario6,reflective,137,find thermal vent to keep warm,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,4,na
+test,improbable,scenario6,reflective,138,find stream showing the path out,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,4,na
+test,improbable,scenario6,reflective,139,meet a former expedition guide,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,4,na
+test,improbable,scenario6,reflective,140,find an abandoned bear cave,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,4,na
+test,possible,scenario6,reflective,121,stay put and wait for help,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,4,na
+test,possible,scenario6,reflective,122,follow a river out of the wilderness,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,4,na
+test,possible,scenario6,reflective,123,alert rescuers with emergency flares,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,4,na
+test,possible,scenario6,reflective,124,find a river for fresh water and fish,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,4,na
+test,possible,scenario6,reflective,125,get more food by hunting and fishing,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,4,na
+test,possible,scenario6,reflective,126,build a large fire to alert rescuers,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,4,na
+test,possible,scenario6,reflective,127,create a shelter to stay warm,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,4,na
+test,possible,scenario6,reflective,128,be found by the rescue crew,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,4,na
+test,impossible,scenario6,reflective,129,use his mind to keep everyone warm,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,4,na
+test,impossible,scenario6,reflective,130,make new jackets from pine trees,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,4,na
+test,impossible,scenario6,reflective,131,alert airplanes overhead  by yelling,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,4,na
+test,impossible,scenario6,reflective,132,grind up rocks for food and water,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,4,na
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,Instructions,"In this study, we'd like you to tell us whether it is true or false that something could happen. To indicate that it is true that something could happen, please press the [f] key; to indicate that it is false that something could happen, please press the [j] key. To get you used to the task, you will first go through a warm-up phase. On these trials, press [f] if you see the word ""true"" and [j] if you see the word ""false"". ***You will have to respond very quickly, so please pay attention!***",na,na,na,na,na,0,,5,na
+practice,practice,practice,,1,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,5,1250
+practice,practice,practice,,2,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,5,1250
+practice,practice,practice,,3,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,5,1250
+practice,practice,practice,,4,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,5,1250
+practice,practice,practice,,5,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,5,1250
+practice,practice,practice,,6,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,5,1250
+practice,practice,practice,,7,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,5,1250
+practice,practice,practice,,8,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,5,1250
+practice,practice,practice,,9,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,5,1250
+practice,practice,practice,,10,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,5,1250
+practice,practice,practice,,11,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,5,1250
+practice,practice,practice,,12,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,5,1250
+practice,practice,practice,,13,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,5,1250
+practice,practice,practice,,14,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,5,1250
+practice,practice,practice,,15,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,5,1250
+practice,practice,practice,,16,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,5,1250
+practice,practice,practice,,17,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,5,1250
+practice,practice,practice,,18,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,5,1250
+practice,practice,practice,,19,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,get ready to keep going,1000,1,0,f j,5,1250
+practice,practice,practice,,20,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,get ready to keep going,1000,1,0,f j,5,1250
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,"In this part, you will read a story and then will be judging whether it is true or false that certain things could happen.",***Please answer as quickly and accurately as you possibly can. You will only have about 1 second to respond to each event.***,na,na,na,na,na,0,na,5,na
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Heinz's wife has recently fallen ill and needs an expensive medication that is not covered by her medical insurance. They do not have the money needed to purchase the expensive prescription medication, but they know that it is vital for her to have it if she is going to recover.",na,na,na,na,na,1,na,5,na
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,"Given Heinz's situation, please tell us whether it is true or false that Heinz could do the following things.","press [space] when you are ready to begin. *** Remember, this will go very quickly!***",na,na,na,na,na,1,na,5,na
+test,na,na,,na,Is it true or false that Heinz could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,1,na,5,1550
+test,improbable,scenario1,speeded,17,be  given the medicine by  a doctor,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,5,1550
+test,improbable,scenario1,speeded,18,inherit money from a close relative,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,5,1550
+test,improbable,scenario1,speeded,19,receive the money from a stranger,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,5,1550
+test,improbable,scenario1,speeded,20,discover a cheap new medicine,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,5,1550
+test,possible,scenario1,speeded,1,sells some of his stocks or bonds,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,5,1550
+test,possible,scenario1,speeded,2,use a generic medication instead,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,5,1550
+test,possible,scenario1,speeded,3,buy a different insurance plan,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,5,1550
+test,possible,scenario1,speeded,4,enroll in federal healthcare,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,5,1550
+test,possible,scenario1,speeded,5,borrow the money from a bank,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,5,1550
+test,possible,scenario1,speeded,6,be given the money by a friend,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,5,1550
+test,possible,scenario1,speeded,7,loan the money from his family,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,5,1550
+test,possible,scenario1,speeded,8,sell an extra car for the money,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,5,1550
+test,impossible,scenario1,speeded,9,be given the money by a turtle,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,5,1550
+test,impossible,scenario1,speeded,10,make the money time traveling,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,5,1550
+test,impossible,scenario1,speeded,11,grow the money on a tree,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,5,1550
+test,impossible,scenario1,speeded,12,get the money by clapping,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,1,f j,5,1550
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Josh is on the way to the airport to catch a flight for a hunting safari in Africa. He leaves with plenty of time to make it there, but his car breaks down on the highway. Now Josh is sitting in his car near a busy intersection, and knows he needs to get to airport soon if he is going to catch his flight.",na,na,na,na,na,2,na,5,na
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,"Given Josh's situation, please tell us whether it is true or false that Josh could do the following things.","press [space] when you are ready to begin. *** Remember, this will go very quickly!***",na,na,na,na,na,2,na,5,na
+test,na,na,,na,Is it true or false that Josh could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,2,na,5,1550
+test,irrational,scenario2,speeded,45,book a flight for next year,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,5,1550
+test,irrational,scenario2,speeded,46,sell car for ride to airport,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,5,1550
+test,irrational,scenario2,speeded,47,pay 1000 dollars for a ride,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,5,1550
+test,irrational,scenario2,speeded,48,try to run there in time,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,5,1550
+test,possible,scenario2,speeded,25,reschedule for a later flight,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,5,1550
+test,possible,scenario2,speeded,26,ask the gas station clerk for help,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,5,1550
+test,possible,scenario2,speeded,27,take the public bus there,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,5,1550
+test,possible,scenario2,speeded,28,request aiport shuttle pickup,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,5,1550
+test,possible,scenario2,speeded,29,ask a relative to pick him up,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,5,1550
+test,possible,scenario2,speeded,30,hail a taxi at the intersection,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,5,1550
+test,possible,scenario2,speeded,31,call a friend for a ride,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,5,1550
+test,possible,scenario2,speeded,32,take public transportation,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,5,1550
+test,impossible,scenario2,speeded,33,get a new car by thinking,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,5,1550
+test,impossible,scenario2,speeded,34,ride a cat to the airport,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,5,1550
+test,impossible,scenario2,speeded,35,teleport himself to the airport,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,5,1550
+test,impossible,scenario2,speeded,36,levitate and fly to the airport,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,2,f j,5,1550
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Brian is the evening manager at a bakery. Near the end of the day, he realizes that $50.75 is missing from the register and that he is responsible for accounting for the money at the end of the day. Brian knows he has to make sure the register is balanced or he might lose his job.",na,na,na,na,na,3,na,5,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Brian's situation, please tell us whether it is true or false that Brian could do the following things.","press [space] when you are ready to begin. *** Remember, this will go very quickly!***",na,na,na,na,na,3,na,5,na
+test,na,,,na,Is it true or false that Brian could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,3,na,5,1550
+test,immoral,scenario3,speeded,61,overcharge the next customers,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,5,1550
+test,immoral,scenario3,speeded,62,steal money from a coworker,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,5,1550
+test,immoral,scenario3,speeded,63,lie about how much the bakery sold,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,5,1550
+test,immoral,scenario3,speeded,64,give new customers incorrect change,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,5,1550
+test,possible,scenario3,speeded,49,explain the situation to his boss,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,5,1550
+test,possible,scenario3,speeded,50,ask other employees what to do,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,5,1550
+test,possible,scenario3,speeded,51,get a payday advance loan,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,5,1550
+test,possible,scenario3,speeded,52,sell something he owns for money,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,5,1550
+test,possible,scenario3,speeded,53,use money from his own wallet,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,5,1550
+test,possible,scenario3,speeded,54,add in money from his daily tips,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,5,1550
+test,possible,scenario3,speeded,55,borrow money from a friend,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,5,1550
+test,possible,scenario3,speeded,56,write a check for $50.75,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,5,1550
+test,impossible,scenario3,speeded,57,turn the cash register invisible,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,5,1550
+test,impossible,scenario3,speeded,58,use some monopoly money instead,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,5,1550
+test,impossible,scenario3,speeded,59,take pictures of missing bills,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,5,1550
+test,impossible,scenario3,speeded,60,get the money by sneezing a lot,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,3,f j,5,1550
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Liz decides to go to the gym on her lunch break because she is going to have to work late tonight and won't have time during the evening. When she gets to the gym, she realizes that her membership has expired since she last went.",na,na,na,na,na,4,na,5,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Liz's situation, please tell us whether it is true or false that Liz could do the following things.","press [space] when you are ready to begin. *** Remember, this will go very quickly!***",na,na,na,na,na,4,na,5,na
+test,na,,,na,Is it true or false that Liz could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,4,na,5,1550
+test,improbable,scenario4,speeded,89,learn the gym stopped checking IDs,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,5,1550
+test,improbable,scenario4,speeded,90,receive a free lifetime membership,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,5,1550
+test,improbable,scenario4,speeded,91,find a one-day pass in purse,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,5,1550
+test,improbable,scenario4,speeded,92,discover the gym is free today,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,5,1550
+test,possible,scenario4,speeded,73,wait to go to the gym tomorrow,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,5,1550
+test,possible,scenario4,speeded,74,go for a run outside instead,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,5,1550
+test,possible,scenario4,speeded,75,decide to lift weights at home,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,5,1550
+test,possible,scenario4,speeded,76,eat lunch instead of working out,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,5,1550
+test,possible,scenario4,speeded,77,use a friend's guest pass,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,5,1550
+test,possible,scenario4,speeded,78,pay for a one-day gym pass,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,5,1550
+test,possible,scenario4,speeded,79,be allowed in just this once,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,5,1550
+test,possible,scenario4,speeded,80,renew her gym membership,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,5,1550
+test,impossible,scenario4,speeded,81,turn invisible and go in,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,5,1550
+test,impossible,scenario4,speeded,82,wish all gyms to be free forever,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,5,1550
+test,impossible,scenario4,speeded,83,renew her membership by blinking,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,5,1550
+test,impossible,scenario4,speeded,84,turn her hat into a gym pass,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,4,f j,5,1550
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,Mary is about to go to her final class of the day when she remembers that there is a homework assignment that is due. Mary's mom accidentally took her homework assignment out of her backpack when she was making room for her lunch. Now Mary has nothing to turn in for credit.,na,na,na,na,na,5,na,5,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Mary's situation, please tell us whether it is true or false that Mary could do the following things.","press [space] when you are ready to begin. *** Remember, this will go very quickly!***",na,na,na,na,na,5,na,5,na
+test,na,,,na,Is it true or false that Mary could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,5,na,5,1550
+test,irrational,scenario5,speeded,117,ask her mom to FedEx the homework,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,5,1550
+test,irrational,scenario5,speeded,118,look under the lunchroom tables,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,5,1550
+test,irrational,scenario5,speeded,119,turn in a completely blank page,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,5,1550
+test,irrational,scenario5,speeded,120,turn in last week's homework again,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,5,1550
+test,possible,scenario5,speeded,97,run home to get her homework,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,5,1550
+test,possible,scenario5,speeded,98,bring in her homework tomorrow,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,5,1550
+test,possible,scenario5,speeded,99,ask for an extra-credit assignment,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,5,1550
+test,possible,scenario5,speeded,100,ask her mom what she should do,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,5,1550
+test,possible,scenario5,speeded,101,explain what happened to her teacher,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,5,1550
+test,possible,scenario5,speeded,102,quickly redo the homework assignment,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,5,1550
+test,possible,scenario5,speeded,103,ask her mom to bring the homework,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,5,1550
+test,possible,scenario5,speeded,104,have her parents call the teacher,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,5,1550
+test,impossible,scenario5,speeded,105,have her homework teleported,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,5,1550
+test,impossible,scenario5,speeded,106,remind herself yesterday evening,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,5,1550
+test,impossible,scenario5,speeded,107,turn in several socks instead,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,5,1550
+test,impossible,scenario5,speeded,108,erase the teacher's memory,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,5,f j,5,1550
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Brad and some friends are hiking through the mountains in the Canadian wilderness. A couple of days into their hike, Brad realizes that they are lost. He knows that a rescue crew could arrive before long, but it is extremely cold and they don't have much food or water left.",na,na,na,na,na,6,na,5,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Brad's situation, please tell us whether it is true or false that Brad could do the following things.","press [space] when you are ready to begin. *** Remember, this will go very quickly!***",na,na,na,na,na,6,na,5,na
+test,na,,,na,Is it true or false that Brad could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,6,na,5,1550
+test,immoral,scenario6,speeded,133,secretly take his friends' food,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,5,1550
+test,immoral,scenario6,speeded,134,leave the weakest people behind,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,5,1550
+test,immoral,scenario6,speeded,135,rob other hikers they meet,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,5,1550
+test,immoral,scenario6,speeded,136,kill his friend's pet dog for food,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,5,1550
+test,possible,scenario6,speeded,121,stay put and wait for help,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,5,1550
+test,possible,scenario6,speeded,122,follow a river out of the wilderness,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,5,1550
+test,possible,scenario6,speeded,123,alert rescuers with emergency flares,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,5,1550
+test,possible,scenario6,speeded,124,find a river for fresh water and fish,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,5,1550
+test,possible,scenario6,speeded,125,get more food by hunting and fishing,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,5,1550
+test,possible,scenario6,speeded,126,build a large fire to alert rescuers,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,5,1550
+test,possible,scenario6,speeded,127,create a shelter to stay warm,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,5,1550
+test,possible,scenario6,speeded,128,be found by the rescue crew,na,na,na,j,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,5,1550
+test,impossible,scenario6,speeded,129,use his mind to keep everyone warm,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,5,1550
+test,impossible,scenario6,speeded,130,make new jackets from pine trees,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,5,1550
+test,impossible,scenario6,speeded,131,alert airplanes overhead  by yelling,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,5,1550
+test,impossible,scenario6,speeded,132,grind up rocks for food and water,na,na,na,f,600,1500,na,na,word,na,na,na,na,na,na,1,6,f j,5,1550
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Instructions,"In this study, we'd like you to tell us whether it is true or false that something could happen. To indicate that it is true that something could happen, please press the [f] key; to indicate that it is false that something could happen, please press the [j] key. To get you used to the task, you will first go through a warm-up phase. On these trials, press [f] if you see the word ""true"" and [j] if you see the word ""false"". ***Please take your time and answer as correctly as possible.***
+",na,na,na,na,na,0,,6,na
+practice,practice,,,1,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,6,1250
+practice,practice,,,2,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,6,1250
+practice,practice,,,3,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,6,1250
+practice,practice,,,4,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,6,1250
+practice,practice,,,5,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,6,1250
+practice,practice,,,6,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,6,1250
+practice,practice,,,7,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,6,1250
+practice,practice,,,8,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,6,1250
+practice,practice,,,9,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,6,1250
+practice,practice,,,10,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,6,1250
+practice,practice,,,11,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,6,1250
+practice,practice,,,12,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,6,1250
+practice,practice,,,13,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,6,1250
+practice,practice,,,14,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,6,1250
+practice,practice,,,15,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,6,1250
+practice,practice,,,16,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,6,1250
+practice,practice,,,17,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,6,1250
+practice,practice,,,18,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,6,1250
+practice,practice,,,19,FALSE,na,na,na,j,600,na,na,na,word,That's not right! false is [j].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,6,1250
+practice,practice,,,20,TRUE,na,na,na,f,600,na,na,na,word,That's not right! true is [f].,na,na,na,Please slow down and answer correctly.,4000,1,0,f j,6,1250
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"In this part, you will read a story and then will be judging whether it is true or false that certain things could happen.",***Please take your time and carefully reflect on these questions. Make sure you do not answer too quickly or carelessly.***,na,na,na,na,na,0,na,6,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Heinz's wife has recently fallen ill and needs an expensive medication that is not covered by her medical insurance. They do not have the money needed to purchase the expensive prescription medication, but they know that it is vital for her to have it if she is going to recover.",na,na,na,na,na,1,na,6,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Heinz's situation, please tell us whether it is true or false that Heinz could do the following things.",press [space] when you are ready to begin. *** Remember to slowly and carefully consider each event!***,na,na,na,na,na,1,na,6,na
+test,na,,,na,Is it true or false that Heinz could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,1,na,6,2000
+test,improbable,scenario1,reflective,17,be  given the medicine by  a doctor,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,6,na
+test,improbable,scenario1,reflective,18,inherit money from a close relative,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,6,na
+test,improbable,scenario1,reflective,19,receive the money from a stranger,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,6,na
+test,improbable,scenario1,reflective,20,discover a cheap new medicine,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,6,na
+test,possible,scenario1,reflective,1,sells some of his stocks or bonds,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,6,na
+test,possible,scenario1,reflective,2,use a generic medication instead,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,6,na
+test,possible,scenario1,reflective,3,buy a different insurance plan,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,6,na
+test,possible,scenario1,reflective,4,enroll in federal healthcare,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,6,na
+test,possible,scenario1,reflective,5,borrow the money from a bank,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,6,na
+test,possible,scenario1,reflective,6,be given the money by a friend,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,6,na
+test,possible,scenario1,reflective,7,loan the money from his family,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,6,na
+test,possible,scenario1,reflective,8,sell an extra car for the money,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,6,na
+test,impossible,scenario1,reflective,9,be given the money by a turtle,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,6,na
+test,impossible,scenario1,reflective,10,make the money time traveling,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,6,na
+test,impossible,scenario1,reflective,11,grow the money on a tree,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,6,na
+test,impossible,scenario1,reflective,12,get the money by clapping,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,1,f j,6,na
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Josh is on the way to the airport to catch a flight for a hunting safari in Africa. He leaves with plenty of time to make it there, but his car breaks down on the highway. Now Josh is sitting in his car near a busy intersection, and knows he needs to get to airport soon if he is going to catch his flight.",na,na,na,na,na,2,na,6,na
+instructions,na,na,,na,na,na,na,na,,600,na,na,na,na,"Given Josh's situation, please tell us whether it is true or false that Josh could do the following things.",press [space] when you are ready to begin. *** Remember to slowly and carefully consider each event!***,na,na,na,na,na,2,na,6,na
+test,na,na,,na,Is it true or false that Josh could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,2,na,6,2000
+test,irrational,scenario2,reflective,45,book a flight for next year,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,6,na
+test,irrational,scenario2,reflective,46,sell car for ride to airport,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,6,na
+test,irrational,scenario2,reflective,47,pay 1000 dollars for a ride,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,6,na
+test,irrational,scenario2,reflective,48,try to run there in time,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,6,na
+test,possible,scenario2,reflective,25,reschedule for a later flight,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,6,na
+test,possible,scenario2,reflective,26,ask the gas station clerk for help,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,6,na
+test,possible,scenario2,reflective,27,take the public bus there,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,6,na
+test,possible,scenario2,reflective,28,request aiport shuttle pickup,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,6,na
+test,possible,scenario2,reflective,29,ask a relative to pick him up,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,6,na
+test,possible,scenario2,reflective,30,hail a taxi at the intersection,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,6,na
+test,possible,scenario2,reflective,31,call a friend for a ride,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,6,na
+test,possible,scenario2,reflective,32,take public transportation,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,6,na
+test,impossible,scenario2,reflective,33,get a new car by thinking,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,6,na
+test,impossible,scenario2,reflective,34,ride a cat to the airport,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,6,na
+test,impossible,scenario2,reflective,35,teleport himself to the airport,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,6,na
+test,impossible,scenario2,reflective,36,levitate and fly to the airport,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,2,f j,6,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Brian is the evening manager at a bakery. Near the end of the day, he realizes that $50.75 is missing from the register and that he is responsible for accounting for the money at the end of the day. Brian knows he has to make sure the register is balanced or he might lose his job.",na,na,na,na,na,3,na,6,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Brian's situation, please tell us whether it is true or false that Brian could do the following things.",press [space] when you are ready to begin. *** Remember to slowly and carefully consider each event!***,na,na,na,na,na,3,na,6,na
+test,na,,,na,Is it true or false that Brian could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,3,na,6,2000
+test,immoral,scenario3,reflective,61,overcharge the next customers,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,6,na
+test,immoral,scenario3,reflective,62,steal money from a coworker,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,6,na
+test,immoral,scenario3,reflective,63,lie about how much the bakery sold,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,6,na
+test,immoral,scenario3,reflective,64,give new customers incorrect change,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,6,na
+test,possible,scenario3,reflective,49,explain the situation to his boss,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,6,na
+test,possible,scenario3,reflective,50,ask other employees what to do,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,6,na
+test,possible,scenario3,reflective,51,get a payday advance loan,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,6,na
+test,possible,scenario3,reflective,52,sell something he owns for money,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,6,na
+test,possible,scenario3,reflective,53,use money from his own wallet,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,6,na
+test,possible,scenario3,reflective,54,add in money from his daily tips,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,6,na
+test,possible,scenario3,reflective,55,borrow money from a friend,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,6,na
+test,possible,scenario3,reflective,56,write a check for $50.75,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,6,na
+test,impossible,scenario3,reflective,57,turn the cash register invisible,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,6,na
+test,impossible,scenario3,reflective,58,use some monopoly money instead,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,6,na
+test,impossible,scenario3,reflective,59,take pictures of missing bills,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,6,na
+test,impossible,scenario3,reflective,60,get the money by sneezing a lot,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,3,f j,6,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Liz decides to go to the gym on her lunch break because she is going to have to work late tonight and won't have time during the evening. When she gets to the gym, she realizes that her membership has expired since she last went.",na,na,na,na,na,4,na,6,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Liz's situation, please tell us whether it is true or false that Liz could do the following things.",press [space] when you are ready to begin. *** Remember to slowly and carefully consider each event!***,na,na,na,na,na,4,na,6,na
+test,na,,,na,Is it true or false that Liz could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,4,na,6,2000
+test,improbable,scenario4,reflective,89,learn the gym stopped checking IDs,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,6,na
+test,improbable,scenario4,reflective,90,receive a free lifetime membership,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,6,na
+test,improbable,scenario4,reflective,91,find a one-day pass in purse,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,6,na
+test,improbable,scenario4,reflective,92,discover the gym is free today,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,6,na
+test,possible,scenario4,reflective,73,wait to go to the gym tomorrow,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,6,na
+test,possible,scenario4,reflective,74,go for a run outside instead,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,6,na
+test,possible,scenario4,reflective,75,decide to lift weights at home,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,6,na
+test,possible,scenario4,reflective,76,eat lunch instead of working out,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,6,na
+test,possible,scenario4,reflective,77,use a friend's guest pass,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,6,na
+test,possible,scenario4,reflective,78,pay for a one-day gym pass,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,6,na
+test,possible,scenario4,reflective,79,be allowed in just this once,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,6,na
+test,possible,scenario4,reflective,80,renew her gym membership,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,6,na
+test,impossible,scenario4,reflective,81,turn invisible and go in,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,6,na
+test,impossible,scenario4,reflective,82,wish all gyms to be free forever,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,6,na
+test,impossible,scenario4,reflective,83,renew her membership by blinking,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,6,na
+test,impossible,scenario4,reflective,84,turn her hat into a gym pass,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,4,f j,6,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,Mary is about to go to her final class of the day when she remembers that there is a homework assignment that is due. Mary's mom accidentally took her homework assignment out of her backpack when she was making room for her lunch. Now Mary has nothing to turn in for credit.,na,na,na,na,na,5,na,6,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Mary's situation, please tell us whether it is true or false that Mary could do the following things.",press [space] when you are ready to begin. *** Remember to slowly and carefully consider each event!***,na,na,na,na,na,5,na,6,na
+test,na,,,na,Is it true or false that Mary could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,5,na,6,2000
+test,irrational,scenario5,reflective,117,ask her mom to FedEx the homework,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,6,na
+test,irrational,scenario5,reflective,118,look under the lunchroom tables,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,6,na
+test,irrational,scenario5,reflective,119,turn in a completely blank page,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,6,na
+test,irrational,scenario5,reflective,120,turn in last week's homework again,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,6,na
+test,possible,scenario5,reflective,97,run home to get her homework,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,6,na
+test,possible,scenario5,reflective,98,bring in her homework tomorrow,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,6,na
+test,possible,scenario5,reflective,99,ask for an extra-credit assignment,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,6,na
+test,possible,scenario5,reflective,100,ask her mom what she should do,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,6,na
+test,possible,scenario5,reflective,101,explain what happened to her teacher,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,6,na
+test,possible,scenario5,reflective,102,quickly redo the homework assignment,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,6,na
+test,possible,scenario5,reflective,103,ask her mom to bring the homework,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,6,na
+test,possible,scenario5,reflective,104,have her parents call the teacher,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,6,na
+test,impossible,scenario5,reflective,105,have her homework teleported,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,6,na
+test,impossible,scenario5,reflective,106,remind herself yesterday evening,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,6,na
+test,impossible,scenario5,reflective,107,turn in several socks instead,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,6,na
+test,impossible,scenario5,reflective,108,erase the teacher's memory,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,5,f j,6,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,Please read the following story,"Brad and some friends are hiking through the mountains in the Canadian wilderness. A couple of days into their hike, Brad realizes that they are lost. He knows that a rescue crew could arrive before long, but it is extremely cold and they don't have much food or water left.",na,na,na,na,na,6,na,6,na
+instructions,na,,,na,na,na,na,na,,600,na,na,na,na,"Given Brad's situation, please tell us whether it is true or false that Brad could do the following things.",press [space] when you are ready to begin. *** Remember to slowly and carefully consider each event!***,na,na,na,na,na,6,na,6,na
+test,na,,,na,Is it true or false that Brad could do the following things?,na,na,na,,600,na,na,na,word,na,na,na,na,na,2000,na,6,na,6,2000
+test,immoral,scenario6,reflective,133,secretly take his friends' food,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,6,na
+test,immoral,scenario6,reflective,134,leave the weakest people behind,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,6,na
+test,immoral,scenario6,reflective,135,rob other hikers they meet,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,6,na
+test,immoral,scenario6,reflective,136,kill his friend's pet dog for food,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,6,na
+test,possible,scenario6,reflective,121,stay put and wait for help,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,6,na
+test,possible,scenario6,reflective,122,follow a river out of the wilderness,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,6,na
+test,possible,scenario6,reflective,123,alert rescuers with emergency flares,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,6,na
+test,possible,scenario6,reflective,124,find a river for fresh water and fish,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,6,na
+test,possible,scenario6,reflective,125,get more food by hunting and fishing,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,6,na
+test,possible,scenario6,reflective,126,build a large fire to alert rescuers,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,6,na
+test,possible,scenario6,reflective,127,create a shelter to stay warm,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,6,na
+test,possible,scenario6,reflective,128,be found by the rescue crew,na,na,na,j,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,6,na
+test,impossible,scenario6,reflective,129,use his mind to keep everyone warm,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,6,na
+test,impossible,scenario6,reflective,130,make new jackets from pine trees,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,6,na
+test,impossible,scenario6,reflective,131,alert airplanes overhead  by yelling,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,6,na
+test,impossible,scenario6,reflective,132,grind up rocks for food and water,na,na,na,f,600,na,na,na,word,na,na,na,na,na,na,1,6,f j,6,na

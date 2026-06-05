@@ -1,36 +1,32 @@
-# Modal thought
+# Modal Thought
 
-`Modal thought` is an academic research project platform for presenting data, code, and text together in a GitHub Pages site.
+A living paper by Jonathan Phillips, published via GitHub Pages.
 
-## Project structure
+## How it works
 
-- `index.html` — landing page and site entry point
-- `data/` — dataset files, exports, and summaries
-- `code/` — analysis scripts, notebooks, and tools
-- `text/` — documentation, manuscripts, and research notes
+Article text is written in Markdown files in `content/`, then compiled into `index.html` by Pandoc using the template in `templates/article.html`. Pushing to `main` triggers a GitHub Actions build and deployment automatically.
 
-## Next steps
+## Writing
 
-1. Add project data and analysis code.
-2. Expand the site with interactive visualizations.
-3. Configure GitHub Pages once the remote repo is created.
+- Add or edit sections in `content/` — files are concatenated in alphabetical order.
+- `content/00-meta.md` holds the YAML frontmatter (title, author, abstract).
+- Subsequent files (`01-introduction.md`, `02-methods.md`, …) are the article sections.
 
-## GitHub Pages
+## Local preview
 
-This repository includes an automated GitHub Pages deployment workflow. When you push changes to `main`, the Pages Action will build and publish the site from the repository root.
+```bash
+bash build.sh   # generates index.html
+open index.html
+```
 
-Published site URL:
-- `https://phillipsjs.github.io/modal-thought/`
+Requires [Pandoc](https://pandoc.org) ≥ 3.0.
 
-## Example data import
+## Repository structure
 
-This project now includes an initial example import from the `modal-spaces` dataset.
-See `external/modal-spaces/README.md` for the imported files and `text/modal-spaces-context.md` for context about how the data are structured.
-
-Interactive examples:
-- `study1a-explorer.html` — explore Study 1a data with scenario context and participant filtering.
-- `figure1.html` — recreate the Figure 1 plot from the modal-spaces write-up with interactive controls.
-
-## Living paper and versioning
-
-This repository is intended to be a living paper rather than a static report. The `living-paper.html` page explains the project philosophy, and `version.json` tracks the current release metadata. Future updates should add version history and interactive exploration pages.
+- `content/` — Markdown source files for the article
+- `templates/` — Pandoc HTML template and CSS
+- `data/` — datasets and exports
+- `code/` — analysis scripts
+- `external/` — imported datasets from related projects
+- `build.sh` — local build script
+- `.github/workflows/pages.yml` — CI build and deploy
