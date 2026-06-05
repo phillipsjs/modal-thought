@@ -1,0 +1,1625 @@
+scenario_id_fr,text,coded1,coded2,coded final
+1_26_1,ask for help,1,0,1
+1_32_1,Borrow the money for the medication,0,4,4
+1_54_1,Contact the medication company to see if they have a plan to help. ,10,14,10
+1_56_1,"Check prices in Canada, usually cheaper.",1,12,12
+1_82_1,Ask doctor for samples,0,12,0
+1_83_1,"Ask the doctor for a lot of ""samples""",0,12,0
+1_103_1,steal the medicine,9,8,8
+1_6_2,Accept fate and die,0,5,5
+1_20_2,create a fake insurance card,0,8,0
+1_26_2,see about a discount,0,12,10
+1_29_2,get free health care somewhere,0,12,13
+1_34_2,Buy it using their credit card.,11,4,11
+1_35_2,Look for other insurance alternatives,0,13,13
+1_42_2,put on a credit card,11,4,11
+1_47_2,Credit card fraud,0,9,9
+1_48_2,get a 2nd opinion,0,12,0
+1_56_2,"Write to medicine company, they usually have lower prices for those who don't have insurance.",10,12,10
+1_67_2,call the pharmaceutical company and ask for financial assistance,10,14,10
+1_68_2,Ask for help from a church ,2,3,3
+1_77_2,travel to another country to get it cheaper,0,12,12
+1_80_2,Commit insurance fraud.,0,9,9
+1_82_2,ask pharmacist if the company has discounts,0,10,10
+1_83_2,Call an advocacy group to help pay for drugs,3,2,3
+1_88_2,Insurance claim,14,13,14
+1_89_2,contact her MD,0,12,0
+1_90_2,ask a doctor for help,0,12,0
+1_91_2,"their plans include coverage for over 3,000 drugs so you",0,14,0
+1_94_2,Start selling drugs to get the money needed,0,8,0
+1_98_2,He could request for an advance at work,0,6,0
+1_99_2,Go to a local church for donations,2,3,3
+1_102_2,Try to get a loan from a friend or family member.,1,4,1
+1_1_3,Take out a loan.,4,4,4
+1_11_3,Ask the hospital to finance it,0,10,10
+1_13_3,Contact his congresspeople for help.,0,3,3
+1_16_3,Talk to the medical person and find out if there is another way to get the medication,0,12,0
+1_17_3,contact a local spiritual assembly to start a donation fund,2,3,3
+1_22_3,withdraw from his 401 K,11,14,11
+1_23_3,Ask friends and strangers for help.,2,1,1
+1_26_3,go somewhere else,0,12,0
+1_28_3,Reach out to the local community,2,3,2
+1_35_3,Come up with a payment plan to purchase the medication,0,4,4
+1_48_3,try holistic methods,0,12,12
+1_55_3,Heinz could threaten the pharmaceutical company,0,10,0
+1_56_3,Write to insurance company to reconsider this med because she has to have it.,14,10,14
+1_60_3,work extra hours,0,6,6
+1_62_3,Go into debt,11,4,11
+1_83_3,Ask pharmacist for generic drug/coupon/rebate,12,10,10
+1_91_3,need at an affordable rate. Use Cigna's online tool to find,0,14,0
+1_98_3,he could wait till he has saved up enough,0,5,5
+1_9_4,Put it on a credit card and then work extra hours to pay it off,0,6,6
+1_14_4,look for prescription coupons or discount services,0,10,10
+1_27_4,put it on a credit card,11,4,11
+1_28_4,Start a go fund me,2,11,2
+1_33_4,Get new insurance that covers the medication.,3,13,13
+1_37_4,Hire a mercenary to get it,0,8,8
+1_40_4,grants,0,3,3
+1_43_4,Take the medication every other day to extend it.,0,12,0
+1_45_4,let her get sicker,5,11,5
+1_50_4,Talk to churches and see if they could give money and help out,2,3,3
+1_61_4,He asks for help with friends,2,1,1
+1_62_4,Ignore it,5,0,5
+1_63_4,pay for the medicine with credit,11,4,11
+1_64_4,nothing,5,0,5
+1_70_4,ask their church community for help if they are religious,2,3,3
+1_71_4,Ask someone else for the medicine,1,12,1
+1_72_4,"Break into a person's home, steal items and sell them off for money",0,9,9
+1_81_4,Ask his church for help.,2,3,3
+1_85_4,Make a plea to a local religious organization.,2,3,3
+1_86_4,Heinz can beg for money.,2,0,2
+1_88_4,Take treatment,0,11,0
+1_91_4,Preferred pharmacy: Refers to a smaller number of pharmacies,0,3,0
+1_98_4,he could abandon his wife,0,5,5
+1_102_4,Talk to her doctor.,0,12,12
+1_104_4,Steal medicine,8,8,8
+1_4_5,work extra hours for the money,0,6,6
+1_5_5,Get a coupon,0,10,10
+1_17_5,look for a local support group that deals with his wife's illness and see if they havve any ideas,0,3,0
+1_20_5,try to get someone else to give them their medication,0,3,0
+1_28_5,Look into medicine in other countries,0,12,12
+1_35_5,Purchase the medicine out of country for a cheaper price,0,12,12
+1_36_5,Try and find the medication online.,0,12,12
+1_45_5,pray,0,5,0
+1_46_5,Heinz could seek the help of health awareness activists.,0,3,3
+1_53_5,Kidnap the insurance company's CEO's child until they agree to cover his wife's medication.,0,8,8
+1_54_5,Cash in CD's or take money out of a retirement fund to help.,7,11,7
+1_55_5,Heinz could euthanize his wife,0,5,0
+1_56_5,Refinance their house.,0,4,4
+1_57_5,virtual for her,0,5,0
+1_69_5,Ask a local clinic for help,3,12,3
+1_70_5,write a bad check to pay for the medication,0,8,8
+1_76_5,Illegally gather funds for the medication,0,9,9
+1_81_5,"Look online for prescription savings, such as Good RX.",0,10,10
+1_88_5,Buy expensive medicine,11,11,11
+1_91_5, lower cost for your medication. ,0,10,0
+1_96_5,Heinz could get a job with better insurance coverage,6,13,13
+1_98_5,he could go around begging for money,2,1,2
+1_102_5,Contact political leadership.,2,3,3
+1_103_5,sue the insurance company,0,14,14
+1_104_5,Hope for the best,0,5,5
+2_6_1,Forget flightfix car,2,5,13
+2_13_1,See how long it would take AAA to get there.,8,2,2
+2_19_1,Call his auto club.,8,2,8
+2_26_1,call for help,14,4,14
+2_51_1,Have his car towed and take an uber.,2,1,1
+2_58_1,flag someone down,3,11,3
+2_70_1,call the airline and see if he can reschedule his flight,7,10,7
+2_86_1,He can go to sleep.,0,15,15
+2_4_2,Call for a tow truck,2,2,2
+2_6_2,Get refund for trip,0,7,0
+2_26_2,listen to the radio,0,15,15
+2_48_2,use a rideshare app,1,3,1
+2_50_2,He could flag another car down so he can call a tow truck,2,11,2
+2_64_2,call a tow,2,2,2
+2_71_2,Wait for someone to repair the car,2,13,2
+2_72_2,Try to flag someone down for a ride,3,11,3
+2_73_2,Call a rideshare (and a towtruck),1,3,1
+2_82_2,call a shuttle,1,12,1
+2_85_2,flag down another motorist.,3,11,3
+2_95_2,call a ride sharing service,1,3,1
+2_104_2,Call for help,14,4,14
+2_10_3,Call roadside assistance,8,14,14
+2_11_3,"Call the flight company, explain the situation and ask for the next flight",7,10,7
+2_13_3,Check if the flight is running late.,0,7,0
+2_35_3,Show up late and hope for the best,0,15,15
+2_37_3,Call help,14,4,14
+2_64_3,panic,0,15,0
+2_70_3,call for ridesharing through the phone or app,1,3,1
+2_82_3,try to get a ride with a stranger,3,11,3
+2_90_3,wait for help ,0,15,0
+2_15_4,ask someone else for a ride to the airport,0,3,3
+2_37_4,Wait,0,15,0
+2_38_4,Accept he is not going to make his flight and take care of his car first.,5,5,5
+2_51_4,Just leave the car there and let the police tow it...and hitchhike to the airport.,3,16,16
+2_63_4,leave the car and walk to the airport,6,16,16
+2_79_4,Get really frustrated in his car,0,15,0
+2_86_4,He can stay in his car and see if anybody stops to help him.,0,15,15
+2_90_4,abandon his car and hitch a ride,3,16,3
+2_95_4,hitchhike,2,3,3
+2_100_4,Call the airport to change his ticket,7,10,7
+2_104_4,Dream really hard,0,15,0
+2_4_5,Leave the car and walk to the airport,16,6,6
+2_7_5,Josh can call roadside assistance if he has it,8,2,2
+2_13_5,Rethink how important it is to kill wild animals in Africa.,0,15,0
+2_15_5,forfeit it all as lost,0,5,5
+2_24_5,pay someone to take you ,0,11,11
+2_26_5,ask some one to help him get to the airport,13,11,11
+2_27_5,use a ridesharing app,1,3,1
+2_36_5,Wait for help,0,15,0
+2_38_5,Get his car towed and cancel the flight.,2,5,5
+2_45_5,sleep,0,15,0
+2_61_5,He tried catch the lift ,0,1,1
+2_64_5,flag down a stranger to take him home,0,11,11
+2_65_5,See if he can move the flight back,10,7,7
+2_70_5,don't worry about and just try to get there when he get there,0,15,0
+2_74_5,Josh calls the airline to see if he can exchange his flight to a different time or day.,7,10,7
+2_78_5,cry,0,15,0
+2_79_5,Call a towing company and ask them to give him a lift,0,3,2
+2_85_5,cry.,0,15,0
+2_90_5,abandon his car and call for a ride,1,16,16
+2_97_5,delay the trip for a dew weeks ,5,7,7
+2_101_5,pray and hope for miracle,0,15,0
+2_104_5,Give up,0,5,5
+3_11_1,Ask the employers,4,2,4
+3_13_1,Double check the books for errors.,0,9,9
+3_18_1,Brian can go through the receipts and try to find the source of the error.,9,8,9
+3_42_1,continue working alone till he found the money discrepancy,9,11,9
+3_61_1,Will explain the situation,12,2,2
+3_75_1,Ask if someone made an overring,4,12,4
+3_88_1,Recall,0,9,9
+3_2_2,take money out of the tip jar,0,14,14
+3_9_2,Tell the manager that it's his fault and not to punish everyone else,0,2,2
+3_11_2,Make everybody work over time,12,11,12
+3_23_2,Find out who is responsible and make them pay.,0,4,4
+3_30_2,ask his friends to add money,0,5,5
+3_46_2,Brian could take the money out of his staff's pay.,0,5,5
+3_50_2,He could tell his boss to take it from his check,1,2,1
+3_61_2,He need help to the colleague,0,4,4
+3_65_2,Lie and say it was someone else fault,10,3,10
+3_68_2,Let it be unbalanced ,6,3,6
+3_79_2,Confront his staff to see if someone stole it,4,5,4
+3_85_2,ask the staff about the missing money.,4,5,4
+3_86_2,He can hide and see if anybody noticed.,0,3,3
+3_88_2,Identify,0,13,0
+3_91_2,realizes that $50.75 is missing from the register,0,6,0
+3_94_2,accuse the least trusted person at work of theft,10,9,10
+3_97_2,Create a flex money drawer with leftover money or surplus money should go in the future,0,14,0
+3_99_2,He could look through all the receipts to see if there is a transaction error,13,9,13
+3_102_2,He could gather his team to discuss the matter.,0,4,4
+3_6_3,Void sales to balance,0,3,0
+3_11_3,"Ask the employers, tell them if nobody comes forward everybody has to do overtime",4,12,12
+3_14_3,ask the manager if he could for go the overtime for staff,11,12,11
+3_19_3,Review the receipts to try and determine what happened.,13,9,9
+3_20_3,change the receipts to show the register is correct,3,9,3
+3_27_3,tell someone about the situation,0,2,2
+3_42_3,let everyone continue to find the discrepancy,0,13,0
+3_47_3,Have a meeting,0,4,4
+3_50_3,He could tell his boss that someone stole it,10,2,10
+3_60_3,search for the money,13,13,13
+3_64_3,fire the employee working the register,0,10,10
+3_67_3,redo calculations,0,9,9
+3_68_3,Tell someone,0,2,2
+3_74_3,Ask his co-workers for help in the situation.,5,4,4
+3_75_3,Check to see if the missing money is in the form of a check,0,9,9
+3_82_3,ask a coworker to recount the drawer for him.  ,0,9,9
+3_83_3,"Check under the till for large bills that may have been changed but not counted correctly, maybe there's a $50 bill there...",13,9,13
+3_85_3,lie to the manager.,3,3,3
+3_86_3,He can tell his friend and ask him to tell his boss.,0,2,2
+3_90_3,tell the manager that they were robbed,3,2,3
+3_91_3,This module will explain the basics of the balance sheet,0,9,0
+3_97_3,Report the money as a deficit and let the company cover the bill,0,2,0
+3_1_4,Try and sell more.,0,11,11
+3_6_4,Call staff find out who stole it.,4,13,4
+3_10_4,Hide the mistake somehow,3,1,3
+3_12_4,he should try to balance the missing money,0,1,1
+3_26_4,search the employees,13,4,4
+3_30_4,pretend he thought all the money was there,3,6,6
+3_33_4,Look through receipts to determine why the money is missing. ,13,9,9
+3_36_4,Check the logs of sales,13,9,9
+3_39_4,Say that he forgot to place the money of a customer into the register.,3,2,3
+3_40_4,take it out someones check,0,14,14
+3_46_4,Brian could get his staff arrested for theft.,0,10,10
+3_48_4,leave work,6,7,6
+3_52_4,just put it in the safe the way it is,6,1,6
+3_53_4,Recheck the receipts to see if a mistake was made.,13,9,9
+3_56_4,Go thru all the receipts and maybe try to figure out if there's a legit short somewhere.,13,9,9
+3_60_4,have a meeting with the staff,0,4,4
+3_61_4,Or reduce his salary,0,1,1
+3_79_4,Try to plead with the manager to not make the staff work overtime,0,2,2
+3_82_4,Ask his boss to recount the money.,2,9,9
+3_84_4,hide the mistake,3,1,3
+3_87_4,Brian will check the receipts.,13,9,9
+3_88_4,Analysis,0,13,0
+3_90_4,go home saying he is sick,7,6,6
+3_92_4,find out who took the money,0,13,13
+3_94_4,just leave it as is and let people work overtime,6,12,12
+3_97_4,Implement a new method for counting money and verifying the amount twice,0,9,9
+3_4_5,Redo his paperwork to find his error,13,9,13
+3_8_5,Ask his family for the money,0,1,0
+3_12_5,he should rectify the mistake,0,1,0
+3_17_5,make up a story about being robbed,0,3,3
+3_22_5,hope staff tells me that they made a mistake,0,4,4
+3_31_5,Say that he got robbed,0,3,3
+3_37_5,Ask for help explain what happened.,0,4,4
+3_38_5,Act like he didn't know the money was missing.,3,6,6
+3_39_5,Borrow the money from a fellow employee.,0,5,5
+3_42_5,add back the money to make it balance,0,1,1
+3_43_5,Tell the manager that he believes one of the employees stole it.,1,2,2
+3_50_5,He could say an emergency happened and he needed to use the money for the shop,0,3,0
+3_51_5,Leave a note on the register for the morning manager and go home.,0,2,2
+3_53_5,Not tell anyone and leave before seeing the manager.,6,2,6
+3_54_5,Feign an illness so he can go home and not worry about the consequences. ,0,6,6
+3_56_5,"If all else fails, work OT with the rest of the staff keeping an eye out for one of the employees who might be guilty.",0,13,13
+3_59_5,Let the main manager do whatever he/she feels necessary.,0,2,2
+3_61_5,Lay off the job,0,7,7
+3_64_5,educate employees on handling money,0,4,4
+3_69_5,Offer to work extra to pay the money back but request the manager investigate,0,11,11
+3_72_5,Ask another worker to cover it,0,10,0
+3_74_5,Make a deal with the manager so that you can take on the consequence alone.,11,2,11
+3_83_5,See if there were any coupons used/not counted or discounts/refunds on the register tape ,8,9,9
+3_85_5,torture the staff until one confesses to stealing it.,0,4,0
+3_97_5,Have a meeting about theft and the consequences with staff,0,4,4
+3_102_5,He could explain to staff that overtime would be required of all if someone didn't come forward.,0,4,0
+3_103_5,say he was robbed,0,3,3
+4_6_1,Pay her bill,0,1,1
+4_12_1,she should get help from others,0,3,3
+4_14_1,go to the gym and explain the situation,0,7,7
+4_17_1,ask the person at the desk to call her friend for her,2,13,13
+4_28_1,Abandon her friend,9,4,9
+4_32_1,call from the place phone,0,2,2
+4_38_1,Just go and find her friend anyway.,0,5,5
+4_46_1,Liz could lie that she was not feeling fine so they don't have to go.,0,11,11
+4_50_1,She could show up and tell the gym she left her membership card at home and see if they let her in,0,7,7
+4_54_1,Ask the receptionist at the gym to let her friend know the situation for her.,10,13,10
+4_61_1,she decide take phone from others ,0,3,3
+4_72_1,Try to find a person outside the gym who would let her use their phone,3,2,3
+4_74_1,Ask someone to use their phone to call her friend.,3,2,3
+4_80_1,Go in to the gym anyways.,0,5,5
+4_92_1,Leave the gym,4,4,4
+4_5_2,Ask the person at the desk to call her friend,2,13,13
+4_7_2,Liz can leave without saying anything,9,4,4
+4_12_2,she try to contact her friend from other phone ,0,3,3
+4_14_2,tell her friend the next day that she was sick and couldn't make it,0,11,0
+4_17_2,ditch her friend and go back to work to get her phone,9,12,9
+4_18_2,Ask the front desk at the gym to call her friend for her.,2,13,13
+4_20_2,leave and not tell her friend,9,4,9
+4_26_2,ask someone to get her friend,0,13,13
+4_30_2,try to find her friend outside the gym,0,6,6
+4_34_2,Leave and find a phone to call them on.,3,12,12
+4_35_2,Simply not show without letting anyone know,9,4,9
+4_39_2,Hitchhike,0,8,0
+4_40_2,ask to use a phone,3,2,3
+4_42_2,go anyway and try to get in,0,5,5
+4_44_2,Ask the desk attendant to page her friend,2,13,13
+4_45_2,Go home and call.,0,14,14
+4_46_2,Liz could tell her friend about her expired membership.,0,11,11
+4_47_2,Use a public phone,0,15,15
+4_53_2,Ask someone if she can borrow their phone to call her friend.,2,3,3
+4_60_2,email her,0,10,10
+4_61_2,go away from the gym,0,4,4
+4_65_2,See if she can reapply,0,1,1
+4_69_2,or wait for her friend and tell he she cant play because she doesn't want to renew her membership,6,1,6
+4_78_2,play dumb and pretend she didn't know about the expiration,0,7,0
+4_85_2,ghost her friend.,9,4,9
+4_86_2,She can go to the gym anyways and ask what can be done about her membership.,0,1,0
+4_87_2,She will ask someone if she can pass without a card.,7,8,7
+4_90_2,leave,9,4,4
+4_95_2,ask someone going into the gym to tell her,0,13,13
+4_96_2,ask to borrow a phone,2,3,3
+4_100_2,Stand up her friend.,9,0,9
+4_102_2,Leave a note on the friend's car.,10,4,10
+4_103_2,go back and get her stuff,0,12,0
+4_6_3,Ditch friend and lie,0,4,4
+4_8_3,Ask somebody else to tell her friend,0,13,13
+4_17_3,ask someone coming in to get her friend,0,13,13
+4_18_3,Liz can try to catch her friend before it is too late by leaving the gym and driving to where she thinks her friend will be.,0,4,0
+4_21_3,she could leave,9,4,9
+4_24_3,not show up,9,4,9
+4_27_3,leave without telling her friend,9,4,9
+4_31_3,Call for her friend,0,2,2
+4_35_3,Drive down and let her friends know the situation in person,0,6,6
+4_36_3,Ask if she can tell her friend she can't play,0,13,13
+4_39_3,Ask a stranger for a ride.,0,8,0
+4_42_3,leaving without letting her friend know,9,4,9
+4_46_3,Liz could choose not to say a word about it.,0,11,0
+4_53_3,Ditch her friend.,9,4,4
+4_58_3,go to here friend to tell her,0,13,13
+4_61_3,Ask apology to the gym management ,0,7,7
+4_69_3,wait for her friend and play with renewed membership,6,1,1
+4_74_3,Do nothing.,9,0,0
+4_76_3,Leave the gym and never contact her friend again,9,4,9
+4_78_3,ask a friend to get her phone,0,3,3
+4_84_3,leave the gym ,4,4,4
+4_98_3,Liz could ask someone to send a message to her friend,0,3,3
+4_99_3,Find a computer near by to send a message through facebook,0,13,0
+4_101_3,ignore friend,0,4,4
+4_103_3,leave her friend hanging,9,4,4
+4_4_4,Walk the same way her friend would walk and try to find her,0,6,0
+4_5_4,Skip the game,9,4,9
+4_7_4,Liz can not renew her membership,0,1,0
+4_8_4,Tell the receptionist at the gym what's going on,0,7,7
+4_12_4,she try to get her phone by seeking help from others,0,3,3
+4_15_4,Leave a message on her friend's car.,0,10,10
+4_20_4,promise to pay next time,0,7,7
+4_22_4,if no phone go to another place or business to use there phone,0,3,3
+4_32_4,leave the place,9,4,4
+4_33_4,"Cancel the racquetball game once her friend arrives, and explain. .",6,11,11
+4_37_4,Tell worker her situation ask for a 1 day free pass.,8,7,8
+4_39_4,Ask the staff for a ride.,0,7,7
+4_40_4,leave ,9,4,4
+4_41_4,lie to get in,0,5,5
+4_43_4,Ask a gym member to use their phone to call her friend.,3,2,3
+4_45_4,Start running outside while waiting.,0,6,0
+4_46_4,Liz could cancel out on her game with her friend without stating why.,0,11,0
+4_49_4,Do nothing and leave the gym,9,4,4
+4_51_4,Drive home and call from the house to have someone at the gym let her friend know.,0,13,13
+4_57_4,her membership,0,1,0
+4_60_4,send her a message with someone,10,3,13
+4_64_4,bribe the front desk for a trial membership,0,8,0
+4_68_4,See if she has a bring a friend for a day thing,0,8,8
+4_78_4,ask her friend to pay her renewal now with the promise of payback,0,1,0
+4_87_4,She will steal someone's membership card.,0,5,5
+4_90_4,tell gym staff that she forgot her membership id,0,7,7
+4_93_4,Do nothing and leave,9,4,4
+4_94_4,just leave and pretend she thought they were supposed to play another time or day,0,4,0
+4_102_4,Ask anyone else nearby to deliver a message.,0,3,3
+4_2_5,pretend she is still a member,0,5,5
+4_12_5,she try to intimate her friend,0,5,5
+4_24_5,call on a land line ,0,2,2
+4_25_5,Suggest they do something else,0,10,0
+4_29_5,leave,9,4,4
+4_31_5,Ditch her friend,9,4,4
+4_33_5,Ask her friend to get a membership. ,0,1,0
+4_35_5,Try to get in despite her expired membership,7,5,7
+4_37_5,Go home ditch her friend. Then ghost her.,0,14,14
+4_41_5,get her phone,0,12,12
+4_43_5,Leave the gym and hope her friend doesn't show.,0,4,4
+4_46_5,Liz could ask her friend if they could spend time on something else.,0,13,13
+4_57_5,lunch break,0,16,16
+4_58_5,not say anything,0,4,4
+4_60_5,let her know by other means. ,0,13,13
+4_65_5,Just say she forgot,0,11,0
+4_67_5,ask the gym to let her in to find her friend,7,13,7
+4_72_5,"Head to a store, use the phone to call her friend and let her know the situation",0,3,3
+4_74_5,See if she can talk to her friend while she's at the gym.,0,13,0
+4_75_5,Lie that the gym messed up her membership expiration date and that she is still current,0,7,0
+4_76_5,Leave and get her phone to contact her friend,12,10,12
+4_77_5,do nothing and just ditch her friend,9,4,4
+4_78_5,don't go to the gym,0,4,4
+4_79_5,Leave without telling her friend,9,4,4
+4_80_5,Call her friend from a phone at the gym front desk.,2,3,2
+4_93_5,Ask to borrow a phone at the gym,2,3,3
+4_96_5,force her way in,0,5,0
+4_97_5,ask another patron to let her in with their membership card,0,7,7
+4_99_5,Use a phone at another nearby business,0,3,3
+4_104_5,go tell her friend in person,0,13,0
+5_1_1,Do nothing and take the punishment.,5,1,5
+5_6_1,Buy soeone elses and write her name on it.,0,12,12
+5_50_1,Tell the teacher and explain what happened tell her to call the mom.,0,2,2
+5_72_1,Accept that the assignment will have to be late and get a worse grade,5,14,14
+5_79_1,Tell the teacher what happened,1,1,1
+5_80_1,Tell the teacher what happened.,1,1,1
+5_12_2,she should find help from others,0,4,4
+5_16_2,Tell teacher that you can hand it in later that day,9,14,14
+5_37_2,Tell teacher an give it tomorrow ,9,14,14
+5_48_2,call her mom at school and have her talk to the teacher,2,13,13
+5_51_2,Explain the situation to her teacher and ask that she bring it as soon as possible.,9,1,1
+5_70_2,ask her mom to write her a note and explain what happened,2,13,13
+5_83_2,"Tell classmate what's up, ask to see homework to redo it",3,4,3
+5_88_2,Shout,0,10,10
+5_91_2,Forgot my backpack in my Dad's car and he is out of town,0,7,7
+5_95_2,offer to bring it in later that day,9,14,14
+5_97_2,explain the situation to the teacher and ask to bring it in tomorrow,9,1,1
+5_104_2,Offer to make it up,0,3,3
+5_9_3,Ask to turn the assignment in later,9,14,14
+5_12_3,she should find help from her friends,0,4,4
+5_20_3,promise to bring it in the next day,9,14,14
+5_22_3,ask for a continuence for this assignment,0,9,9
+5_37_3,Blame the mother,0,1,0
+5_50_3,Tell her you are sick use that as an excuse. ,11,7,11
+5_51_3,Call another friend to get the assignment from her mom and bring it to her.,0,2,0
+5_66_3,Feign an illness to leave school,9,11,11
+5_73_3,Pretend to get sick to get out of class,7,11,11
+5_79_3,Ask the teacher to call her mother to confirm this happened,0,2,2
+5_94_3,try to just bring it in the next day,9,14,14
+5_6_4,Tell teacher she needs time to turn in and why.,9,1,1
+5_11_4,Offer the teacher to bring it in the evening,9,14,14
+5_12_4,she should find help from her family ,0,2,2
+5_51_4,Hire an uber driver to go pick it up and bring the assignment to school.,0,8,8
+5_53_4,Skip the class and turn it in the next day.,6,14,6
+5_56_4,Ask herself why she didn't notice this earlier while eating lunch!,0,10,0
+5_59_4,Tell teacher what happened and ask for 1 day delay.,9,1,9
+5_62_4,Ask for help from other students,0,4,4
+5_66_4,Steal someone else's,12,12,12
+5_67_4,take a hit,0,5,5
+5_68_4,Ask for extension and ask her to call mom,9,2,9
+5_74_4,Ask if she can make it up.,9,1,9
+5_82_4,blame her mom,0,1,0
+5_85_4,create a diversion to get ejected from class.,0,6,0
+5_99_4,ask for a second copy of the homework from her teacher,0,1,0
+5_21_5,go home early,6,11,6
+5_31_5,Go home,6,11,6
+5_48_5,see if she can do it the same day,0,9,0
+5_51_5,See if her mom can scan it digitally and send it electronically.,0,2,2
+5_56_5,Skip class and tell teacher she was sick.,11,6,11
+5_59_5,Ask for extra credit.,0,1,0
+5_61_5,Otherwise she will apologize to them,0,1,0
+5_62_5,Talk to the principal,0,1,0
+5_63_5,cry and do nothing,5,10,10
+5_74_5,Yell at her mom when she gets home that she didn't get the credit for her homework.,0,5,0
+5_76_5,Drop out of school and apply at Starbucks,0,6,0
+5_82_5,say she forgot it at home,7,1,1
+5_84_5,pay a classmate for their work,0,4,0
+5_86_5,She can ask her friends to help her write a new assignment.,0,4,4
+5_89_5,Call home to see if anyone else is there,0,2,2
+5_94_5,fake being sick and go home then bring it in later,11,8,11
+5_104_5,Go into school early and get a new copy to reproduce homework,0,4,3
+6_1_1,Call a rescue crew.,2,9,2
+6_5_1,Wait for rescue,4,13,4
+6_6_1,Call for rescue,2,9,2
+6_11_1,Ask his friends if they know where they are ,8,7,8
+6_12_1,he should find them,0,7,0
+6_13_1,Build a fire. A large fire so they can keep warm and so rescue can find them.,1,9,9
+6_15_1,Kill a bear and climb inside it for warmth,0,6,0
+6_19_1,Stay put and wait for rescue.,4,13,4
+6_21_1,wait for the crew,4,13,4
+6_24_1,call rescue crews,2,9,2
+6_28_1,Search for help,0,2,2
+6_30_1,call a rescue crew,2,9,2
+6_34_1,Stay where he is and hope rescue finds him.,4,13,4
+6_36_1,Attempt to find their way back,11,7,11
+6_38_1,Get a hold of the rescue crew anyway and wait it out.,2,13,2
+6_39_1,Keep walking and try to find his way out.,3,7,3
+6_40_1,stay put,4,13,4
+6_43_1,Start to make a shelter.,4,4,4
+6_44_1,Call a rescue crew,2,9,2
+6_45_1,find some water,6,14,14
+6_52_1,try to find a water source,6,14,14
+6_58_1,try to find help,2,8,2
+6_61_1,There he will hear the fire and wait for himself,0,13,0
+6_68_1,Wait for rescue,4,13,4
+6_78_1,make a fire to gain attention,1,9,9
+6_80_1,Not tell anyone that they are lost.,3,13,13
+6_85_1,murder one of his friends and eat them.,5,9,5
+6_86_1,Brad can wait for a rescue crew anyway.,4,13,4
+6_90_1,drink his own urine,0,14,14
+6_91_1,Stop and rest when you start to feel tired.,0,4,0
+6_98_1,Brad should try not to panic,0,13,0
+6_99_1,start a fire and wait for the rescue people,1,9,1
+6_101_1,eat all the food alone,0,10,0
+6_104_1,Collect nearby rations,12,6,6
+6_4_2,search for a source of water,6,14,14
+6_11_2,Call the rescue team,2,9,2
+6_12_2,he should make a search on him,0,7,0
+6_17_2,brad could have everyone share the same tent to conserve heat,0,4,4
+6_22_2,try to signal somehow for help,9,2,9
+6_27_2,try to find a way to contact someone,0,2,2
+6_28_2,Call a rescue crew,2,9,2
+6_36_2,Try to get cellphone service,0,2,2
+6_38_2,Look for water and food in the wilderness.,6,14,14
+6_39_2,Take a break and think of a plan.,0,7,0
+6_46_2,Brad could tell his friends that they are very close to being back to where they started.,0,8,8
+6_54_2,Offer to hike on by himself with a little of the supplies so he can move faster and find help. ,0,7,0
+6_55_2,Brad could keep the problem to himself,0,13,13
+6_59_2,make something to catch rain water,6,14,14
+6_68_2,Flare gun,9,9,9
+6_69_2,Find camp near water,4,14,4
+6_75_2,Develop a plan to expedite their rescue,0,7,0
+6_77_2,try and self rescue,0,3,0
+6_79_2,Keep walking in hopes of meeting people first,3,9,3
+6_80_2,Stop sharing his food and water.,0,10,10
+6_84_2,have one member go for help,0,15,15
+6_97_2,rescue themselves by trying find a nearby village with people to call the rescue crew,0,7,0
+6_98_2,He could gather twigs,0,1,1
+6_99_2,start hiking in the direction of the nearest stream to find other peopl,7,3,3
+6_101_2,share the food in small portions,0,12,12
+6_103_2,wait until he dies,0,13,13
+6_8_3,Use the sun to determine the direction and start walking,7,3,7
+6_10_3,Hide remaining food and water from friends,0,10,10
+6_18_3,Brad can send a signal to call for help.,9,2,9
+6_20_3,give up and wait to die,0,13,13
+6_21_3,look for materials to survive,0,6,0
+6_24_3,hike back,3,11,3
+6_26_3,wait for help,4,13,4
+6_32_3,look for help,0,2,0
+6_39_3,Gather things from the forest for survival.,0,6,0
+6_44_3,Wait for his friends to say something,0,13,13
+6_46_3,Brad could lie to his friends that it was all part of the hiking session.,0,10,0
+6_48_3,setup a campsite with fire,4,1,4
+6_54_3,"Gripe about the trip and how horrible an idea it was, making the situation worse for his friends. ",0,10,0
+6_63_3,start hiking towards water and look for food,6,14,6
+6_64_3,call the rescuers,2,9,2
+6_67_3,find resources in the wilderness,0,6,0
+6_70_3,make sure their group stay warm to avoid hypothermia ,0,4,4
+6_73_3,Build a fire and boil river water,1,14,14
+6_74_3,Look for help in their surrounding.,0,2,0
+6_76_3,Admit defeat and succumb to the elements,0,13,13
+6_79_3,Give up,0,13,13
+6_80_3,Inform everyone they are lost so people start rationing food.,8,12,12
+6_85_3,attempt to hike their way out of the wilderness.,7,3,7
+6_91_3,Make sure to drink enough water to avoid dehydration,0,14,14
+6_95_3,use a phone to help find their way out if there is service,7,2,2
+6_5_4,Divide up the group to look for food/water,15,14,15
+6_10_4,Steal food or water from friends,0,10,0
+6_14_4,look for water and food in their location,6,14,14
+6_15_4,stay put and ration resources,4,12,4
+6_16_4,Search for a source of water,6,14,14
+6_20_4,make plans for surviving long term,0,7,0
+6_30_4,stay together,0,4,0
+6_32_4,pray about it,0,13,0
+6_33_4,Look for a body of water that may have fish in it.,6,14,6
+6_36_4,Make noise to alert help,2,9,9
+6_37_4,Blame his mates fir getting lost.,0,10,0
+6_44_4,Give up and die,0,13,13
+6_45_4,wait,4,13,4
+6_50_4,They could try to explore more till they get help sooner,0,7,7
+6_51_4,Tell everyone to fast and find water...and sleep under soil for warmth.,0,14,14
+6_54_4,Make jokes about how they can eat each other if the situation got really bad. ,0,13,0
+6_55_4,Brad could give up and choose to die in the wilderness,0,13,13
+6_61_4,He will try indentify the smoke for that place ,0,7,0
+6_63_4,leave his friends and go look for help,0,10,10
+6_67_4,find a cave,0,4,4
+6_77_4,eat his friends,5,5,5
+6_82_4,Try to find a hill to hind from the cold wind,0,4,4
+6_83_4,"Find shelter, make a fire, discuss next move",1,4,4
+6_85_4,cry.,0,13,13
+6_86_4,Brad can ask his friends to go and look for help.,8,15,8
+6_88_4,Fast,0,12,12
+6_91_4,Stop and fix small problems while they are still small. ,0,4,0
+6_95_4,take some time to calm down before making any decisions,0,13,0
+6_101_4,make a place to preserve food,0,4,0
+6_103_4,trap some food and find more water,6,14,6
+6_3_5,Sit down and hope a rescue crew shows up in time,4,13,4
+6_4_5,walk in the direction they think is right,7,3,3
+6_11_5,Don't say anything and just pretend they are not lost and continue to walk,3,13,13
+6_18_5,Brad and his friends can have a party and use all the supplies that they have left.,0,13,0
+6_22_5,look for a cave or other secluded place to keep warm,0,2,0
+6_24_5,sleep,0,13,13
+6_25_5,Look for other people,0,2,2
+6_30_5,do not give up hope,0,13,0
+6_33_5,Look for other hikers who may have food and water. ,0,2,2
+6_38_5,Just accept the fact that they are stuck until someone can help them.,0,13,13
+6_39_5,Panic and lose control of himself.,0,13,0
+6_40_5,unsure,0,13,0
+6_45_5,die,0,13,0
+6_47_5,Wait for help,4,13,13
+6_52_5,cry,0,2,0
+6_54_5,Pray for help to arrive soon. ,0,13,0
+6_56_5,"If it's cold in Canada there's probably snow, so melt snow to drink from their fire.",1,14,14
+6_61_5,Who will try to walk away from that place to cutout place,0,3,0
+6_67_5,pray for fast rescue,0,13,0
+6_72_5,Stay optimistic/Keep their spirits up/Stay positive,0,13,0
+6_77_5,try to survive in the woods,0,13,0
+6_79_5,Reassure his friends that help is on the way,0,3,0
+6_80_5,Steal someone else's water and food.,0,10,0
+6_81_5,Pray for help.,0,13,0
+6_83_5,Never go hiking again. ,0,13,0
+6_85_5,set out alone for help.,10,15,10
+6_86_5,Brad can dance to keep himself warm.,0,13,0
+6_87_5,He will go wander on his own.,10,15,10
+6_88_5,Recall,0,11,0
+6_101_5,do nothing and just wait for help,4,13,13
+7_108_1,call mom,9,11,11
+7_111_1,give away the ticket,0,4,4
+7_114_1,Give Ted her ticket,5,4,4
+7_115_1,Ted could go back to get the ticket.,4,3,3
+7_133_1,stay with him,0,10,10
+7_137_1,Buy a new ticket.,6,5,5
+7_139_1,Leave Ted behind to get his ticket and drive off with the rest of her friends,1,13,1
+7_144_1,Take Ted to get his ticket,3,13,13
+7_152_1,sneak in,5,6,6
+7_154_1,buy another ticket,6,5,5
+7_160_1,Return to house anyway,3,2,3
+7_164_1,Wait for Ted to return.,13,3,13
+7_168_1,Pay for another ticket for Ted.,4,5,4
+7_185_1,go into the concert by herself,1,2,1
+7_186_1,Go to the ticket window and see if they can print him a new ticket.,7,12,7
+7_195_1,tell Ted he is out of luck,8,1,1
+7_198_1,Tell Ted to go home alone,1,3,1
+7_205_1,Turn back around,2,3,2
+7_207_1,Call the venue to see if tickets can be bought at the door. ,5,7,5
+7_105_2,IGNORE HIM,8,1,8
+7_106_2,go back,3,2,2
+7_108_2,call dad,0,11,11
+7_111_2,go back home with him,3,2,2
+7_129_2,Tell Ted that she'll meet him inside.,0,13,0
+7_144_2,Try to find another ticket,0,5,5
+7_146_2,tell him they will save him a spot,1,13,1
+7_147_2,Tell him to go home to get it,0,3,3
+7_166_2,lie to the people at the entrance,0,6,6
+7_169_2,wish Ted luck in getting his ticket in time,0,13,13
+7_171_2,drive back,2,3,3
+7_181_2,Drive him home,3,2,2
+7_186_2,See if someone is home at Ted's house to take a picture of the ticket.,0,11,11
+7_205_2,Give the car keys to Ted and he can drive back,0,3,3
+7_208_2,go back,2,3,3
+7_108_3,call a friend,0,11,11
+7_110_3,Ask someone if they wouldn't mind going get it for him.,11,7,11
+7_111_3,tell him sorry,0,1,1
+7_112_3,Sit outside and listen to the concert,0,2,0
+7_114_3,Tell Ted they can still make the end of the show,0,13,13
+7_126_3,Drive back,2,3,3
+7_130_3,Darya might tell Ted she'll stay behind if he misses the concert,0,1,1
+7_132_3,Use her ticket to get in and then see if Ted can use the same ticket,6,7,6
+7_136_3,She could ask one of her friends to loan Ted a ticket,0,5,0
+7_137_3,Ask his friends to split the cost of the ticket.,0,5,0
+7_140_3,Request Ted to return,0,1,1
+7_145_3,sorry Ted,0,1,1
+7_150_3,ask for a refund on the ticket,0,2,2
+7_170_3,Ignore it,0,1,1
+7_174_3,Darya could stomp her feet and pout and get angry.,0,8,8
+7_175_3,Suggest Ted try and get the ticket anyway,0,3,3
+7_178_3,Just turn around and go back with Ted,2,3,2
+7_182_3,Darya can go to the concert by herself and wait for Ted to come.,1,13,1
+7_188_3,Co home to get ticket.,3,3,3
+7_190_3,Darya could try to convince Ted to skip the concert altogether since he would miss part of it,0,2,2
+7_191_3,Try to find someone who happens to have an extra ticket ,0,5,0
+7_200_3,She could offer to wait for him to go home and get his ticket.,0,3,13
+7_202_3,help Ted get another way to show he has a ticket,0,7,7
+7_207_3,Continue to the concert and leave Ted to fate if he has to stay outside the concert. ,0,1,1
+7_115_4,Bribe the guards and/or ticket people.,0,6,0
+7_118_4,Sit in the parking lot,0,10,10
+7_126_4,Tell him he's on his own,8,1,1
+7_127_4,see if someone else has a spare ticket,0,5,0
+7_133_4,go with him,0,3,3
+7_138_4,She could try and bribe a security guard to let them in.,0,7,0
+7_140_4,Return with Ted,0,3,3
+7_147_4,Ignore him,8,1,8
+7_148_4,Express sadness for him,0,1,0
+7_150_4,give ticket away to anotehr friend,0,4,0
+7_154_4,take a ticket from someone,0,5,5
+7_162_4,"Tell Ted to go home and get his ticket, while she watches the concert by herself",1,3,1
+7_163_4,Tell him he's on his own,8,1,1
+7_166_4,tell him to stay,0,1,0
+7_171_4,leave him,1,4,1
+7_177_4,To watch the concert on TV.,0,2,0
+7_182_4,Darya can record the concert so Ted doesn't miss what happened.,0,1,0
+7_186_4,Prove that he bought a ticket with email confirmation.,7,12,12
+7_195_4,"give Ted the car keys so he can  get the ticket, then catch up",0,13,13
+7_197_4,Darya and her friends could all listen to the concert from the parking lot,10,2,10
+7_202_4,go back to the house with Ted,2,3,3
+7_208_4,ask for help from friends ,0,11,11
+7_106_5,lie,0,6,6
+7_108_5,call my sister,0,11,11
+7_109_5,Take your friend's ticket,0,5,0
+7_127_5,give him her ticket instead and she goes get the ticket at his house,0,4,4
+7_128_5,Get the ticket herself,0,3,3
+7_130_5,Darya could ignore Ted,8,1,8
+7_140_5,Agree with Ted what to do,0,2,0
+7_141_5,Darya could ask if they accept e-tickets,0,12,12
+7_150_5,try to talk your way in,0,7,7
+7_156_5,They joke Ted for forgetting his ticket,0,8,8
+7_158_5,seek for a way forward ,0,6,0
+7_168_5,Ask to go get the ticket for Ted.,0,3,3
+7_171_5,do nothing,0,1,0
+7_172_5,Darya could convince everyone to do something else together and hopefully get a refund on the tickets.,0,2,0
+7_175_5,Ask Ted to wait in the lobby,0,1,1
+7_177_5,To go to the concert another time.,0,2,2
+7_183_5,give her ticket to Ted and go get his,0,4,4
+7_191_5,"Tell Ted that you wouldn't mind accompanying him back to his house, even though you both might end up missing the concert",3,2,3
+7_193_5,nothing,0,1,0
+7_200_5,She could see if someone has an extra ticket.,0,5,0
+7_203_5,listen to the concert from the parking lot,10,2,10
+7_204_5,Check online to see if another ticket is available for purchase,5,12,5
+7_205_5,Tell Ted to walk back to his house,0,3,3
+7_206_5,Sell Darya's ticket at the gate to another customer.,0,2,2
+7_207_5,Offer ted her own ticket and wait outside the venue if no other tickets are available. ,0,4,4
+7_208_5,let it go,0,1,0
+8_108_1,call the police,5,11,0
+8_112_1,Get the family's attention and point to the teen,8,1,8
+8_113_1,tell him to stop,3,2,3
+8_114_1,Wave at the teenager,0,2,0
+8_122_1,Say something like excuse me.,0,2,0
+8_123_1,notify the family about the person looking through their things,8,1,1
+8_145_1,Get closer,0,6,6
+8_147_1,Raise an alarm,7,11,7
+8_150_1,ask him to stop,3,2,3
+8_152_1,politely explain to his parents whats happening,1,15,1
+8_156_1,Watch him closely,6,2,6
+8_168_1,Ignore it.,0,4,4
+8_178_1,if now times call 911 /you did not say she is swimming,0,5,5
+8_180_1,Speak up.,0,3,3
+8_196_1,play with her,0,2,2
+8_109_2,Tell the teen to stop that,3,2,3
+8_117_2,Go and get help.,0,15,15
+8_127_2,call the family over,8,1,1
+8_133_2,ask for help,0,15,15
+8_139_2,Call the parents and let them know what's happening,8,1,8
+8_147_2,Get out of the water and confirm who he is,0,2,0
+8_150_2,wait for someone to step in,0,4,4
+8_154_2,call the family in from the water,8,1,1
+8_155_2,Call out and ask if that is their bag,2,8,8
+8_156_2,Flirt with him and distract him away from the items,0,2,0
+8_161_2,Call the family,8,1,8
+8_175_2,Casually walk towards the water and alert a family member,1,8,1
+8_176_2,go ask the family if they know him,1,2,1
+8_177_2,Call a family member.,8,1,8
+8_178_2,if so. paddle ashore for a better look,0,6,6
+8_185_2,start shouting ,7,3,7
+8_195_2,tell the family when they get back that someone went through their stuff,0,1,1
+8_196_2,caution her,0,2,2
+8_198_2,Call the family's attention to it,8,1,1
+8_204_2,Take note of what the teen is wearing in case it is a thief,12,1,12
+8_111_3,ask others what they think,0,15,15
+8_126_3,Call the family over,8,1,8
+8_131_3,Get mad at the teenager,3,10,3
+8_136_3,She could alert the kids,8,2,8
+8_147_3,Shoo him away,0,3,3
+8_148_3,Yell to the family,8,3,8
+8_149_3,Flag security,0,11,11
+8_150_3,ask around who he is,0,15,15
+8_152_3,guard her own stuff better,0,4,0
+8_158_3,caring ,0,5,0
+8_166_3,throw sand at him,3,10,10
+8_170_3,Approach,0,2,2
+8_179_3,keep an eye on him,6,4,6
+8_181_3,Yell thief,7,3,7
+8_182_3,Eunice can pretend the belongings is her and see what he does.,0,2,0
+8_191_3,Scream out for help,7,5,7
+8_205_3,Scream thief,7,8,7
+8_207_3,Alert the family. ,1,8,1
+8_109_4,Walk away,4,13,13
+8_120_4,Pretend it is her stuff/belongings,0,2,0
+8_123_4,find a police officer and report it,11,5,11
+8_124_4,She could look for the family that was sitting there. ,0,8,8
+8_131_4,Go play with the family,0,1,0
+8_133_4,go upto them,2,4,2
+8_136_4,She could alert a grownup about him,0,15,15
+8_137_4,Just watch the boy and do nothing.,6,4,6
+8_138_4,She could run over and grab the family's belongings away from the teenager.,0,3,3
+8_145_4,see what he's taking,0,6,6
+8_147_4,Call out to him to identify himself,3,2,3
+8_160_4,Point to the teen,0,8,8
+8_165_4,leave the area,0,13,13
+8_166_4,tackle him,10,3,10
+8_169_4,Chase the teenager away,0,5,0
+8_176_4,walk near him to see if he stops,0,2,0
+8_179_4,make sure the teenager sees her,0,2,0
+8_185_4,give him the evil eye,0,3,0
+8_187_4,Ask a lifeguard,11,15,11
+8_188_4,Have her enourmous husband confront the person.,0,3,3
+8_193_4,applaud the teenager,0,7,7
+8_197_4,Eunice could make a beeline towards the young man and see if he runs away,0,2,0
+8_198_4,try to grab what the teenager takes,0,14,14
+8_201_4,Follow the teenager.,0,6,6
+8_206_4,Call out for help.,7,15,15
+8_108_5,tell the other persons,0,15,15
+8_122_5,she could comment to stay away.,0,13,0
+8_131_5,"Talk to the teenager, offer help",14,2,2
+8_133_5,get s gun,0,10,10
+8_134_5,Move the family's stuff and tell the teenager it doesn't belong to them,0,2,2
+8_139_5,Flash and Seduce the teenager to get their stuff back,0,10,0
+8_141_5,Eunice could wave down the family and ask them if the teenager is with them,8,1,8
+8_145_5,tell him to find  his parents,0,2,2
+8_147_5,Send one of her child to go identify the stranger,0,2,2
+8_152_5,ask around if anybody knows the kid,0,15,15
+8_163_5,Act like she's dropped something and keep a closer eye on things,0,6,6
+8_164_5,Yell at him and cause a scene.,7,3,7
+8_165_5,tell someone else,0,15,15
+8_172_5,Eunice could wait until the family comes back and ask them about what she saw.,0,1,1
+8_174_5,"Retain a devilish smile, grab a piece of popcorn, and enjoy the show.",0,4,0
+8_175_5,Alert someone in close proximity to her.,0,15,15
+8_193_5,fall asleep,0,4,4
+8_196_5,spank her,0,10,10
+8_197_5,Eunice could pretend to have a seizure near the young man to alert the family to what is going on,7,8,7
+8_199_5,Ask someone to help her confront the teen.,15,3,3
+8_200_5,She could physically detain the teenager.,3,10,10
+8_208_5,advice him,0,2,2
+9_108_1,stop the car,2,7,7
+9_138_1,He could ignore the driver and drive away.,12,3,3
+9_196_1,caution the driver,0,5,5
+9_208_1,try stopping him ,13,7,7
+9_111_2,try to get them to stop,13,7,7
+9_115_2,Signal the car to pull over.,13,2,13
+9_124_2,He could stop his car and try to get the driver off the road.,2,7,2
+9_127_2,let the driver pass,0,6,6
+9_131_2,Take a turn to avoid the driver,4,6,6
+9_140_2,Warn the driver,0,16,0
+9_145_2,try to stop the driver,0,7,7
+9_147_2,Try to send a signal to other drivers to beware,0,5,5
+9_150_2,pull car over forcefully,2,7,7
+9_161_2,Yelling at the driver to stop the car,0,13,13
+9_168_2,Yell at driver,0,13,13
+9_174_2,"Not call the police, because the police don't respond anymore. We're on our own now.",0,12,0
+9_179_2,try to spot a police car,10,1,10
+9_196_2,scold the driver,0,13,0
+9_208_2,call in officers if close ,1,10,10
+9_106_3,confront,0,7,0
+9_115_3,Move on and drive away.,0,3,3
+9_118_3,Mind his business.,11,12,12
+9_131_3,Drive carefully behind the driver,0,6,6
+9_132_3,Pull up beside the car and ask them to pull over,13,16,13
+9_134_3,Stay behind the car until police arive,0,1,0
+9_145_3,block the swervingn,0,7,0
+9_147_3,Try to flag him down,13,8,13
+9_150_3,ignore it,0,12,12
+9_156_3,Curse him out,0,13,0
+9_158_3,have peace of mind,0,12,12
+9_159_3,Call a friend,15,15,15
+9_166_3,brake,0,2,2
+9_177_3,To block him in traffic.,0,7,7
+9_179_3,try to make the driver pull over,7,13,13
+9_196_3,stop the vehicle,0,7,0
+9_198_3,try to get in front of the other driver,3,7,3
+9_208_3,take care ,0,6,6
+9_108_4,get some help,0,15,15
+9_110_4,Call the cops and follow the car around until someone can pull them over.,8,1,1
+9_111_4,wreck into their car,7,12,7
+9_120_4,Attempt to pull over the car himself,7,2,7
+9_121_4,go ahead to warn drivers coming,0,3,0
+9_133_4,speed past to signal him to stop,3,13,3
+9_134_4,Try and get next to the car and tell the driver to pull over,13,16,13
+9_143_4,They could speed up and honk their horn and try to get them to pull over and see if everything is alright.,7,5,5
+9_145_4,turn around,0,4,4
+9_157_4,try to run the car off the road,8,7,7
+9_158_4,stay focused ,0,12,12
+9_168_4,Try to chase him down.,7,8,8
+9_170_4,Be more vigilant,0,6,6
+9_177_4,Call the emergency room.,0,1,1
+9_188_4,Pulling over and calling the police.,2,1,1
+9_108_5,call home,0,15,15
+9_122_5,get off the road.,2,4,4
+9_127_5,hit the brakes,6,2,6
+9_131_5,Drive on the side of the driver and try to get them to pull over,7,16,16
+9_138_5,He could call a friend to come follow the car with him.,15,8,15
+9_143_5,They could take a different route home so they don't have to follow this person.,4,4,4
+9_146_5,if safe try to pass using the shoulder and alert oncoming cars with flashing lights,3,9,3
+9_150_5,yell at the driver to pull over,0,13,13
+9_152_5,make sure his seat belt is on,0,12,0
+9_158_5,relax,0,12,12
+9_161_5,Ignore it and get ahead of that driver,3,12,3
+9_163_5,Signal the driver,9,5,9
+9_168_5,Turn on radio.,0,12,12
+9_170_5,Be scared,0,12,0
+9_172_5,"Eamon could speed up, get next to the car and inspect the driver, and try to communicate.",16,3,16
+9_180_5,Try and go around them.,3,1,3
+9_184_5,Pull up beside the driver and try to communicate with them.,13,16,13
+9_185_5,rant about drunk drivers,0,12,12
+9_186_5,Try to get him to pull over.,7,13,13
+9_188_5,Speeding ahead of the driver to warn oncoming traffic. (sarcastic),0,3,3
+9_195_5,wait until the car stops at a red light and go confront the driver,0,7,0
+9_203_5,pass the driver and then slam on his brakes,7,3,7
+10_108_1,talk with her,0,14,14
+10_119_1,ignore her and leave.,5,1,1
+10_132_1,Ignore the woman completely,5,1,1
+10_138_1,He could ignore the woman.,5,1,1
+10_139_1,Ignore the woman,5,1,1
+10_146_1,Tell her he is not going in that direction,6,5,6
+10_150_1,give her money for a taxi,7,8,8
+10_171_1,drive away,1,5,1
+10_180_1,Give her a ride.,5,2,2
+10_184_1,Drive the woman to a nearby city.,3,2,3
+10_204_1,tell her no he is not going in that direction,6,5,6
+10_108_2,ride the girl,0,2,2
+10_114_2,Make up an excuse/story to say no,6,5,6
+10_139_2,Offer to call for a ride,7,13,7
+10_170_2,Blow her off,5,9,5
+10_174_2,Laugh and grin and look away.,1,9,9
+10_196_2,leave her,5,1,1
+10_208_2,be generous ,0,2,2
+10_108_3,call home,0,13,0
+10_112_3,Ask someone else nearby to give her a ride,0,2,0
+10_116_3,Help her find another ride,0,7,7
+10_121_3,say i have to work,6,5,6
+10_126_3,Say yes but then take her to another location,0,3,3
+10_139_3,Run and hide in the gas station,0,1,1
+10_144_3,Tell her he's not familiar with the area,6,5,5
+10_158_3,relax ,0,1,0
+10_162_3,Tell her that he's busy.,6,5,5
+10_165_3,ask someone else to give a ride,0,7,0
+10_168_3,Tell her to call a taxi.,0,10,10
+10_174_3,Consider certain possibilities if she's hot.,0,2,0
+10_178_3,help her find an alternate way home,0,7,0
+10_181_3,Say he does not have enough time,6,5,5
+10_190_3,Cameron could make an excuse not to take her,6,5,6
+10_202_3,give the woman money for an uber,7,8,8
+10_204_3,pretend he does not speak English,1,11,11
+10_108_4,call a friend,0,13,0
+10_112_4,Spray gas on her to make her go away,0,9,0
+10_121_4,say low on gas,6,5,6
+10_124_4,"He could ask the woman for gas money, and then he could take it.",0,4,4
+10_129_4,He could tell her that he's busy.,6,5,5
+10_132_4,Inquire if there's someone she could call to assist,0,13,13
+10_144_4,Tell her he's running late,6,5,5
+10_147_4,Help her find a ride,0,7,7
+10_159_4,Call friend,0,13,0
+10_164_4,Give her money for a cab.,7,8,8
+10_167_4,Offer to give her a ride in exchange for a favor,0,2,0
+10_169_4,offer to call someone else,0,13,13
+10_176_4,tell her to call a friend,0,10,0
+10_177_4,To ask someone else to take her.,0,13,13
+10_178_4,try to solve her problem getting a ride from someone she knows,0,13,13
+10_179_4,tell her he is to busy,6,5,5
+10_182_4,Cameron can tell her to take a taxi.,0,10,10
+10_188_4,He could call a friend to give her a ride.,0,13,0
+10_191_4,"Agree to take the woman, but only if she will go on a date with him",4,2,4
+10_192_4,Ask her for money to take her home,4,8,4
+10_208_4,tell if he will or not ,0,5,5
+10_107_5,tell her he'll carry her partly there,0,3,3
+10_108_5,call dad,0,13,0
+10_118_5,Scream and run. ,0,1,0
+10_121_5,say i have an emergency and can't,6,5,6
+10_133_5,leave them there,5,1,1
+10_137_5,Call a friend and ask to give her a ride.,0,13,0
+10_139_5,Kill her and steal her stuff,0,9,0
+10_140_5,Complain,0,9,9
+10_146_5,tell her he is picking up other people and there is not enough room,6,5,6
+10_148_5,Take her to a bus stop,0,3,3
+10_150_5,tell her that he cant do it now,6,5,5
+10_154_5,take her home with him,0,3,0
+10_157_5,drop her off at a bus stop,0,3,3
+10_160_5,kill the lady,0,9,0
+10_174_5,Tell her to get lost and that she's not social distancing.,0,9,9
+10_175_5,Leave her at the gas station,5,1,5
+10_178_5,pay for her bus or taxi home,8,7,8
+10_179_5,tell her he needs to get home,6,5,5
+10_183_5,suggest she ask someone else there to take her,0,10,10
+10_190_5,Cameron could give her money for a cab ride,7,8,8
+10_195_5,tell her he is too busy to give a ride,6,5,5
+10_197_5,Cameron could direct the woman to the nearest bus stop,0,10,0
+10_198_5,Ask her for information about why and where she is going.,0,14,14
+10_201_5,Recommend a different plan to her.,0,10,0
+10_204_5,Tell her it is not safe to get into cars with strangers,0,5,0
+10_206_5,Give her information about possible public transportation and/or offer to pay for it.,0,8,8
+11_106_1,call help,1,12,12
+11_113_1,ignore it,1,6,6
+11_117_1,Break open the window.,2,11,2
+11_121_1,call the mall police,4,1,4
+11_176_1,call for help,1,12,12
+11_177_1,Let the car owner know.,0,7,7
+11_196_1,rescue the dog,2,0,2
+11_130_2,Erica could ask someone walking by to help her break the window,2,13,2
+11_140_2,give it food,0,15,15
+11_144_2,Try to get the dog out,2,0,2
+11_156_2,Report it,0,4,4
+11_188_2,Call pop a lock to unlock the car.,0,14,0
+11_191_2,Try to break into the car,2,4,2
+11_197_2,Erica could crack the window of the door open and take the dog out,11,2,11
+11_125_3,She could put a note on the car,9,0,9
+11_131_3,Try to get inside the car,0,3,3
+11_140_3,allow it to rest,0,15,0
+11_142_3,Do nothing and leave. ,5,6,6
+11_152_3,ignore the dog,5,6,6
+11_155_3,See if the door is unlocked and roll down the window,3,2,3
+11_170_3,Call friend,0,13,13
+11_172_3,Erica could wait at the car until the owner's return and confront them.,9,5,5
+11_174_3,sorry,0,6,0
+11_175_3,Find a policeman,0,1,1
+11_188_3,Call her friend that is a locksmith.,0,14,14
+11_196_3,summon the owner of the car,0,7,7
+11_197_3,Erica could wave down passerbys to see if anyone has seen the owner of the dog and the car,13,7,7
+11_128_4,Go back into the mall,7,4,7
+11_130_4,Erica could run into the store and get help,4,13,13
+11_133_4,ask for help,0,13,13
+11_139_4,Try to open the door with a crowbar and save it,2,3,2
+11_156_4,Give the dog some water,0,15,0
+11_158_4,fet something for the dog ,0,15,0
+11_172_4,"Erica could attempt to get the windows down, she could check the doors.",3,2,3
+11_182_4,Erica can keep the dog company and make sure it's ok.,5,15,15
+11_193_4,call a friend for help,0,13,13
+11_196_4,play with the dog,0,15,15
+11_113_5,call locksmith,0,14,14
+11_119_5,find other people to call the cops and trying to open the window.,0,2,2
+11_120_5,Start a Facebook/Instagram live story about the situation,0,13,0
+11_137_5,pick the door's lock and open the car.,14,3,14
+11_140_5,massage it,0,15,15
+11_142_5,Ask someone else to break the window. ,2,13,2
+11_143_5, She can walk around the mall and ask people if they left their dog in the car.,7,4,7
+11_144_5,Let other people know,0,13,13
+11_161_5,Tease the dog and leave,0,6,6
+11_206_5,Find a blanket or something to shade the car.,0,15,0
+11_207_5,Ask who the vehicle belongs to call additional attention and possibly find the owner to get the dog out fast. ,7,13,7
+12_118_1,Leave it behind.,9,14,9
+12_138_1,He could ask the TSA to confiscate it for him.,1,14,1
+12_140_1,return,0,10,10
+12_156_1,Turn around and place the knife back at his house,12,10,12
+12_177_1,Abandon the knife at the entrance to the security.,14,2,14
+12_199_1,Take the knife out of the bag.,0,1,1
+12_107_2,take it back outside,0,9,9
+12_111_2,come clean,1,0,1
+12_114_2,Get some sort of document ready to show he's a chef,0,1,1
+12_121_2,ask them to hold it for him,0,14,14
+12_122_2,turn it in to TSA,15,1,15
+12_130_2,Carl could keep the knife hidden and pray it isn't found,5,11,5
+12_134_2,Explain the situation to security and have them take the knife,1,14,14
+12_138_2,He could step out of line and stow it away somewhere.,11,10,11
+12_158_2,standout ,0,1,0
+12_159_2,Leave knife with airline personelle,12,14,14
+12_160_2,Accept that he will lose his knife and move on,0,5,0
+12_162_2,Try to sneak the knife through the security,5,11,11
+12_177_2,To risk and leave the knife in his carry-on bag.,0,5,5
+12_191_2,"Attempt to conceal the knife somehow, to avoid a hassle",5,11,11
+12_198_2,Try to hide it and get it through security ,5,11,11
+12_106_3,conceal,5,11,11
+12_108_3,call to the airport,0,1,0
+12_111_3,try to sneak the knife,5,11,11
+12_113_3,ask to take it,0,1,1
+12_117_3,Try to hide the knife and leave it in the bag.,5,11,11
+12_120_3,Pretend that he was a vendor at the food festival and needed the knife,0,13,0
+12_129_3,Try to sneak it through security.,5,11,11
+12_131_3,Give up the knife when security asks for it,0,15,15
+12_133_3,keep it in there,5,14,5
+12_143_3,he can try to sneak it through the security line,5,11,11
+12_145_3,try to sneak through,5,11,11
+12_148_3,Leave the line and remove the knife,0,10,10
+12_158_3,kneel ,0,1,0
+12_167_3,avoid the metal detectors,0,11,0
+12_174_3,"Become unhinged at this very moment, thinking about the state of the world today, pull out the knife and begin to rant and yell. ",16,5,16
+12_178_3,apologize and say good bye to the knife,0,1,1
+12_181_3,Give it to someone else,7,17,17
+12_185_3,cry about losing his favorite knife,0,2,0
+12_190_3,Carl could alert security right away and explain the situation before he gets to the checkpoint,1,4,1
+12_196_3,submit it to the cops,0,15,15
+12_208_3,Not look suspicious ,5,0,0
+12_108_4,call the company,0,7,0
+12_109_4,Give it to security to hold,15,14,14
+12_110_4,Sneak it through somehow.,5,11,5
+12_137_4,Leave the knife somewhere.,11,14,14
+12_139_4,Skip his flight and take the next one after putting the knife in his checked in luggage,6,4,4
+12_150_4,call chef ask if you can borrow it,0,7,0
+12_154_4,don't get on the plane,6,10,10
+12_160_4,hide knife in body,0,11,11
+12_161_4,Wait and report what happened,5,1,1
+12_162_4,Postpone his flight so he can go home and drop off his knife,6,12,6
+12_168_4,Put knife into someone else's bag.,17,17,17
+12_174_4,"Drop the bag on the ground where he stands and walk away, dazed and determined to leave his life behind.",0,2,2
+12_178_4,try to rebook ticket get luggage take it home,12,6,12
+12_183_4,give it to someone else ,0,17,17
+12_190_4,Carl could leave the line and go remove the knife from his bag,10,2,10
+12_207_4,Try to plan what to say to security to get out of any trouble. ,0,1,1
+12_110_5,Not board the plane because he doesn't want to leave the knife.,0,10,10
+12_111_5,give it away,0,15,15
+12_115_5,Be extremely angry and take it out on other people.,0,16,16
+12_121_5,call uber to take it home,0,7,7
+12_136_5,He can refuse to go through the line,0,10,0
+12_138_5,He could offer it to someone else walking through the airport.,0,17,0
+12_143_5,he can get out of line and take it home.,2,12,12
+12_146_5,nothing and tell security a lie that he does not know how it got there,13,5,13
+12_147_5,Give it to a stranger,0,17,0
+12_150_5,ignore it till you get back,0,5,5
+12_152_5,give it to somebody to hold,0,17,0
+12_155_5,Try to sneak it through security,5,11,11
+12_168_5,Try to sneak thought with knife.,5,11,11
+12_169_5,leave his bag on the ground,14,2,2
+12_174_5,"Turn bright red and freeze in place, not knowing what to do next.",0,5,0
+12_177_5,Ask airport staff to send the knife with the next flight.,0,4,4
+12_180_5,Try to sneak it past security.,5,11,11
+12_188_5,Sneak the knife through security. (sarcastic),5,11,11
+12_193_5,not take bag,0,2,2
+12_195_5,try to sneak through secuirty,5,11,11
+12_198_5,Try to run past security ,0,5,5
+12_202_5,move the knife to a bag that is going into storage,0,8,8
+13_228_1,He should quickly go and check if the taxi has left.,0,14,14
+13_231_1,He can distract the people,0,4,4
+13_237_1,find the taxi,1,14,14
+13_238_1,Tell a friend to call taxi company,0,1,1
+13_241_1,Stop the wedding and go get a replacement.,5,4,4
+13_244_1,Quietly borrow somebody else's ring but tell/signal the groom.,3,2,3
+13_254_1,Pretend to not know where the ring is.,6,12,6
+13_256_1,go get the ring quickly,0,10,10
+13_277_1,he should put himself together,0,17,0
+13_298_1,Find a replacement,5,9,9
+13_210_2,punch the bride and run as a distraction,0,13,0
+13_227_2,Hide,0,13,13
+13_231_2,Give a moving speech,0,12,0
+13_232_2,He can buy a new ring,5,5,5
+13_233_2,He could send someone to retrieve the ring,0,11,11
+13_245_2,contact the dealer,1,5,5
+13_258_2,Tell someone else to contact the taxi company,0,1,1
+13_260_2,tell the planner his situation,11,7,11
+13_269_2,Tell the groom and get him to stall,2,4,2
+13_277_2,he should trey to be positive,0,12,0
+13_283_2,Pretend nothing is wrong,17,12,12
+13_290_2,ask the taxi driver if it's in the car still,1,14,14
+13_311_2,stop the cereomy and rush to find taxi,14,4,14
+13_220_3,Not tell anyone,0,12,12
+13_223_3,Suggest a substitute ring.,9,3,3
+13_224_3,Pretend he has it until the last minute,0,12,12
+13_226_3,Laugh at his mistake. ,0,12,0
+13_239_3,Tell his sister to hold the wedding ,4,2,4
+13_241_3,Wait until it is time to exchange ring to tell them.,0,2,2
+13_252_3,Find a replacement ring,9,3,3
+13_253_3,Do nothing and be embarrassed,17,12,17
+13_265_3,feel ashamed,0,15,15
+13_267_3,he could make a joke,0,12,0
+13_276_3,pretend he did not lose the ring,6,12,12
+13_285_3,Stay at the wedding and do nothing.,17,12,17
+13_287_3,steal someone elses,0,3,3
+13_292_3,Keep his mouth shut and act surprised.,0,12,12
+13_297_3,make a joke,0,12,0
+13_304_3,pretend he doesnt know and see what happens in the moment,0,12,12
+13_307_3,let the wedding continue until you can't produce the ring,17,12,12
+13_310_3,Shrug and pick on the flower girl,0,6,0
+13_211_4,get help to find the ring,0,10,10
+13_221_4,hide,0,13,13
+13_223_4,Make a quick exit saying he is sick.,0,8,8
+13_231_4,Agree to find another,0,5,5
+13_236_4,Find a substitute,0,5,5
+13_239_4,Don't panic ,0,15,0
+13_241_4,Find something around the person to use as a ring temporarily.,9,3,9
+13_251_4,look for other rings,0,5,5
+13_256_4,distract his sister,0,12,0
+13_266_4,Offer to pay the driver to bring it back.,0,14,14
+13_267_4,he could act as if it was part of the plan,0,12,12
+13_272_4,"Tell the truth, maybe they're stall the ceremony for an hour or so.",2,4,2
+13_278_4,Pull the fire alarm to stop the ceremony,0,4,4
+13_281_4,Tell his sister he won't provide the ring because he disapproves of the marriage. ,0,12,0
+13_286_4,Pretend to not know what is going on.,0,12,12
+13_294_4,Find the wedding planner,11,7,11
+13_297_4,yell about stopping the wedding,0,4,4
+13_303_4,Daniel could pretend to put the ring on the finger.,0,12,0
+13_308_4,Act surprised ,0,12,12
+13_309_4,Turn it into a joke or something to laugh at,0,17,0
+13_209_5,postpone,0,4,4
+13_210_5,hand over cash instead to replace the ring,0,9,5
+13_214_5,Act confused,0,12,12
+13_226_5,Pretend to have it and be a good actor. ,0,12,12
+13_230_5,Tell his sister the ring is simply gone.,0,6,0
+13_231_5,Ask for help,0,11,11
+13_232_5,He can steal another ring,0,3,3
+13_233_5,He could substitute the ring,0,3,3
+13_234_5,Walk up without the ring,0,17,0
+13_237_5,hide,0,13,13
+13_239_5,Drive to get the ring,10,14,10
+13_242_5,Steal someone's ring.,0,3,3
+13_247_5,move forward without the ring,0,17,17
+13_249_5,He can look for similar ring,0,5,5
+13_251_5,distract everybody,0,4,4
+13_252_5,Ask for help,0,11,11
+13_257_5,Have someone else call the cab company,0,1,1
+13_259_5,Don't say anything and act like you dont know where it went.,17,6,6
+13_260_5,go look for the taxi,1,14,14
+13_263_5,"act nomral until the moment in the ceremony, then act like it must have fallen out of his pocket/someone stole it",0,12,12
+13_268_5,Announce out loud what you did,0,2,2
+13_270_5,Say nothing and hide.,0,13,13
+13_273_5, ask someone to help,0,11,11
+13_274_5,fumble and make it funny,0,12,0
+13_276_5,offer to find the ring later,0,10,10
+13_277_5,try to get hold of the taxi driver,1,14,1
+13_280_5,Daniel could pretend that he didn't know he was responsible for the ring.,0,6,6
+13_281_5,Fake sick to stop the wedding and get it postponed. ,8,4,8
+13_284_5,Sabotage the wedding to stop it.  ,0,4,4
+13_289_5,Set off the fire alarm so that everyone will leave the building and delay the ceremony.,0,4,4
+13_299_5,have the ceremony without the ring,0,17,0
+13_303_5,Daniel could ask someone else at the wedding for advice.,0,11,11
+13_307_5,replace the ring after the ceremony,0,9,9
+13_310_5,Suddenly yell that he lost the ring,0,2,2
+13_311_5,call the taxi in the middle of the ceremony,0,1,1
+14_211_1,Call for help,0,16,16
+14_220_1,Allow his father to become homeless,11,17,11
+14_224_1,Live in the living room of his apartment,0,1,1
+14_243_1,Take care of father there.,7,2,7
+14_245_1,Have to take care of his father.,7,2,7
+14_253_1,Find other ways to help his father,7,0,7
+14_254_1,Andy can move,3,2,3
+14_266_1,Try to get his father disability.,6,0,6
+14_272_1,Use his life savings.,0,18,0
+14_277_1,he should try to think what his father is going through,0,13,0
+14_281_1,Try to find someone else who will allow his father to live with them.,0,4,4
+14_283_1,Move to a larger apartment and apply for eldercare assistance,3,6,6
+14_210_2,leave his father at a fire station,0,11,11
+14_215_2,make a visit schedule,7,4,7
+14_222_2,Ship his father to a home,0,18,18
+14_231_2,Ask for help,0,4,4
+14_244_2,Sell his father's house and put him in a state-funded retirement home.,6,18,18
+14_266_2,Turn to others for help.,16,4,4
+14_268_2,Find agency that provides home health care.,6,9,9
+14_277_2,he should try all his best to be there for his dad,0,18,0
+14_289_2,Buy a bunk bed so his father can fit into his tiny apartment with him,0,1,1
+14_304_2,try to find financial help,0,6,6
+14_210_3,let his father be homeless,11,17,11
+14_213_3,Andy could ask his father to loan him some money so he can get them a nicer place together,0,3,3
+14_227_3,Send father to a cheap home,0,3,3
+14_239_3,Ask for Help,16,4,4
+14_241_3,Let his father go homeless.,11,17,11
+14_245_3,look after him,7,2,7
+14_256_3,research more options for his father,0,18,0
+14_274_3,get guardianship,0,4,0
+14_277_3,he should to manage and accommodate his dad,7,1,7
+14_280_3,Andy could try to earn funding through friends and family to put his father into a retirement home.,4,16,4
+14_281_3,Try to find a woman who finds his father attractive who will take care of him at his father's home.,0,16,0
+14_287_3,Ask for help from friends/family,4,16,4
+14_290_3,cry,0,11,0
+14_305_3,Make due with his father in the small apartment.,1,5,1
+14_211_4,look on the internet for help,0,9,9
+14_218_4,rent father house out,0,18,0
+14_220_4,Ask friends for help,4,16,16
+14_225_4,get insurance for his dad ,0,6,6
+14_237_4,have a nervous breakdown,0,11,0
+14_243_4,Ask Father what he thinks should go on.,0,13,13
+14_250_4,Let him die,0,11,0
+14_253_4,He gives up something so he can take care of his father,0,7,7
+14_255_4,ask his significant other's family for help,0,4,4
+14_258_4,Find social workers to assist,6,9,9
+14_260_4,find roommates for father,0,16,0
+14_266_4,See if anyone else can take him in.,16,4,16
+14_269_4,Talk to someone for help,16,4,16
+14_277_4,he should try to keep a positive environment,0,13,0
+14_281_4,Try to find a woman who has a mental disorder that makes taking care of old men appealing to them to live with his father and take care of him.,0,16,0
+14_282_4,Ask someone to take care of his dad,16,4,16
+14_290_4,ask for help,0,4,4
+14_302_4,Run away from his father,0,11,11
+14_307_4,find him some free/affordable community services,6,9,6
+14_311_4,he can see how much money his father has saved,0,4,0
+14_210_5,sedate his father and keep him in a closet,0,8,8
+14_211_5,put his dad in a nursing home,0,18,18
+14_214_5,Pay for his dads bills,0,7,7
+14_218_5,afford bigger apartment,0,3,3
+14_220_5,Find a roommate to get a bigger apartment,0,3,3
+14_221_5,quit his job,0,5,5
+14_235_5,Andy could become a sex worker to pay for the retirement home.,0,5,5
+14_241_5,Find a no cost home to put him in.,0,17,17
+14_242_5,Makes him a tent to live in.,0,1,0
+14_245_5,make sure he's okay,7,13,13
+14_246_5,see if he himself would qualify for assistance as a caretaker,0,6,6
+14_253_5,He runs away from the problem,0,11,11
+14_261_5,Ask someone else to take care of him,16,4,16
+14_262_5,ask others for money,0,14,14
+14_267_5,He could make his father live in a tent,0,1,0
+14_268_5,Think about making his home bigger with his father's money that he will save.,0,3,3
+14_271_5,Sell stuff,0,14,14
+14_273_5,see if theres any insurance to help cover the retirement home fees,0,6,6
+14_277_5,he should also try to encourage his dad,0,13,13
+14_278_5,Make due in the apartment,1,5,1
+14_279_5,Take on a second job/loan to cover retirement home expenses.,5,15,15
+14_281_5,Scratch a lottery ticket to make more money to afford to put his father in a retirement home. ,0,18,18
+14_289_5,"Leave his father living where he is, but visit him as often as possible and hire someone to come by once or twice a day and help out.",0,10,10
+14_291_5,Find temporary housing for father until more can be done,0,3,3
+14_306_5,drop him off at a nursing home and say he was a homeless man,0,17,17
+15_216_1,Ration the food,1,1,1
+15_224_1,Abandon some to save the rest,0,5,5
+15_236_1,Put the crew on restricted duty,0,10,0
+15_268_1,Look for others to designate to issue food out.,0,10,10
+15_275_1,swim away,0,6,0
+15_279_1,Delegate responsibilities to passengers to optimize their conditions.,0,4,0
+15_300_1,ask the passengers to fast for few days,11,1,1
+15_211_2,Appoint some leaders,0,10,0
+15_220_2,Tell them to start perserving water.,0,1,1
+15_221_2,lock the food away,0,1,1
+15_228_2,He should take charge and make sure everyone understands what is acceptable with the rations if they want to survive.,0,1,1
+15_237_2,look around the ship for food,0,1,0
+15_240_2,do a lottery for the food,0,1,1
+15_241_2,Tell them they are low on supplies.,11,1,11
+15_251_2,ask if anybody has food,0,1,0
+15_255_2,call a meeting with the passengers,0,11,11
+15_256_2,Try to find land,0,6,0
+15_260_2,have passengers stay in quarters,0,4,0
+15_265_2,ask people to use their goods wisely,0,1,1
+15_267_2,He could hide the food for himself,14,8,8
+15_274_2,ration water,0,1,1
+15_285_2,Withgo food for himself so his crew can eat.,17,14,17
+15_288_2,look for ways to increase food supply,0,1,0
+15_291_2,Take a survey of those who are weak and vulnerable on the ship and make them a priority,2,1,2
+15_293_2,Give a motivating speech,0,4,4
+15_311_2,keep in contact with rescue boat on timeline,0,6,6
+15_215_3,scavenge for more supplies,0,1,0
+15_216_3,Sell food to people willing to pay the most,0,2,2
+15_220_3,Mandate people remain in their rooms.,0,4,0
+15_221_3,give all the food to everyone,0,17,17
+15_223_3,Check for lifeboats.,0,6,0
+15_233_3,Make sure that everyone has eaten something with in a certain time frame,0,1,1
+15_236_3,Create a rationing plan,1,2,1
+15_238_3, have the men Stop eating so there is more food,2,1,2
+15_241_3,Ignore them if they ask about supplies.,0,12,0
+15_247_3,provide area for daily devotion for those who want to attend,0,4,4
+15_249_3,They can look for nearly land ,0,6,0
+15_251_3,check where is help,0,6,6
+15_254_3,try to use the spare boats,0,5,0
+15_259_3,Start a raffle for who can eat,0,2,2
+15_260_3,limit food waste,0,1,0
+15_267_3,He could hide the food and distribute it each day,1,8,1
+15_285_3,Come up with a action plan.,0,1,0
+15_286_3,Remain in your cabins.,0,4,0
+15_287_3,Very small meals,1,4,1
+15_290_3,wait for help,0,4,0
+15_293_3,Simply wait,0,12,12
+15_294_3,Ignore the situation and let people starve,0,12,12
+15_295_3,Hide until the rescue boat comes,0,8,0
+15_297_3,ask for volunteers to fast,0,2,2
+15_298_3,Find another way off the boat,0,5,0
+15_305_3,Let the food dwindle away and everyone starve.,12,0,12
+15_307_3,Wait it out and potentially starve,0,12,12
+15_308_3,Ask the cooperation of the crew and passengers,0,10,10
+15_214_4,Control the supplies yourself,0,14,0
+15_222_4,Wait until the food runs out,0,12,0
+15_223_4,Tell the crew to remain calm and keep control,0,4,4
+15_227_4,Wait for the boat,0,6,0
+15_228_4,He should make sure and carefully use the flare gun to signal the rescue boat if they see it.,0,6,6
+15_230_4,Battle for the food.,0,9,0
+15_232_4,Sink the ship to kill everyone,0,5,5
+15_233_4,Make sure that people aren't wasting food,0,1,0
+15_240_4,don't tell them it will be a week before rescue as not to alarm them,7,12,7
+15_241_4,Tell them he doesn't know anything about the supplies.,7,12,7
+15_243_4,Announce that you have taken charge.,0,4,0
+15_244_4,"If there's water, they will survive, if fishing fails, just sit and wait.",0,3,0
+15_245_4,Have to get them in control,0,4,0
+15_246_4,inform anyone who starts panicking that they're not going to starve to death in a week,0,4,4
+15_247_4,encourage to drink plenty of liquids,0,4,0
+15_256_4,Tell the passengers to remain in their cabins,0,4,0
+15_258_4,Hide the food and keep it under guard,0,8,0
+15_259_4,Ask passengers if some would be willing to not eat,0,2,0
+15_260_4,limit strenuous activities,0,4,0
+15_263_4,tell them to prepare that some/all may not survive,0,11,11
+15_264_4,Tell everyone to swim for it,0,11,0
+15_265_4,find a way to drift the boat towards the rescue ship to make the rescue happen quicker,0,6,6
+15_269_4,See if there are any other food sources that are hid amongst the passengers.,0,1,0
+15_270_4,Hide food from everyone.,0,8,0
+15_272_4,Nobody gets any of it due to fairness.,0,14,0
+15_273_4,rest,0,12,0
+15_274_4,make sure everyone has lifejackets,0,4,0
+15_277_4,instruct passenger to slowly eat their food ,0,1,1
+15_285_4,explain to everyone the situation and ask if anyone would like to sacrafice themselves.,0,11,11
+15_288_4,reassure the crew,0,4,4
+15_292_4,Stow away in his cabin with all the food for himeslf.,14,8,8
+15_293_4,Scream for help,0,6,6
+15_294_4,Ask the head chef to handle it,0,10,10
+15_296_4,Hoard all the food for himself and a select few of his choosing.,14,2,2
+15_299_4,take his chances that the rescue boat will get there early,0,12,12
+15_300_4,ask the passengers to donate all the personal food that they may have,0,1,0
+15_304_4,do not do too much exercise,0,4,0
+15_306_4,determine available water supply,0,1,1
+15_307_4,Give up,0,12,0
+15_310_4,Hide enough food for the crew before telling the passengers what is happening,0,8,8
+15_211_5,Have everyone work together. ,0,13,0
+15_213_5,He could make sure that the lifeboats are in working order,0,5,0
+15_216_5,Make people fend for themselves,0,9,0
+15_217_5,Explain the situation to passengers and ask for their advice.,13,10,13
+15_219_5,Hope for the best,0,12,0
+15_221_5,lock undeserving people in a room,0,5,5
+15_224_5,Kill a passenger for food,9,5,9
+15_225_5,let people volunteer to skip meals,0,2,0
+15_228_5,He should ensure the safety of all the survivors.,0,4,0
+15_233_5,Make sure that food is being preserved so that it lasts,0,1,1
+15_236_5,Create a plan for the passengers to help,0,1,0
+15_238_5,Jump overboard,0,17,17
+15_239_5,Don't panic ,0,4,0
+15_240_5,take charge and keep all the food,0,14,14
+15_241_5,Act like doesn't speak english and don't understand when they ask him about it.,0,12,12
+15_242_5,Donate his own resources.,0,17,17
+15_243_5,Tell everyone they must do as instructed.,0,1,0
+15_244_5,Toss blood into the water and try to knife sharks.,0,3,3
+15_245_5,make sure everyone is safe for a week.,0,4,0
+15_246_5,instruct crew to remain calm and do their jobs,0,4,4
+15_249_5,He can pray and hope for miracle.,0,12,0
+15_251_5,check water,0,1,0
+15_253_5,Hold all the food for himself and crew,2,14,14
+15_256_5,Tell the crew to do what they can to help,0,10,0
+15_257_5,"If they have a life boat of their own, have people disembark and head towards the rescue boat",0,5,0
+15_260_5,ask for additional help.,6,10,10
+15_261_5,Send everyone out on lifeboats and hope for the best,0,5,5
+15_262_5,"give less food to himself, so others can get enough",17,2,17
+15_264_5,Put everyone in life boats,0,5,5
+15_266_5,Hide the food supplies for himself.,14,8,14
+15_267_5,He could tell them what's going on and let them make their own decisions,11,13,11
+15_268_5,Find what other foods are available that passengers might have in rooms.,0,3,0
+15_271_5,Relinquish his role as captain,0,10,0
+15_275_5,put someone else in charge,0,10,0
+15_276_5,give food to some but not others,2,1,2
+15_277_5,he should try to encourage his team,0,4,4
+15_279_5,Send out a search party for supplies help.,0,3,3
+15_281_5,Lock himself in a room and hide from the passengers. ,0,14,0
+15_283_5,"Apportion food to passengers, more to the weaker people and less to the stronger people",2,1,2
+15_286_5,Don't do much so you don't get hungry.,0,12,0
+15_288_5,secure the food supply,0,14,14
+15_293_5,Swim to shore,0,6,0
+15_295_5,Panic,0,12,0
+15_298_5,"As captain, leave the boat",0,17,0
+15_302_5,Jump in the ocean,0,5,0
+15_305_5,Commit suicide so his portion of food and go to the others.,0,17,17
+15_307_5,Swim out to sea to meet the boat,0,6,0
+15_311_5,keep food locked up so no one can steal,0,1,1
+16_225_1,give Todd water ,0,5,5
+16_231_1,Help the friend,0,7,0
+16_242_1,Not worry about the rock and make sure they're both hydrated.,0,5,5
+16_258_1,Leave Todd,2,1,2
+16_265_1,see how long todd can last,0,3,0
+16_269_1,Retrace steps,0,1,1
+16_274_1,calm Todd,0,3,3
+16_302_1,stay till she gets his arm out,7,3,3
+16_230_2,Have Todd repeatedly try to call 911 with his free hand while she works on removing his arm from the crevice.,0,4,4
+16_239_2,Look for supplies just in case they are stuck over night,0,5,5
+16_243_2,Hydrate with snow.,0,5,5
+16_247_2,drink plenty of liquids,0,5,5
+16_251_2,use short wave radio,0,1,1
+16_252_2,Look around for other hikers,0,8,8
+16_297_2,cover him and go for help,9,1,1
+16_304_2,give him water and her,0,5,0
+16_307_2,stay and both potentially die,2,3,3
+16_215_3,check for other bad rocks,0,7,7
+16_220_3,Remove Todd's arm to free him,7,6,7
+16_233_3,She could try to conserve her water,0,5,5
+16_247_3,hope air craft flies over,0,8,8
+16_272_3,Eva should be aware people can survive without water for days.,0,3,0
+16_273_3,see if anyone else is at the bottom  of the mountain.,0,1,1
+16_274_3,ration water,0,5,0
+16_286_3,Drink some water,0,5,0
+16_294_3,Keep trying to free his arm,7,7,7
+16_297_3,cover him and hike until she gets service,9,4,9
+16_304_3,go to the car and find something to pull him up,0,1,1
+16_215_4,find a way out,0,1,1
+16_236_4,Return to their vehicle,0,2,2
+16_244_4,Wait for daylight and start walking back for help but having to leave Todd.,0,2,1
+16_247_4,watch for another mountain climber to help,0,1,1
+16_263_4,ask Todd what he wants her to do,0,3,0
+16_269_4,Only walk at night,14,14,14
+16_277_4,she should try calming Todd down that everything will be ok,0,3,3
+16_282_4,take a nap,0,12,0
+16_288_4,reduce activity,0,3,0
+16_290_4,mark the location and leave ,0,1,1
+16_309_4,"Call for help and walk around a bit, keeping an eye on Todd",11,1,1
+16_311_4,eva can document where they are so she can find her way back,0,1,1
+16_210_5,jump off the cliff,0,12,12
+16_212_5,Take a break to not exert all her energy,0,3,0
+16_219_5,Make sure he is comfortable,0,3,3
+16_220_5,Nothing,0,12,12
+16_223_5,Talk with Todd about what to do.,0,3,3
+16_227_5,Call someone else,0,4,4
+16_228_5,Eva should bring back supplies if she can't find help to assist todd,0,1,1
+16_231_5,encourage the friend to try recover,0,3,3
+16_238_5,go get help marking the way,0,1,1
+16_239_5,Keep trying to save her friend,0,7,7
+16_243_5,Ask Todd what he thinks about what to do.,0,3,0
+16_245_5,talk to him and make sure he's okay,0,3,3
+16_246_5,try to find a road,0,1,1
+16_247_5,pray,0,12,0
+16_252_5,Find an emergency shelter somewhere with a phone,0,4,4
+16_256_5,pray,0,12,0
+16_257_5,"Cover him with clothes, then work again at night time",14,9,14
+16_258_5,Rest for awhile,0,3,0
+16_265_5,secure todd any way possible until she can do any of the above,0,7,0
+16_273_5,cry,0,12,12
+16_276_5,rest to save energy and try later,0,14,14
+16_284_5,Find a place to take shelter until it's cooler and come back for Todd. ,14,1,14
+16_300_5,await the next day,0,3,3
+17_245_1,Can leave someone in charge.,0,2,0
+17_256_1,he could just leave,6,3,6
+17_271_1,ditch the job to hit the court date,6,9,6
+17_281_1,Blow off work.,6,9,6
+17_210_2,call somebody else to cover for him,8,2,2
+17_220_2,Find someone else to get in touch with to alert his boss,0,2,2
+17_237_2,call one of Jeff's friends and see if they know anything,0,14,14
+17_241_2,He could miss the court appointment and wait for Jeff.,4,5,5
+17_282_2,go home,0,6,6
+17_295_2,Wait and miss his appointment,4,5,5
+17_304_2,ask someone to take care store,8,2,8
+17_306_2,call the owner and wait,4,1,1
+17_210_3,stay at the store,5,4,5
+17_237_3,cancel the court appointment,0,7,7
+17_243_3,Get someone to replace him.,0,2,2
+17_244_3,There should be 2 people in the store working so wait for the 2nd person to show up on time.,0,4,4
+17_253_3,Call another worker in,2,1,2
+17_263_3,miss the important court appointment (call and explain to them),7,5,7
+17_273_3,see if appointment can be virtual ,0,7,7
+17_276_3,call someone who can contact Jeff,0,14,14
+17_280_3,"Jeff could call the court and lie, saying an extenuating circumstance has occurred.",0,7,7
+17_281_3,Find someone else to take over his shift. ,8,2,2
+17_302_3,Drop a text for his boss and close the store,11,3,11
+17_215_4,talk to lawyer,0,7,7
+17_231_4,Look for subtitute,0,2,2
+17_253_4,See if the court case is running late,0,7,7
+17_273_4,see if someone else can cover the shift,2,3,2
+17_285_4,Jeff could leave the store unlock and unattended and go to court.,6,3,6
+17_287_4,Leave his boss a nasty voicemail,0,10,10
+17_302_4,Drop a voicemail and close the store,10,3,10
+17_305_4,Just quit and leave without securing the place.,9,6,9
+17_306_4,ask a stranger to stay and wait for owner,0,4,0
+17_223_5,Do nothing.,5,0,5
+17_224_5,Work a double shift,5,0,0
+17_233_5,He could call corporate and inform them of the issue and explain that he needs to leave and close down until Jeff arrives.,0,2,2
+17_234_5,He could call his lawyer if he has one to see what can be done.,0,7,7
+17_237_5,have one of the customers fill in as employee,0,2,0
+17_242_5,Get someone else to do his work.,0,2,2
+17_245_5,cancel the appointment,0,5,0
+17_262_5,ask a bystander to watch over things for him,0,14,0
+17_263_5,ask someone else to call his boss to see if they can get an answer,0,1,1
+17_265_5,walk out and throw arms up in the air,0,6,6
+17_272_5,Do nothing.,5,0,5
+17_279_5,Cancel the court appointment.,0,7,7
+17_280_5,"Jeff could continue working until his boss arrives, risking missing the appointment or being late.",4,5,4
+17_286_5,Stay even though he'll be late.,5,4,4
+17_289_5,"Purposely flood the store, then close it and leave a note to his boss explaining that he had to close the store due to the flood.",0,3,3
+17_295_5,He should have notified his boss days/week in advance he need to got out asap.,0,1,0
+17_299_5,hope and pray his boss shows up in time,0,6,0
+17_310_5,Decide the day is ruined and just go home,0,6,6
+18_225_1,Check on her competition and carry on.,11,5,11
+18_240_1,Attend to the person,4,11,11
+18_243_1,set out for help,10,9,10
+18_244_1,Cover him with whatever she can find.,0,4,4
+18_263_1,"stop and help, and stay until more help arrives",6,4,4
+18_272_1,Bury her competitor in snow.,12,13,13
+18_274_1,stop and check on competitor,4,11,4
+18_277_1,she should first put herself together,0,2,0
+18_280_1,"Shania could stop her sled and assess the situation, leaving the race.",11,4,4
+18_293_1,Keep running,2,4,2
+18_294_1,try to revive him,4,2,4
+18_305_1,Turn back/go for help.,10,4,10
+18_213_2,She could try and wake him up,4,11,4
+18_215_2,ask for more help,1,9,9
+18_216_2,Try to wake the person,4,11,4
+18_219_2,Try to wake him,4,11,4
+18_224_2,Help him and start gofundme for college,0,4,4
+18_228_2,If she can't call then she should quickly ride to find help,10,14,10
+18_234_2,Call for help with a walkie or phone before continuing,5,1,5
+18_238_2,Stop and call for help,4,1,4
+18_247_2,wave her flag for help,1,9,1
+18_257_2,Leave and get help,10,7,10
+18_263_2,"stop and set up a shelter, call for help but then leave",5,1,5
+18_264_2,Stop and check on him,4,11,4
+18_265_2,get help at a checkpoint if there is one,10,14,14
+18_271_2,keep racing cause who cares,2,1,2
+18_277_2,have a calm mind,0,2,2
+18_278_2,Keep going and report the incident when she has a chance,14,2,14
+18_299_2,gather up the competitors dogs so they don't run away,0,8,8
+18_300_2,try to revive the person,4,11,4
+18_217_3,Go for help.,10,19,10
+18_218_3,take other dogs and competitor with her,3,8,3
+18_225_3,Drive straight passed her,2,12,2
+18_232_3,She can yell out for help as she runs by,0,9,9
+18_236_3,Check on him and move on,11,5,5
+18_238_3,keep going and call for help at next stop,14,2,14
+18_241_3,Ask someone else to help and take off.,1,10,10
+18_242_3,Get someone else to help.,1,10,10
+18_244_3,Try to get dogs to surround him to keep him warm.,0,4,4
+18_245_3,inform the officials,1,14,14
+18_247_3,stop at first rest station,0,14,14
+18_249_3,She can try and run faster in order to call the attention of the officials to the situation,0,14,14
+18_253_3,Go faster to win,2,1,2
+18_255_3,alert the next person she sees on the track,14,9,14
+18_262_3,"try to let someone else know, so they can help him.",1,10,10
+18_264_3,Keep going but tell someone,5,7,7
+18_267_3,She could call for help and continue the race,5,1,5
+18_268_3,Holler at them that you will be back later,0,10,10
+18_270_3,Rob them.,0,8,8
+18_279_3,Notify someone else to come help.,1,10,10
+18_285_3,I believe that she could stay behind with them to make sure they are ok .,4,6,6
+18_286_3,Keep going but radio for help,5,2,5
+18_296_3,Scream for somebody to help while see continues to race.,0,5,5
+18_302_3,Call attention of medic team,1,10,10
+18_304_3,ask someone else to help him,1,9,9
+18_226_4,Continue and send help back. ,14,7,7
+18_234_4,Attempt to wake him up so he can possibly continue,4,11,4
+18_240_4,Call for help and wait for help,6,1,6
+18_241_4,Ask someone to help you help the person.,1,9,9
+18_266_4,Console them.,0,6,6
+18_268_4,Throw supplies out at them hoping someone else will stop,0,5,5
+18_274_4,try to arouse competitor,4,11,4
+18_275_4,try to wake him up,4,11,4
+18_287_4,Run him over,13,12,12
+18_298_4,Go find help,10,2,10
+18_301_4,put him out of his misery,13,4,13
+18_302_4,Encourage her competitor,0,6,0
+18_306_4,let the sledder know she will send hep when she gets back,0,7,7
+18_308_4,Contact a judge,1,14,14
+18_310_4,Set off a flare to mark the spot,1,9,9
+18_311_4,stop and also try and get other people to stop,0,6,6
+18_210_5,leave a sign so the next person finds them,0,9,9
+18_217_5,Try to signal for help.,1,9,9
+18_219_5,Try to make him comfortable,0,4,4
+18_221_5,tell someone then keep going,5,2,5
+18_223_5,She could pray for help and guidance.,0,2,0
+18_225_5,have someone else stay with the competitor,0,9,9
+18_227_5,Laugh,0,2,0
+18_231_5,Scream to attract attention,1,2,1
+18_232_5,She can stop at the next authority figure and actively bring them over,0,14,14
+18_237_5,laugh,0,2,0
+18_238_5,block the trail so the race would be stopped ,0,10,10
+18_243_5,Ask what can be done,0,11,0
+18_244_5,Do not move him in case something is broken.,0,6,6
+18_252_5,Inform the race judges of the situation,1,14,14
+18_253_5,Laugh as she went by the other competitor,0,2,0
+18_268_5,Turn her head and pretend not to see them.,2,5,2
+18_275_5,let someone else help him,0,9,9
+18_277_5,and have it in mind to apologies to her competitor,0,2,0
+18_280_5,"Shania could help the competitor, and then demand the race be rescheduled.",0,4,4
+18_282_5,bury her so she can't catch up,0,13,13
+18_285_5,I believe that she could take all of there gear and leave them and their dogs there.,0,8,8
+18_289_5,Say a quick prayer for her competitor and then continue racing,0,2,0
+18_291_5,Help person so they can sled on their own until help arrives or they go to nearest check point,0,4,4
+18_292_5,"Put competitor back on their sled, and lead competitor to safety.",3,4,3
+18_293_5,Pull the guy out of the sled,0,4,4
+18_296_5,"Let someone else help him, because he will be noticed by others.",0,9,9
+18_298_5,Carry the person,13,3,3
+18_300_5,keep going with the race,2,7,2
+18_304_5,forget the competition there will be more opportunities,2,4,4
+18_305_5,Cover competitor so no one else can help him so she can win,0,3,0

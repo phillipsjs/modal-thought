@@ -1,0 +1,1801 @@
+"","id","context","text","group"
+"1",1,1,"look for coupon",10
+"2",2,1,"I ask my friends for help with this medication.",1
+"3",3,1,"Get a side hustle to make some more money.",6
+"4",4,1,"buy it for them",11
+"5",5,1,"Ask friends and family for help while working more or looking for a better paying job.",1
+"6",6,1,"I would borrow money or not pay other bills so I could get the medicine.",15
+"7",7,1,"Sell any items of value that I have to pay for it.",7
+"8",8,1,"find ways to make money quick or sell assets",7
+"9",9,1,"I would take out a loan to pay for the medicine while cursing republicans for blocking universal healthcare.",4
+"10",10,1,"I would look for help anywhere I could. Assistance from friends and family or even a loan. Anything. ",1
+"11",11,1,"Ask a family member for help.",1
+"12",12,1,"start working another job",6
+"13",13,1,"Get a second job",6
+"14",14,1,"try to get extra money or take out a loan for the medicine",4
+"15",15,1,"Explore payment plan options",0
+"16",16,1,"I would ask my friends, parents, and my spouse's family for a loan and pay them back asap.",1
+"17",17,1,"borrow money from family",1
+"18",18,1,"reach out of family for money",1
+"19",19,1,"Set up a GoFundMe page and ask friends and family if they can help out financially.",2
+"20",20,1,"I would sell expensive belongings. ",7
+"21",21,1,"I need help for someone",-99
+"22",22,1,"Call the pharmacy, see if I can a partial script of the medication or if there was a generic version. I would try using an app like GoodRX to see where the cheapest pharmacy would be. Possibly call the Dr to see if there are samples available. Or call the manufacturer of the medication, sometimes they have programs where people can medication for a very very cheap price or free. If all that fails I would ask someone if I could borrow the money, then start figuring out what I can sell or cut end to save the money to pay them back.  ",0
+"23",23,1,"Get on mturk, go trade some crypto, borrow money, pawn stuff. any or all of those",6
+"24",24,1,"sell some stuff to get the money",7
+"25",25,1,"I would get the medication on credit.",16
+"26",26,1,"Check the web for any ideas.",0
+"27",27,1,"I would see what loans I can get.",4
+"28",28,1,"try to raise money",2
+"29",29,1,"sell something of value to buy it",7
+"30",30,1,"By hook or by crook, I will come up with the money to make sure my spouse is alright.",0
+"31",31,1,"Take out a loan",4
+"32",32,1,"try to work for the money",6
+"33",33,1,"Ask someone for help",0
+"34",34,1,"borrow money",15
+"35",35,1,"Sell whatever I can to make money.",7
+"36",36,1,"Borrow the money.",15
+"37",37,1,"id steal it",8
+"38",38,1,"Ask around to see if any family members would be able to help",1
+"39",39,1,"find extra income, start a gofundme in the mean time.",6
+"40",40,1,"I would ask for money from someone.",0
+"41",41,1,"I would go on gofundme.com and ask for assitance",2
+"42",42,1,"apply for grants and get a second job.",0
+"43",43,1,"borrow to get the medicine",15
+"44",44,1,"Borrow money from a friend/family",1
+"45",45,1,"Try to find every way possible to get a discount on this medication using a site like GoodRX, etc. Otherwise I'll have to borrow the money from somebody and pay them back.",10
+"46",46,1,"borrow money",15
+"47",47,1,"Reach out to relatives for help",1
+"48",48,1,"Sell feet pictures.",6
+"49",49,1,"try to borrow the money",15
+"50",50,1,"I would look for alternative generic versions and/or contact the expensive medication company to see if there is any help for those can't afford it, which is more common these days",12
+"51",51,1,"Charge it to credit card",16
+"52",52,1,"I would start a go fund account.",2
+"53",53,1,"I would either use my credit card or take out a personal loan from a friend or family member to buy it.",16
+"54",54,1,"Get a second job",6
+"55",55,1,"Try to find some work to do so I can pay for it.",6
+"56",56,1,"Call my family and friends for help",1
+"57",57,1,"I would contact friends and family to find the needed funds. ",1
+"58",58,1,"I would find a way to increase my income, however i could. I would sell anything i had of value and look for side work. ",6
+"59",59,1,"I would ask the bank for a loan.",4
+"60",60,1,"I would first reach out to family and friends to see if they can help with the situation. ",1
+"61",61,1,"I would ask someone close to me for a loan, then find an extra job or apply for a loan to pay them back.",4
+"62",62,1,"Ask family for financial help.",1
+"63",63,1,"I will steal the medication if I have to",8
+"64",64,1,"The expensive prescription on the recover.",-99
+"65",65,1,"I would exhaust as many avenues as possible to pay the prescription such as loans",4
+"66",66,1,"I would go into as much debt as possible and declare bankruptcy",4
+"67",67,1,"Take out a loan",4
+"68",68,1,"I would contact family and churches to see if they can help us. ",1
+"69",69,1,"I would poll from family first for options, but would take a loan or reverse mortgage to afford it for them.",1
+"70",70,1,"get another job",6
+"71",71,1,"Apply for medical/financial state assistance.",3
+"72",72,1,"medical insurance",14
+"73",73,1,"try to borrow the money in any way possible (bank, credit cards, family or friends)",4
+"74",74,1,"more information to collect and get it",0
+"75",75,1,"I would attempt to switch to an insurance that does cover the medication. If I absolutely could not do that, I would start a fundraiser asking my community for help.",13
+"76",76,1,"I make a request on go fund me and take out a loan to afford the medication. ",2
+"77",77,1,"I would ask around the group of people I know who dabble in illegal stuff and see if it can be aquired. If not I would have to find out where it is a break in and take it without getting caught.",0
+"78",78,1,"Search of coupons ",10
+"79",79,1,"I would see if there are things I can sell to come up with some quick cash or take out a loan.",7
+"80",80,1,"Let primary care physician know the circumstances.  Ask if there are any programs that will help cover the medicine.  Ask if there is a generic for the drug or another cheaper drug that will have same effect.  ",14
+"81",81,1,"I would go ask my mom for the money to help me get her medicine!",1
+"82",82,1,"I would sell something we have to try and cover the cost and look for another job to make more money",7
+"83",83,1,"Drain my savings or put it on a credit card. It isn't an optional thing, they have to have it, so I will do what is necessary to get it.",11
+"84",84,1,"stop and help",-99
+"85",85,1,"I would look to any programs that might help.",0
+"86",86,1,"I ask my friend or other person",1
+"87",87,1,"take out a loan an get the medicine",4
+"88",88,1,"Get a second job or take out a loan. Either way I would prioritize her life.",6
+"89",89,1,"I asked money from my friends",1
+"90",90,1,"I would do whatever I had to do in order to get the money.",0
+"91",91,1,"I would go to the ER at my local hospital.",0
+"92",92,1,"I would try and steal it from the pharmacy. ",8
+"93",93,1,"Take out a credit card",16
+"94",94,1,"Take another shift for work in order to make more money ",6
+"95",95,1,"I would sell my car",7
+"96",96,1,"Ask to borrow the money",15
+"97",97,1,"Look into options like rx savings or different insurance",13
+"98",98,1,"Lobby your insurance to get it covered. Raise a stink on social media and raise the funds via GoFundMe while shaming the insurance company publicly.",14
+"99",99,1,"Contact the manufacturer to see if it can be donated, post a gofundme, go to the local health clinic to see if it is available through them.",10
+"100",100,1,"Call the pharmaceutical company, the hospital, charities, etc. until aid is found.",10
+"101",1,2,"Call someone to help",0
+"102",2,2,"I would call a towtruck to tow my car to the airport, so I can catch my flight. I will worry about my car being broken when I get home.",2
+"103",3,2,"Push the car out of the way and start dealing with the issue.",0
+"104",4,2,"just continue my way there",0
+"105",5,2,"Call a tow truck to take me to airport parking.",2
+"106",6,2,"I would call a Lyft and ask my husband to call AAA for the car to have it towed home or to the mechanic's.",1
+"107",7,2,"Call an uber or Taxi.",1
+"108",8,2,"call a cab",1
+"109",9,2,"I would call the police to report my situation and call AAA to move my car.",0
+"110",10,2,"Call a tow truck and an uber and have both ready to pick up the car and me. ",2
+"111",11,2,"leave the car call a cab.",1
+"112",12,2,"call family to see if they can get me to the airport",4
+"113",13,2,"Call a tow truck and an Uber. Have the car towed to a trusted mechanic and continue to your trip. ",2
+"114",14,2,"Try to get a taxi or uber to pick me up and take me to the airport",1
+"115",15,2,"Call a tow truck and a close friend and see if they can come wait with my car while I grab a cab to the airport.",2
+"116",16,2,"I would call a friend or my brother that I left my car there, and jump on an Uber to get to the airport.",4
+"117",17,2,"call an uber or family member for a ride",1
+"118",18,2,"Leave the car and call an uber. while in the uber call a relative and tell them to take care of the car.",1
+"119",19,2,"Call an ride service or taxi or check to see if I am near a rapid transit system that would bring me to the airport. ",1
+"120",20,2,"I would call friends and family until I found someone to take care of my car then I would call an uber to drive me to the airport. ",4
+"121",21,2,"I have said that help for someone and get the plane.",-99
+"122",22,2,"Call a tow truck first, they take forever to get there. Call a family member or a friend to come take your place, have them bring someone else who can drive you to the airport.",2
+"123",23,2," I probably call a tow truck to take the car home and get an uber to the airport. This isn't even a big deal if I left early enough",2
+"124",24,2,"cancel the flight, call a towtruck",5
+"125",25,2,"I would have purchased the insurance. First I'd deal with the towing service then get my plane tickets refunded/reschedule the trip.",2
+"126",26,2,"Skip the safari, fix the car.",5
+"127",27,2,"I would have to just wait with my car and probably miss my flight unless I have a friend in the area.",5
+"128",28,2,"call for help",0
+"129",29,2,"call for a cab",1
+"130",30,2,"Call a tow truck for the car, have them drop it off at my home and catch a taxi to the airport.",2
+"131",31,2,"Call a friend to handle the car and take an Uber",4
+"132",32,2,"flag down a driver for help",11
+"133",33,2,"hitch hike",3
+"134",34,2,"call uber, tow truck",1
+"135",35,2,"Call a cab.",1
+"136",36,2,"Call a friend to get the car and take you to the airport.",4
+"137",37,2,"call a friend",4
+"138",38,2,"I would have no choice but to call a tow truck, then try and catch a cab to the airport",2
+"139",39,2,"call to have car towed back to house, uber to airport.",2
+"140",40,2,"I would call a taxi or friend to come pick me up after I have locked my car and secured my valuables.",1
+"141",41,2,"I would call AAA",2
+"142",42,2,"call a tow truck and reschedule flight.",2
+"143",43,2,"call a towing company and police and let them know. call an uber to get to the airport",2
+"144",44,2,"reschedule flight",7
+"145",45,2,"Call a tow service and also call an Uber; I'll have to take care of my car when I get back, but I need to get to this trip!",2
+"146",46,2,"catch a different flight",7
+"147",47,2,"Call highway patrol or my car insurance to get help getting my car moving again",14
+"148",48,2,"Decide I probably shouldn't hunt animals like that anyways and go home.",5
+"149",49,2,"try and call an uber",1
+"150",50,2,"Call a taxi for a ride to the airport, and call a tow truck to get the car to storage until I return from the safari.",1
+"151",51,2,"Call AAA and get help.",2
+"152",52,2,"I would call a tow truck and have them tow the car and call a cab to take me to the airport",2
+"153",53,2,"I would call a close friend to see if they could either pick me up, or if they could get my car while I called a cab.",4
+"154",54,2,"Call a Uber ",1
+"155",55,2,"Try to reschedule the flight and get the car towed home.",7
+"156",56,2,"Call a friend to come pcik the car and i catch a taxi to the airport",4
+"157",57,2,"I would call a friend to come sit with my car and an Uber to take me to the airport so I don't miss my flight. ",4
+"158",58,2,"Hopefully come to my senses and not participate in such a cruel activity. But i would be very worried, i might try to call the airport and alert them and see what my options were for a later flight. ",5
+"159",59,2,"I would call a taxi.",1
+"160",60,2,"Call the emergency roadside assistance and explain the situation. If they are going to be unable to figure it out in time, then call the airport and see if I can reschedule my flight. ",14
+"161",61,2,"I would call a tow truck to get my car home, then I would call a ride-sharing service to take me to the airport.",2
+"162",62,2,"Get an Uber to the airport.",1
+"163",63,2,"Call for an uber ",1
+"164",64,2,"The intersection is good and well apperance.",-99
+"165",65,2,"I would first call an uber or ride service to arrive on time. Then call a towing or mechanic service to handle the car.",1
+"166",66,2,"I would call a tow truck to tow me to the airport lot",2
+"167",67,2,"Miss the hunting safari",5
+"168",68,2,"I would call a tow truck to tow my car to the Airport while I got a ride from a taxi or Uber. I'd worry about the issue after I got back and plan for fixing it during the trip. t",2
+"169",69,2,"I would order a cab or uber to get to the airport.",1
+"170",70,2,"Call a cab and a tow truck",1
+"171",71,2,"Call for a tow and miss the flight.",2
+"172",72,2,"yes next car book in airport ",-99
+"173",73,2,"call roadside assistance, have the car towed to the shop and take an uber to the airport",2
+"174",74,2,"fast to go it ",-99
+"175",75,2,"Well, I would call for help (a tow truck) and possibly attempt to still make it to the airport in time. However, if I couldn't make it to the airport and still get my car safely off the road, I would have to take the loss. Things happen and it can't be the end of the world. Sometimes, things don't go as planned and I have learned to roll with it. I would take it as ""a sign I was not meant to go"" and return home. ",2
+"176",76,2,"I call friends and family to take care of the car issue. I'll likely get it towed and seek an uber to the airport.",4
+"177",77,2,"I wouolod get the car off of the road and push it somewhere safe. I would call an Uber ride to make it to the airport. While on the way I will make arrangements to have my car picked up or towed.",1
+"178",78,2,"Reschedule my flight ",7
+"179",79,2,"I would call a friend or family member that can come take care of my car and get it towed away and I would call an uber or taxi to get to the airport.",4
+"180",80,2,"call a family member to stay with car, then call Uber",4
+"181",81,2,"I would try to flag someone down to see if they could give me a ride and if they did stop and give me a ride then I would call for a wrecker to haul my car to my mom's house .",3
+"182",82,2,"I would call the airport to see if I could catch a later flight.",7
+"183",83,2,"I would call AAA and an uber. Hopefully my family will ensure my car makes it back with AAA and the uber will hopefully get me to the airport in time",2
+"184",84,2,"Unsure what to do",0
+"185",85,2,"I would leave my car and hitch a ride and call a friend to have it towed for me.",16
+"186",86,2,"I am going to pick up the air flight",-99
+"187",87,2,"start speeding",0
+"188",88,2,"Call friends and family to see if they can handle my car. Call a tow truck and then either an Uber or friend to drive me to airport. Deal with the car when I get back.",4
+"189",89,2,"I cross that street and rent a new taxi",1
+"190",90,2,"i would hire a ride-sharing service, and call a friend to get my car to a mechanic.",1
+"191",91,2,"I would call uber and a tow truck.",1
+"192",92,2,"I would try and get to there by foot. ",6
+"193",93,2,"Call a tow truck and get the car towed to a mechanic and Uber to the airport",2
+"194",94,2,"Call a friend for help",4
+"195",95,2,"I will call a friend ",4
+"196",96,2,"call a tow truck and reschedule my flight",2
+"197",97,2,"Have the car towed to a repair shop and call an Uber to the airport.",2
+"198",98,2,"Skip the trip, miss your flight. Hunting safaris are gross.",5
+"199",99,2,"Call AAA or a tow truck and a taxi.",2
+"200",100,2,"Call for a tow truck, while waiting for the tow call shops to find one that can accept the tow without you there. Call a taxi/Uber for yourself to the airport.",2
+"201",1,3,"Call the other manager",2
+"202",2,3,"I will count down all registers and check in the cracks to make sure I didn't miss anything. If I didn't I would watch the camera.",13
+"203",3,3,"Put my money in the register.",1
+"204",4,3,"pay the difference",1
+"205",5,3,"Use my own money to balance the til.",1
+"206",6,3,"I would put money in and question anyone else that was around.",1
+"207",7,3,"Use money from my own pocket",1
+"208",8,3,"I would try to solve how the money is missing. Also I would recount the drawer",13
+"209",9,3,"Report the situation to my manager.",2
+"210",10,3,"I would explain what happened and take the job loss.",2
+"211",11,3,"Put in 50.75 of your own money.",1
+"212",12,3,"add $50.75 of my own money into the register",1
+"213",13,3,"Re-check the daily sales to make sure that money is actually missing.",9
+"214",14,3,"leave a note and check the tape the next day to see why it may be short",8
+"215",15,3,"Review my transactions for the day and see if anything looks unusual",9
+"216",16,3,"I would put some of my own money to make up for the missing amount so that I don't lose my job.",1
+"217",17,3,"tell boss to check the cameras",8
+"218",18,3,"I would recount the money and if it wasn't there report what happen",9
+"219",19,3,"Review the receipts for the day and question the cashier(s).",9
+"220",20,3,"I would search everywhere for the money and recount the money. If both fail then I would call all the cashiers that worked to find out if any of them knew what happened. ",13
+"221",21,3,"I have maintain for my peace and solve the missing amount for confidently",9
+"222",22,3,"I would report it to the manager, it could have been a mistake from the previous shift. I would go through all the steps and procedures in finding the mistake, it could have been in a form of a check or a mistake ringing up. No way ever would I put my own money into the register to make it even, lose of job or not. ",2
+"223",23,3,"I'm honest with the boss and we figure out together what happened. It's likely data was entered wrong",2
+"224",24,3,"i'd replace the money",1
+"225",25,3,"Explain this to the manager. If they don't believe me then I don't want to work there anyway.",2
+"226",26,3,"Talk it over perhaps with anyone involved, add my own funds to cover it if needed.",4
+"227",27,3,"I would ask around and see if anyone knows why that amount of money is missing.",4
+"228",28,3,"put in my money",1
+"229",29,3,"make sure the amount is covered",0
+"230",30,3,"I cover the register and have security run the cameras and audit the registers so we can find out what went wrong.",1
+"231",31,3,"Ask around if there are any mistakes",4
+"232",32,3,"tell the manager",2
+"233",33,3,"Quit and run away",7
+"234",34,3,"tell my boss",2
+"235",35,3,"Go back through and make sure that it's actually missing.",9
+"236",36,3,"Attempt to find the discrepancy, then be honest.",9
+"237",37,3,"pay it out of pocket",1
+"238",38,3,"I would check the drawers again, feeling around, and search the floor in case any money fell or got stuck somewhere",13
+"239",39,3,"let my boss know, investigate what happened.",2
+"240",40,3,"I would find the missing money before my shift is over.",13
+"241",41,3,"I would inform my boss that a big amount is missing",2
+"242",42,3,"Put the money in out of my pocket.  Try to figure out what went wrong.",1
+"243",43,3,"recount the money in case their is a mistake",9
+"244",44,3,"Put my own money in it",1
+"245",45,3,"Input $50.75 worth of purchases that didn't actually happen so the register is balanced",3
+"246",46,3,"I would try to figure out what happened to the money",13
+"247",47,3,"Call whoever was working the register to ask if they know anything, if not I'd call my boss to see what the procedure is",4
+"248",48,3,"Put 50.75 of my own money in.",1
+"249",49,3,"count it again and pray",9
+"250",50,3,"Do my best to go back through tape to figure out where the mistake happened, then talk to management about it.",9
+"251",51,3,"Note the loss at the end of the shift.",2
+"252",52,3,"After counting the money again and again I would put the money in the register and hope for the best.",9
+"253",53,3,"I would double count then document the discrepancy for the accountants to review.  I would not be afraid of losing my job because it was obviously a one off situation.",9
+"254",54,3,"Pay the money back",1
+"255",55,3,"Count the drawer again and be sure that the total is correct, also check for any credits that may have been issued.",9
+"256",56,3,"I will bear the cost and replace the money",1
+"257",57,3,"I would tripple check the funds. If the till was still short I would add the money from my own cash. ",9
+"258",58,3,"I would recount everything a few times and then contact upper management to ask them what to do in the situation. ",9
+"259",59,3,"I would add the missing money from my own money.",1
+"260",60,3,"Recount the money and make sure that the total is incorrect. If it is still incorrect then call my supervisor and let them know the issue and see how they want to proceed. ",9
+"261",61,3,"I would put my own money into the register.",1
+"262",62,3,"Put in my own money to balance it.",1
+"263",63,3,"Pay the restaurant and figure it out tomorrow ",1
+"264",64,3,"The doller is high on the budject.",-99
+"265",65,3,"I would calmly approach my employees asking if they saw anything or know anything and then check on possible camera footage to get the full picture",4
+"266",66,3,"I would notify a manager immediately",2
+"267",67,3,"Find out where the discrepancy is",9
+"268",68,3,"I would recount all the money, then check the cameras. ",9
+"269",69,3,"I would leave a note explaining the situation, or call the upper admin to explain what I found. I would potentially offer paying the difference, but am confused how this discrepancy would occur.",2
+"270",70,3,"Put my own money in the register",1
+"271",71,3,"File a report explaining money is missing. Review security tapes, find the theif.",2
+"272",72,3,"pay in money",1
+"273",73,3,"Report the shortage to your supervisor ",2
+"274",74,3,"I give my best.",1
+"275",75,3,"I would call the owner or the boss, whoever I report to, and let them know right away that my drawer is missing $50.75 so we could check the cameras to see if an employee took it. If it were found to be something I did mistakenly (give an extra 50 back in change, two 50s stuck together or something like that) than I would offer to have it taken out of my paycheck. But only if were my fault. ",2
+"276",76,3,"I'd ask people im working with to see if we can find the money and if not I'd put my own money back in the register to avoid being fired.",4
+"277",77,3,"I would have no choice but to pay the money back that I owe since it is my responsibility.",1
+"278",78,3,"Review why it is short",9
+"279",79,3,"I would recount the money to make sure there was no error. Then if I had to replace the money I guess thats what I would have to do.",9
+"280",80,3,"Recount.  Document.  Nothing much else you can do.",9
+"281",81,3,"I would recheck it and if it was still short then I would have to take money out of my pocket to cover it and then tell the employer that one of the other employees is coming up short with how they are figuring the cash register either they are pocketing or adding something wrong so we need to check them out and see what is going on.",9
+"282",82,3,"I would mae a note of the missing money to tell the manager.",2
+"283",83,3,"Well I suppose I would give my own money to make the drawer even but I'd definitely be going over the day's purchases and checking security cameras if there are any for evidence of theft.",1
+"284",84,3,"put own money in",1
+"285",85,3,"I would go through it again to see if I can find the issue. Then ask the employees if they have any idea.",9
+"286",86,3,"I get another job right now",7
+"287",87,3,"put in my own money",1
+"288",88,3,"Double check the count and see if anyone took money from my register for theirs. If neither turns up the difference then fill the register due to my own mistake.",9
+"289",89,3,"I check the accounts and Verify the CCTV camera weather other person steal the amount",9
+"290",90,3,"I would replace it with my own money.",1
+"291",91,3,"I would not use money out of my pocket.",0
+"292",92,3,"try and make up for the money by replacing it through my own pocket. ",1
+"293",93,3,"Recount the money and schedule time to talk to the owner the next day",9
+"294",94,3,"I would take a look at the surveillance cameras.",8
+"295",95,3,"I would fill it with my own money",1
+"296",96,3,"recount the money and call the manager",9
+"297",97,3,"I would replace the money until I was able to discuss this with my manager",1
+"298",98,3,"Put my own money in, $50.75, to balance it and then pay attention at work to see who is skimming from the register.",1
+"299",99,3,"Go through the receipts again and leave a shortage message if necessary.",9
+"300",100,3,"double count the drawer and safe",9
+"301",1,4,"Ask for a guest pass",8
+"302",2,4,"I would pay for a new membership.",1
+"303",3,4,"Renew my membership.",1
+"304",4,4,"leave a message",10
+"305",5,4,"Ask if the employee can let my friend know I will not be making it.",13
+"306",6,4,"I would ask to borrow the desk phone or go back to the office for my own phone",2
+"307",7,4,"Renew my membership.",1
+"308",8,4,"I would leave a note for her at the reception desk and describe her to the person working there so they could give her my note",10
+"309",9,4,"I would renew my membership or pay a daily fee to go play.",1
+"310",10,4,"I would wait for them to get there and tell them about it. I am sure that they would understand",6
+"311",11,4,"use phone at the gym to call friend.",2
+"312",12,4,"wait for my friend to arrive and talk to him when he gets there",6
+"313",13,4,"Renew your membership.",1
+"314",14,4,"wait for them and try to go in together so they don't notice",5
+"315",15,4,"Explain the situation to the receptionist. See if they'll give me a guest pass for the day and if not, ask for an escort to go inform my friend",8
+"316",16,4,"I would wait for my friend and tell him I can't play racquetball today because I hurt my back. I would then suggest we go have lunch somewhere. Then later, I would renew my membership and call my friend to re-schedule.",6
+"317",17,4,"renew membership at front desk",1
+"318",18,4,"arrive before the friend and explain the situation",6
+"319",19,4,"Renew my membership on the spot.",1
+"320",20,4,"I would see if I could renew my membership. ",1
+"321",21,4,"I have tell for my situation in the gym owner",0
+"322",22,4,"I would renew my membership. If that wasn't possible I wait for my friend at the desk or the door. If they had already entered I would have them called to the desk or ask someone going into the gym to have my friend come outside. ",1
+"323",23,4,"Leave a message for when he checks in, Ask the gym to call him",10
+"324",24,4,"i might re-up my membership",1
+"325",25,4,"I'd leave a message with the gym staff, return to the office and call my bud from there.",10
+"326",26,4,"Ask to borrow someone's phone.",3
+"327",27,4,"I would buy a new membership.",1
+"328",28,4,"renew my membership",1
+"329",29,4,"ask to use the phone",2
+"330",30,4,"I will talk to the desk agent and get a day pass so I can play with my friend.",8
+"331",31,4,"Renew my membership",1
+"332",32,4,"let the desk know ",13
+"333",33,4,"buy a membership",1
+"334",34,4,"ask gym to use phone",2
+"335",35,4,"Wait for the friend to show up.",6
+"336",36,4,"Ask staff to deliver the message.",10
+"337",37,4,"leave a message at the gym desk",10
+"338",38,4,"I would ask the gym employees to pass the message along",10
+"339",39,4,"renew membership",1
+"340",40,4,"I would borrow a phone to call my friend.",3
+"341",41,4,"I would just renew my membership",1
+"342",42,4,"wait outside till he arrives.",6
+"343",43,4,"try to ask someone going in to let them know or tell them the situation and see if they will let you in",7
+"344",44,4,"Leave and tell them later",4
+"345",45,4,"Ask the receptionist at the gym if I can use the phone to call my friend; barring that I'd leave a note for them",2
+"346",46,4,"wait for friend to show or let the front desk charge the card on file",6
+"347",47,4,"Go up to the gym desk and renew my membership",1
+"348",48,4,"Buy a new membership, since I am likely to anyways.",1
+"349",49,4,"tell  them when they arrive",6
+"350",50,4,"Have someone go find the friend, but in the meantime renew my membership so I can continue to play racquetball.",1
+"351",51,4,"Ask to borrow a phone to call him.",3
+"352",52,4,"Have the friend paged and then let him know the problem.",10
+"353",53,4,"I'd talk to the front desk and see if they could contact the person to talk to them.",13
+"354",54,4,"Pay the daily fee or wait for friend and explain the situation ",8
+"355",55,4,"Ask someone at the gym can you borrow their phone and or check with the gym owner to see if you can use theirs.",3
+"356",56,4,"I will just go back to work",9
+"357",57,4,"I would renew the membership and enter the gym to play with the friend who is waiting for me. ",1
+"358",58,4,"I would ask the front desk if they could call him, or i would wait until he arrived to let him know. ",13
+"359",59,4,"I would ask if I could go in quickly or if somebody could pass a message to my friend.",7
+"360",60,4,"Ask the people at the gym if they can inform your friend. See if I can renew my membership whilst I am there. ",13
+"361",61,4,"I would wait there until my friend got there and depending on the price, I may renew the membership.",6
+"362",62,4,"Wait for your friend and decide what to do from there.",6
+"363",63,4,"Go back to the office and call my friend ",12
+"364",64,4,"The office is the desk on the phone in my friend,",-99
+"365",65,4,"I'd pay the membership fee and go into the gym",1
+"366",66,4,"I'll have to go back and explain what happened",12
+"367",67,4,"Ask gym staff to let your friend know",13
+"368",68,4,"I'd wait until my friend came and tell them. ",6
+"369",69,4,"I would pay for the day to hang with my friend, and or reinstate my membership.",8
+"370",70,4,"Pay for the membership.",1
+"371",71,4,"Buy a new membership or wait out front for my friend to arrive.",1
+"372",72,4,"next day in gym",-99
+"373",73,4,"Leave a note with the person at front checking in members and letting my friend know the situation.",10
+"374",74,4,"I cancel the plan",-99
+"375",75,4,"I would wait at the gym for my friend to arrive and let them know. or, I would pay the membership fee if I were able to at the time.",6
+"376",76,4,"I'd try to renew my membership before my friend got there. If that wasn't an option I'd try to borrow someone's phone at the gym.",1
+"377",77,4,"I would just not go, and tell him the truth the next day when I get my phone.",11
+"378",78,4,"Ask the gym to inform my friend ",13
+"379",79,4,"I would ask the receptionist at the gym if they could locate my friend and pass on the message. ",13
+"380",80,4,"I would ask the person at the desk to notify my friend and/or renew my membership on the spot.",13
+"381",81,4,"I decide to go pay for my membership so that I can play racquetball with my friend even thought I have to ask him for the money since I left my things behind.",1
+"382",82,4,"I would try to renew my membership and wait for my friend to arrive.",1
+"383",83,4,"I would go back to the office and text my friend about the situation and apologize profusely for standing them up. ",12
+"384",84,4,"Unsure what to do",0
+"385",85,4,"I would ask if he is there already and if not wait for him to get there.",6
+"386",86,4,"I am calling to landline",-99
+"387",87,4,"try to sneak in the gym",5
+"388",88,4,"Ask to borrow a phone and see if anyone will lend theirs to me for a moment.",3
+"389",89,4,"I back to desk in office after that I informed to him",12
+"390",90,4,"I would leave and call my friend later to explain.",11
+"391",91,4,"I would wait for my friend and pay for one day or renew my membership..",6
+"392",92,4,"I would go the gym regardless.",0
+"393",93,4,"Wait for him to show up and ask for a one time pass",6
+"394",94,4,"Go home and wait until the next day to apologize to my friend.",11
+"395",95,4,"I would borrow a phone",3
+"396",96,4,"buy another membership since you like going ",1
+"397",97,4,"Wait for my friend to get to the gym and explain the situation",6
+"398",98,4,"Buy a new membership, meet my friend.",1
+"399",99,4,"Wait outside for him to show up or ask someone to use their phone.",6
+"400",100,4,"Ask the gym desk if your friend is already there or not, if so ask to send a message to them if not then wait by the door to catch them. Or, pay for the membership on the spot. ",13
+"401",1,5,"Explain to the teacher and ask for an extra day",1
+"402",2,5,"I tell them to call my mom, so I can turn in my homework assignment.",15
+"403",3,5,"Go to the office and call home, then have mom call the teacher.",2
+"404",4,5,"explain to the teacher",1
+"405",5,5,"Explain to the teacher what happened.",1
+"406",6,5,"Ask the teacher to call my mom.",15
+"407",7,5,"Talk to my teacher and ask if I can bring it the next day",9
+"408",8,5,"I would explain the situation to the teacher",1
+"409",9,5,"I would explain the situation to my teacher. Then I would ask the office to call my mom. Although, in this scenario I am an elementary school student so I may just cry.",1
+"410",10,5,"I would tell the teacher what happened and just accept it. ",1
+"411",11,5,"call my mom and tell teacher about it.",2
+"412",12,5,"tell my teacher the truth and turn in my homework tomorrow",1
+"413",13,5,"Call Mom and ask her to bring the assignment.",2
+"414",14,5,"tell the teacher what happened and call my mom to bring it ",1
+"415",15,5,"Explain the situation to my teacher and ask to turn it in tomorrow",1
+"416",16,5,"I would tell my teacher, and have my mom write a letter to my teacher. I would try to remember my answers to my assignment and try to put down as much information that I can remember.",1
+"417",17,5,"tell the teacher to call mom",15
+"418",18,5,"explain to the teacher what happened ",1
+"419",19,5,"Contact my mother to see if she can bring the homework assignment or ask for a pass to go home to get it and bring it back.",2
+"420",20,5,"I would explain what happened to my teacher. ",1
+"421",21,5,"I have tell the information for my teacher and excuse for one day",1
+"422",22,5,"I would call my mom and ask her to bring it to the school. If she weren't I would see if there was some way the teacher could talk to my mother on the phone and get an explanation. I would make sure the teacher knew up front why I didn't have the work. ",2
+"423",23,5,"Im in elementary school so probably make up a story about some gang members that demanded my homework and I had to beat them all up and during the melee I lost it.",7
+"424",24,5,"talk to the teacher about the misunderstanding and see if she would call my mom for me",1
+"425",25,5,"Explain the situation to the teacher and suggest she call my mom to check my story.",1
+"426",26,5,"Tell the teacher as soon as I arrived.",1
+"427",27,5,"I would explain what happened to my teacher and have her ask my mom to confirm the story.",1
+"428",28,5,"try to call my mom",2
+"429",29,5,"tell the teacher the truth",1
+"430",30,5,"I tell the teacher that I completed the assignment and I ask to call my mom so she can send a photo of it to my teacher's email.",1
+"431",31,5,"Take the loss",5
+"432",32,5,"explain the situation ",1
+"433",33,5,"call mom",2
+"434",34,5,"tell my teacher, call my mom",1
+"435",35,5,"Call my mom and have her bring it.",2
+"436",36,5,"Tell the teacher the truth and ask to call your mom.",1
+"437",37,5,"tell the teacher the situation ",1
+"438",38,5,"I would talk to my teacher and explain the situation",1
+"439",39,5,"ask if I can turn it in late.",9
+"440",40,5,"I would explain myself to the teacher.",1
+"441",41,5,"I would tell the teacher and have her call my mom to bring if or see if I can bring it in the next day",1
+"442",42,5,"Explain it to teacher and hope Mom can get the paper to you before end of day.",1
+"443",43,5,"tell your teacher and ask if you can bring it tomorrow",1
+"444",44,5,"Explain my situation to the teacher",1
+"445",45,5,"Tell the teacher that my homework is at my house, because my mom took it out of my backpack and I will turn it in tomorrow",1
+"446",46,5,"just go to class and ask if you can turn it in tomorrow ",9
+"447",47,5,"Tell the teacher what happened and ask if you can call your mom to bring the assignment in or ask if I can turn it in tomorrow.",1
+"448",48,5,"Turn nothing in who cares?",5
+"449",49,5,"explain to teacher",1
+"450",50,5,"I would explain the situation to the teacher and ask to call my mother to bring the homework to my school",1
+"451",51,5,"Call mom once I get to school and see if she can deliver it.",2
+"452",52,5,"Explain to the teacher what happened and hope she is understanding.",1
+"453",53,5,"I would ask the teacher if I could call my parents to bring my homework to school so that I could pass it in.  Or else ask if I could bring in a note the next day from my parents.",1
+"454",54,5,"Tell the teacher what happened",1
+"455",55,5,"Call my mom and see if she can bring it to the school before the day ends.",2
+"456",56,5,"I will go back home to try to look for it or ask for a retake",8
+"457",57,5,"Explain to the teacher that I did the assignment but left it at home. I would ask if my mom could send a screen shot of it to me. ",1
+"458",58,5,"I would probably cry, and then tell my teacher what happened or go to the office and ask to call her and talk to my teacher. ",10
+"459",59,5,"I would explain my teacher what happened and I would reach out to my mother.",1
+"460",60,5,"Explain what happened to my teacher. ",1
+"461",61,5,"I would tell my teacher the situation and ask if I can go to the office to call my mom to bring it.",1
+"462",62,5,"I would explain to my teacher what happened.",1
+"463",63,5,"Let the teacher know what happened ",1
+"464",64,5,"The credit is high  and good.,",-99
+"465",65,5,"I'd explain to the teacher and have her call home to confirm this and get the assignment turned in.",1
+"466",66,5,"I would tell my teacher to call my mom and ask her to bring in the homework",15
+"467",67,5,"Try to see if she can bring it to school.",2
+"468",68,5,"I would tell the teacher what happened And just hope for the best. ",1
+"469",69,5,"I would tell the teacher about this, and to fully confirm it have them email my mom to check for my story.",1
+"470",70,5,"Call Mom",2
+"471",71,5,"Go to the office and ask to call my mother and have her bring the assignment.",2
+"472",72,5,"no decide",-99
+"473",73,5,"I would let the teach know what happened and have the school call my mother and bring the assignment to school.",1
+"474",74,5,"go to the school",5
+"475",75,5,"I would tell my teacher I did my homework but mom forgot to put it back in my back when she was packing my bookbag and tell teacher she can call mom to confirm it was done on time, or ask the teacher for another worksheet and tell her I'd fill it out again in time for class.",1
+"476",76,5,"I would talk to my teacher about my situation and have my mom confirm. I'd also take photo evidence and send it to my teacher asap as proof.",1
+"477",77,5,"I would simply tell the teacher the truth, that I do not have my assignment because my mother took it out of my bag.",1
+"478",78,5,"Tell my teacher to call my mom",15
+"479",79,5,"I would explain the situation to my teacher and tell my teacher if they didn't believe me to contact my mother.",1
+"480",80,5,"I would tell the teacher and have him/her call my mom to verify.",1
+"481",81,5,"I hurry up and go to the office and ask them if I can use their phone to call my mom to bring my homework assignment so I don't get a bad grade.",2
+"482",82,5,"I would try to explain the situation to my teacher and turn my assignment in the next day.",1
+"483",83,5,"I would explain to the teacher exactly what had happened. As an elementary student I may not realize that I am responsible for looking in my backpack before school and I may not ask the teacher for an extension.",1
+"484",84,5,"Unsure what to do",0
+"485",85,5,"I would explain to the teacher and ask to call my mom to deliver it.",1
+"486",86,5,"next time I am first say my mom",-99
+"487",87,5,"tell the teacher the situation ",1
+"488",88,5,"Tell the teacher what has happened and offer to call mom to bring it in.",1
+"489",89,5,"I was punished",-99
+"490",90,5,"I would tell the teacher the truth.",1
+"491",91,5,"Explain what happened to my teacher and offer to call home to see if my mom could bring it to me.",1
+"492",92,5,"Make something up to pass as a homework assignment ",3
+"493",93,5,"Let the teacher know what happened and tell her my mom will corroborate the story",1
+"494",94,5,"Request to phone my mother to drop off the assignment to school.",2
+"495",95,5,"I will call my Mum and ask her to send it over",2
+"496",96,5,"let the teacher know and call your mom to bring it up to school",1
+"497",97,5,"Try to call my mom.  Explain to the teacher what happened.",2
+"498",98,5,"Tell the teacher the truth and ask if your mom can bring it in, the assignment.",1
+"499",99,5,"Let the teacher know to see if it can be turned in late otherwise call mom!",1
+"500",100,5,"Ask to call your mom for an emergency.",2
+"501",1,6,"Stop and make shelter",4
+"502",2,6,"I decide to stay put until the search team comes. I will do everything I can to stay warm and hydrated until then.",4
+"503",3,6,"Start a fire and build some shelter.",1
+"504",4,6,"wait it out",4
+"505",5,6,"Ration the food and water, look for wild food and water sources, and huddle together in a small makeshift shelter to keep warm.",12
+"506",6,6,"I would try to find leaves and ground to cover myself in to stay warm and make signs for rescuers to follow with twigs, leaves and branches.",4
+"507",7,6,"Try to build a fire and light any flares we may have.",1
+"508",8,6,"find shelter to warm up to help conserve energy",4
+"509",9,6,"I would create a signal fire.",9
+"510",10,6,"I would decide to try and make a fire and make some smoke and try to get warm.",1
+"511",11,6,"Try to make shelter and wait.",4
+"512",12,6,"stay in one spot, build a fire and wait for rescue",4
+"513",13,6,"Find a clearing and light a fire away from the trees.",1
+"514",14,6,"try to find shelter in a cave to hunker down in",4
+"515",15,6,"Pool resources and ration food. Start a fire and wait for rescuers",12
+"516",16,6,"I would hide the food and water somewhere so that I can eat and drink them later",0
+"517",17,6,"use the position of the sun to find my way back",7
+"518",18,6,"Try to make a shelter and fire to help alert someone. Try and find some water if possible.",4
+"519",19,6,"Light a smokey campfire to attract help. Find a flowing body of water (stream, river) and follow it and use it for drinking water. Try to find shelter.",9
+"520",20,6,"I would try to make a fire and stay in one place so it would be easier for the rescue team to find me.",1
+"521",21,6,"I have try to rescue for this place",-99
+"522",22,6,"Stay put and try to stay warm the best way I could. Going further may prolong the rescue.",4
+"523",23,6,"I find water immediately, secure shelter, build fire.",14
+"524",24,6,"stay still and make a base camp",4
+"525",25,6,"Stay in place and build a fire, the bigger the better to attract attention and drink melted snow when the water runs out.",4
+"526",26,6,"Build a big fire somehow.",1
+"527",27,6,"I would try to stay find the warmest spot close by and set up a camp there.",4
+"528",28,6,"try to use my cell to call for help",2
+"529",29,6,"stay as warm as possible",4
+"530",30,6,"Tap into the survivalist in me and live off the land until help arrives.",4
+"531",31,6,"Try to scavenge for food",6
+"532",32,6,"wait for help",4
+"533",33,6,"Wait it out",4
+"534",34,6,"make a fire",1
+"535",35,6,"Stay in one place and find shelter.",4
+"536",36,6,"Find and/or build shelter and fire.",4
+"537",37,6,"start a fire and hunt",1
+"538",38,6,"I would stay put, since I know that is usually the best idea, and would do my best to build some kind of shelter",4
+"539",39,6,"get to a high point, figure out location from there, work way back.",7
+"540",40,6,"I would find a way out of the wilderness using my survival skills.",7
+"541",41,6,"Find a way to make shelter and hold out until help arrives",4
+"542",42,6,"find some water and leaves,  sleep with leaves and stay close to the water.",14
+"543",43,6,"ration food and water to each of us",12
+"544",44,6,"Try to find shelter",4
+"545",45,6,"Ration the food and water and try to build a shelter",12
+"546",46,6,"I would just be freaking out",0
+"547",47,6,"Find the best possible place to stay, and don't move from that area.",4
+"548",48,6,"Check which direction the moss on the trees is facing, as it usually faces north.",7
+"549",49,6,"call for rescue",2
+"550",50,6,"Find the warmest place possible, ration food and try to build some sign to get noticed.",4
+"551",51,6,"If it's early in the day-trying to head in one direction to find a road. If it's late, try to make a shelter as best we can and start the next morning.",7
+"552",52,6,"I would stay put and let the rescue crew find me.",4
+"553",53,6,"I would start by making a structure for warmth, then a fire, and then start some basic hunting and gathering to get food.  If its cold, there must be snow or some other type of water source to get water.",4
+"554",54,6,"Stay put, make shelter and try to find water",4
+"555",55,6,"Try to stay close to where I am so I don't go further into the wilderness.  Take any extra clothes and socks we may have and use them to keep warm.",4
+"556",56,6,"Try call for help",2
+"557",57,6,"Use the energy I have now to collect fire wood and scout the area for edibles. Build a make shift camp and stay in place. ",1
+"558",58,6,"Get to a clearing that is viable from up top, light a fire to send a signal, do anything i can think of to stay warm.",9
+"559",59,6,"I would hold on until the rescue crew shows up, strictly rationing supplies.  ",12
+"560",60,6,"Try and stay calm, do not venture too far from the spot to avoid getting even more lost. Try to limit food and water consumption as much as possible. See if there is a water source nearby and try and find shelter to stay warm.",4
+"561",61,6,"I would have us stay in one spot and try to keep each other warm.",4
+"562",62,6,"Try to draw attention to yourself so the rescue crew can find you.",9
+"563",63,6,"Try to signal the rescue crew",9
+"564",64,6,"The water take in few times.",-99
+"565",65,6,"I'd construct a temporary shelter and make smoke signals",4
+"566",66,6,"huddle together for warmth and try to find any animals for food",4
+"567",67,6,"Take stock of supplies, asses how long they will last for, and see what methods you have to signal rescue parties",12
+"568",68,6,"I would start to make a space where I can attempt to get away from the elements first, like a lean - to. Then I'd attempt to make a fire to stay warm and for signaling help. I would try to ration my food to the extreme, and wait for a search crew m",4
+"569",69,6,"Focus on building something for us to reside in and build a fire to retain our heat, and then look for methods to acquire water.",4
+"570",70,6,"Stay put and huddle together",4
+"571",71,6,"All of us head in a straight line to the direction we think is the best guess.",7
+"572",72,6,"no decide ",-99
+"573",73,6,"Stay where we are, create as much shelter as possible and wait for rescue.",4
+"574",74,6,"First I stay clam and cool. Any help way to try it. ",4
+"575",75,6,"There isn't much one can do, other than do the very best they can to survive. I would try to keep everyone calm to prevent panic. I would start a fire. If we are days into a trip, we have a tent and overnight gear. We will have to eat less and wait for help. ",4
+"576",76,6,"I would try to secure shelter and find a water source while waiting for the rescue crew. It would at least prolong my survival.",4
+"577",77,6,"Again we would have to ration food and water, and work as a team. We must build adequate shelter and huddle for warmth while we wait for rescue.",12
+"578",78,6,"Call for help ",2
+"579",79,6,"I would attempt to call emergency services and I would hunker down somewhere because continuing to walk around lost id just going to cause us to consume more energy and resources ",2
+"580",80,6,"Conserve food, water.  Take any emergency measures.  Pray.",12
+"581",81,6,"I would make a fire and try to conserve energy plus keep everyone warm too!",1
+"582",82,6,"I would try to find a source of water and wait for rescue.",14
+"583",83,6,"I guess I would try to huddle up with the friend for warmth and wait out the rescue crew.",8
+"584",84,6,"stop and help",-99
+"585",85,6,"I would stay in one spot and wait to be rescued.",4
+"586",86,6,"I complete my way",3
+"587",87,6,"try to rationalize the food",12
+"588",88,6,"Bundle up with friends to split food and share warmth. Try to find a decent location to camp it out at.",8
+"589",89,6,"I had a self confidence and I try to find another way",7
+"590",90,6,"I would stay put and wait for rescue, and I would try to keep a fire burning.",4
+"591",91,6,"I would gather wood and make emergency shelter with tree branches.",4
+"592",92,6,"Try and light a flare.",9
+"593",93,6,"Stay put and ty to stay warm waiting for the rescue team",4
+"594",94,6,"Find shelter and stay put for as long as possible ",4
+"595",95,6,"I would call the other crew",2
+"596",96,6,"call 911",2
+"597",97,6,"Try to search for food/water and get to a point where the rescue crew could find us quickly",6
+"598",98,6,"Use everything you have to try to signal your location for the inevitable search parties.",9
+"599",99,6,"Look for nearest shelter and leave an obvious trail.",4
+"600",100,6,"review maps and decipher the correct location",7
+"601",1,7,"Say ""sorry Ted""",0
+"602",2,7,"I would sell my ticket so my friend wouldn't have to miss out on the concert alone.",2
+"603",3,7,"Give Ted my ticket ",4
+"604",4,7,"try to sneak in",6
+"605",5,7,"Hangout somewhere else with Ted.",2
+"606",6,7,"I would ask if there were any more tickets available.",5
+"607",7,7,"Look for people selling tickets outside the concert or try to find one online.",5
+"608",8,7,"tell ted to run",0
+"609",9,7,"Offer to loan money to Ted to buy another ticket and then ask why he doesn't have a ticket on his cell phone in 2021. Seriously.",5
+"610",10,7,"I would likely go with him home and miss the concert. Then have him pay for the next one we go to.",2
+"611",11,7,"Give him my ticket and go get his.",4
+"612",12,7,"look for a ticket scalper and pay for a ticket for my friend",5
+"613",13,7,"Let him go back and get his ticket. We will see him at our seats.",1
+"614",14,7,"Try to figure out how to get him in without a ticket",0
+"615",15,7,"Check with the venue to see if they have any way of finding the ticket in their system",12
+"616",16,7,"I would suggest we do something else, like go to a bar instead.",2
+"617",17,7,"buy a new ticked online or at the front",5
+"618",18,7,"Try and buy another ticket at the show",5
+"619",19,7,"I would advise Ted to see if he can purchase another ticket from a scalper.",5
+"620",20,7,"I would offer to pay for another ticket if he didn't have the money. ",5
+"621",21,7,"I have purchase for another some ticket",5
+"622",22,7,"The price of tickets are expensive, so buying another one would be pointless. I would offer to take Ted back and would miss some of the concert with them.",3
+"623",23,7,"We buy him a ticket",5
+"624",24,7,"look for a scalper",5
+"625",25,7,"Maybe Ted could call someone from home to bring him the ticket and we could meet at a point halfway, so Ted would still see most of the concert.",11
+"626",26,7,"Ask around for a ticket if not too expensive.",5
+"627",27,7,"I would ask everyone to pool some money together to get a new ticket for him.",5
+"628",28,7,"not go in without him",0
+"629",29,7,"pitch in to buy him a ticket",5
+"630",30,7,"Explain the situation to a sympathetic guard and get Ted in.",7
+"631",31,7,"Try to get another ticket",5
+"632",32,7,"continue to the concert",1
+"633",33,7,"buy another ticket",5
+"634",34,7,"Go without him",1
+"635",35,7,"See if you can buy a new ticket.",5
+"636",36,7,"Go with Ted to get his ticket.",3
+"637",37,7,"sorry ted...",0
+"638",38,7,"It would be silly for all of us to miss the concert and waste our money, so I would tell tell to hurry back and get it, or else look around for a scalper",14
+"639",39,7,"Offer my ticket.",4
+"640",40,7,"I would attend the concert without Ted.",1
+"641",41,7,"Buy another ticket at the box office ",5
+"642",42,7,"go home with ted and come back with his ticket.",3
+"643",43,7,"leave with Ted to go get his ticket then go back together",3
+"644",44,7,"Drive him home quickly to get it",3
+"645",45,7,"Buy Ted another ticket and have him reimburse me later",5
+"646",46,7,"ask if someone is home so they can bring it to him",11
+"647",47,7,"See if we can find a ticket scalper and pitch in to help Ted buy a new ticket",5
+"648",48,7,"Have someone bring it to him if possible",11
+"649",49,7,"see if ticket window has any records",12
+"650",50,7,"If it's not too expensive, buy an additional ticket and offer to pay for part of it so you can both attend",5
+"651",51,7,"Give him my ticket and wait outside.",4
+"652",52,7,"I would offer to loan him money for a new ticket",5
+"653",53,7,"Buy Ted a ticket in a random section and then figure out a way to sneak him in to the seats that we have.",5
+"654",54,7,"See if the ticket office could look up his ticket. If not, I would go to the concert",12
+"655",55,7,"Go and watch the concert and let him go home and get the ticket.",1
+"656",56,7,"Try buy another ticket at the door",5
+"657",57,7,"I would go to the concert and record it for Ted so he can watch it if he doesn't make it back in time. ",1
+"658",58,7,"I would feel bad for Ted but would still go in, maybe help buy a replacement ticket if available. ",5
+"659",59,7,"I would try to buy a new ticket for him.",5
+"660",60,7,"See if Ted can buy a ticket at the door. If not then see if someone can bring the ticket to the venue so that Ted can at least catch some of the concert. ",5
+"661",61,7,"I would pitch the idea that we all chip in to buy another ticket for him there.",5
+"662",62,7,"Buy his ticket for him.",5
+"663",63,7,"Nothing",1
+"664",64,7,"The like and ted on the returns,",-99
+"665",65,7,"I'd ask Ted if he wants me to go back with him to his house and if we miss the concert then oh well we can go do something else",3
+"666",66,7,"I would suggest he try to find an extra online",5
+"667",67,7,"Go to the concert without Ted",1
+"668",68,7,"I'd tell Ted he can take my car back to the house to get his ticket but that I am already angry about the situation and don't want to miss the show. ",14
+"669",69,7,"If this was the case, I would see if we can show the entrance staff he bought the ticket with his receipt online and showcase that, otherwise I would be willing to give up my ticket to him.",12
+"670",70,7,"Go into the concert while he goes to get his ticket.",1
+"671",71,7,"See if another ticket is available at the box office. If not, sorry Ted, I'm going in.",5
+"672",72,7," friend Ted realizes he forgot his ticket at his house",-99
+"673",73,7,"Ask Ted if there is someone he can call to bring the ticket and then offer to miss the concert with him",11
+"674",74,7,"call and stop it",-99
+"675",75,7,"I would return with him for his ticket and we would see what we could of the concert together. If that were not an option, I would sell my ticket to someone outside of the theater and take the loss. I would not want to go alone, without my friend. That would be unkind to my friend and not very much fun for me either.",3
+"676",76,7,"I would give my friend my ticket and tell him he owes me one.",4
+"677",77,7,"I would say that Ted should go back and get his ticket, he forgot it and I do not see them letting him into to concert without it.",14
+"678",78,7,"Help Him buy another ticket",5
+"679",79,7,"I would give Ted my ticket and I would skip out.",4
+"680",80,7,"If tickets are available, have Ted and/or friends purchase another ticket.  Other than that, that is Ted's problem.",5
+"681",81,7,"I would throw him the keys and tell him to go get his ticket and get back to the concert I will save you a spot man!",14
+"682",82,7,"I would wait for my friend to retrieve the ticket himself or have someone bring the ticket to him.",13
+"683",83,7,"I would tell Ted to drop us at the concert and go get his ticket, this is why you ensure you have these things before leaving your house.",14
+"684",84,7,"get the ticket",3
+"685",85,7,"I would buy him another ticket.",5
+"686",86,7,"Don't forgot the ticket at any time",-99
+"687",87,7,"try to sneak ted in ",6
+"688",88,7,"It was his responsibility and I have my ticket. So I would proceed to go in.",1
+"689",89,7,"I buy another tickets",5
+"690",90,7,"II would go in the concert and hope Ted doesn't miss too much of it.",1
+"691",91,7,"Offer to buy Ted a ticket if I had the money.",5
+"692",92,7,"return and get the ticket. ",3
+"693",93,7,"Try to find a scalper close by and go to the concert with or without him",5
+"694",94,7,"Give him my ticket.",4
+"695",95,7,"Pay for another ticket",5
+"696",96,7,"Let him go get it and I stay there",13
+"697",97,7,"See if there were any tickets available and buy him one but have him reimburse me",5
+"698",98,7,"Skip the concert, go out to eat with Ted.",2
+"699",99,7,"Tell Ted I will video the concert and he should really hurry to get his ticket.",14
+"700",100,7,"Ted has to go get his ticket, or call home to see if someone can bring it.",14
+"701",1,8,"ignore",4
+"702",2,8,"I would get the families attention while stopping the teenager.",8
+"703",3,8,"Walk over and ask if they are with the family, if yes, then I would ask that we walk down to make sure.",2
+"704",4,8,"alert the authorities",11
+"705",5,8,"Ignore them.",4
+"706",6,8,"I would ask the teenager if his parents were around.",2
+"707",7,8,"Mind my business unless I was 100% positive he was not a member of the family.",4
+"708",8,8,"I would say hello to them and see how they react",2
+"709",9,8,"I would yell at the teenager and ask Loudly, ""Are you supposed to be going through that bag?""",3
+"710",10,8,"I would just carefully watch and be ready to act if I needed to. Also taking care of what judgment I would make. ",6
+"711",11,8,"I would do nothing.",4
+"712",12,8,"ask the teenager what he's doing, possibly yell so the family looks over",2
+"713",13,8,"Say ""Hi, are you part of the group?""",2
+"714",14,8,"go get the people and let them know",1
+"715",15,8,"Keep an eye on him",6
+"716",16,8,"I would not do anything.",4
+"717",17,8,"mind my business",4
+"718",18,8,"confront him in a friendly manner and figure out his motive",2
+"719",19,8,"I would keep an eye on the teen and inform the family when they return from the water.",6
+"720",20,8,"I would wait to see what the teenager does and if it looks like he is stealing I would call out to him. ",6
+"721",21,8,"I have carefully watched him.",6
+"722",22,8,"Go to one of the parents and explain that I wasn't sure if the teen was a part of their party that I didn't recall seeing them together. I would definitely bring it to their attention.",1
+"723",23,8,"""I didn't see you with that family earlier. Are those your things? If gthey're not you better get somewhere else before I stand up!""",3
+"724",24,8,"i'd ask him what he was doing",2
+"725",25,8,"I'd nonchalantly go over to the family and bring this to their attention, quickly before he takes anything and gets away.",1
+"726",26,8,"Just make mental notes and keep an eye on him.",6
+"727",27,8,"I would say something to them and see what their reaction is.",2
+"728",28,8,"tell them",1
+"729",29,8,"ask if he is with them",2
+"730",30,8,"I ask him what is he doing and alert the family to his presence. If he doesn't know them, it's time for some sweet chin music.",2
+"731",31,8,"Nothing",4
+"732",32,8,"ask the teen what they are doing",2
+"733",33,8,"Nothing",4
+"734",34,8,"talk to the mom, get her attention",1
+"735",35,8,"Go tell the family that someone is in their things.",1
+"736",36,8,"Start a conversation with the person.",2
+"737",37,8,"aske her her business",2
+"738",38,8,"I would bring it up with the people around me and get their judgments",15
+"739",39,8,"nothing",4
+"740",40,8,"I would have to ignore the teen, because there is no crime being committed.",4
+"741",41,8,"I would ignore the situation",4
+"742",42,8,"Ask him or go to water and ask the family",2
+"743",43,8,"I'd say loudly is that your belongings?",3
+"744",44,8,"Approach him and ask why",2
+"745",45,8,"Keep an eye on the teenager just to make sure what it is going on; I'm not going to confront somebody who may indeed be part of the family",6
+"746",46,8,"i dont get involved ",4
+"747",47,8,"I may try to secretly get a photo of them in case it's needed for evidence later, but otherwise do nothing.",9
+"748",48,8,"Approach and ask.",1
+"749",49,8,"go up and queitly ask them",1
+"750",50,8,"Ask the teenager if those are his belongings or suggest he move along.",2
+"751",51,8,"""Hey. I don't think you're a part of that clan!""",3
+"752",52,8,"I would do nothing.",4
+"753",53,8,"I would walk over to the person and see if they looked at me nervously.",0
+"754",54,8,"Watch and see if he takes anything and walks away. If he does shout to the family",6
+"755",55,8,"I might ask, is that your family who went in the water, you look familiar.",2
+"756",56,8,"I will try and get one of the members of the family to come and confirm ",1
+"757",57,8,"I would ask the teen if his family was having a good day at the beach and then for their name. Hoping to get them to leave if they don't belong. ",2
+"758",58,8,"I would confront the teenager, if he seemed untrustworthy i would go tell the family",3
+"759",59,8,"I would ask the teenager what he/she is doing.",2
+"760",60,8,"I would likely do nothing in this situation as I can not ascertain if the teenager is part of the family or not. ",4
+"761",61,8,"I would say his family looks like a nice group of people, and see what his response is. ",2
+"762",62,8,"Ask him what he's doing.",2
+"763",63,8,"Go and ask the family if they know the teen ",1
+"764",64,8,"The family take in water.",-99
+"765",65,8,"I'd carefully monitor the situation and if nothing nefarious seems afoot then I'd leave it be. If not I'd alert the family somehow",6
+"766",66,8,"I would let the family know when they get back",0
+"767",67,8,"Keep an eye on the individual, and determine if they are with the group or not",6
+"768",68,8,"I'd leave it alone and mind my own business. ",4
+"769",69,8,"I would watch them closely, and if they look suspicions take video or pictures of him and even ask how he knows the family. fake being a family friend to fake out the teenager.",6
+"770",70,8,"I would ask them what they are doing.",2
+"771",71,8,"Walk over and try to make inconspicuous small talk until the family returns.",2
+"772",72,8,"beach next to a family with young children",-99
+"773",73,8,"Ask the teenager what they are doing",2
+"774",74,8,"I accepted",4
+"775",75,8,"I would approach the family and say, ""this is a little awkward, but is that person a part of your family? I just wanted to make sure because they are going in your bags when you walked away and it could be family but on the chance it isn't, I would want someone to tell me. I hope I don't offend anyone...""",1
+"776",76,8,"I ignore it and assume that the teenager is a part of their family or friends.",4
+"777",77,8,"I would confront the teenager and ask if they are with the family. If yes I would confront them, if no I would find the beach patrol and get him kicked off the beach.",3
+"778",78,8,"Observe the tennager ",6
+"779",79,8,"I would keep an eye on the teenager to see where he goes and when the family returns I would mention it to them,",6
+"780",80,8,"I would ask regardless.  If he is a thief, that might be enough to make him run away.",2
+"781",81,8,"I would kindly go up to the child and ask her what she was doing.",2
+"782",82,8,"I would try to get the family's attention to ask if the teenager is with them.",1
+"783",83,8,"I would mind my own business on this one. It's not my job to play detective nor is it my job to secure their belongings. ",4
+"784",84,8,"take them along",-99
+"785",85,8,"I would ask the teenager why they weren't out with the rest of their family and see how they react.",2
+"786",86,8,"First catch the teenager",3
+"787",87,8,"ignore the teen",4
+"788",88,8,"Ask one of the parents if that is theirs or not out of concern.",1
+"789",89,8,"I don't care about that unless the family shout or asking any help",4
+"790",90,8,"I would mind my own business, but notify the family when they come back",4
+"791",91,8,"I would mention it to the family.",1
+"792",92,8,"I would try and stop this pilfering from happening. ",0
+"793",93,8,"Ignore and stay out of it",4
+"794",94,8,"Ask them who they are and what they are doing.",2
+"795",95,8,"I would call out to one of the members and tell them to confirm whether that is one of them",1
+"796",96,8,"alert the party",1
+"797",97,8,"Continue to watch the teenager and alert the family after they return",6
+"798",98,8,"Go to the family and discreetly ask if the teen is part of the family.",1
+"799",99,8,"Do nothing unless the family says something is wrong and give them a description of the person.",4
+"800",100,8,"Yell ""Hey, look at THAT!"" loudly enough that both the teenager and the family look up.",7
+"801",1,9,"Call 911. They may be ill",1
+"802",2,9,"I will call 911 and let them know of this driver.",1
+"803",3,9,"Call 911 and let them know.",1
+"804",4,9,"pull to a different road",4
+"805",5,9,"Keep my distance and turn away from them as soon as possible.",6
+"806",6,9,"Call 911 and stay far away from them.",1
+"807",7,9,"Call the police and report it.",1
+"808",8,9,"honk at them a lot to see if they drive better",5
+"809",9,9,"I would call 911 and report the licene plate number and car make/model.",1
+"810",10,9,"I would slow down and call the police and tell them about the driver.",6
+"811",11,9,"call 911.",1
+"812",12,9,"call 9-1-1 and give them the person's license plate number",1
+"813",13,9,"Honk my horn, they may just be sleepy.",5
+"814",14,9,"call 911",1
+"815",15,9,"Call 911 and keep following from a safe distance",1
+"816",16,9,"I would honk and try to remember to license plate number. I would take another street to drive home, and call the police if I remember the license plate number by the time I get home.",5
+"817",17,9,"call police and give his license plate",1
+"818",18,9,"give the car plenty of space and call 911",6
+"819",19,9,"Call 911 to report the driver.",1
+"820",20,9,"I would slow down and call 911 to let the police know. ",6
+"821",21,9,"I had said that stop the car and I will have ride the car",0
+"822",22,9,"See how long they continue the behavior. Are they just preoccupied or something more? If they continued I would call 911 and tell them something was wrong with the driver. But not mention intoxicated because it could be a medical emergency. ",1
+"823",23,9,"Call the police",1
+"824",24,9,"slow down to get away from the driver",6
+"825",25,9,"I would find a place to stop for half an hour, else I would turn down a different road and take the alternate route.",0
+"826",26,9,"Stay back and wish him the best, maybe call 911 if it really gets bad.",6
+"827",27,9,"I would call the cops.",1
+"828",28,9,"move away or stay far behind the driver",6
+"829",29,9,"call 911 to let them know",1
+"830",30,9,"I pull up to the driver and get his attention. Ask him to pull over and offer him a ride home if he parks his car.",13
+"831",31,9,"Call the police and follow behind slowly",1
+"832",32,9,"call 911",1
+"833",33,9,"call police",1
+"834",34,9,"call 911",1
+"835",35,9,"Call the cops",1
+"836",36,9,"Call emergency services",1
+"837",37,9,"flag them down",13
+"838",38,9,"I would ask any passengers in the car to call the police. If I was alone, I would call myself.",1
+"839",39,9,"give distance and continue home.",6
+"840",40,9,"I would distance myself from the other vehicle to avoid a potential crash.",6
+"841",41,9,"Drive down another road to get home",4
+"842",42,9,"stay behind them and call cops",8
+"843",43,9,"stay far behind him in case of an accident and call the police",6
+"844",44,9,"Call police",1
+"845",45,9,"Avoid the driver (slowing down to keep my distance) and make note of their license plate to potentially notify the authorities",6
+"846",46,9,"I would try to put a lot of distance between us and call 911",6
+"847",47,9,"Beep, flash lights, pull off to the shoulder to let them by. Call the police.",5
+"848",48,9,"Get as far away from them as possible and call the police ",6
+"849",49,9,"drop way back turn off if you can and call polic",6
+"850",50,9,"I'd continue to follow them until they reached their destination safely; if there was heavy traffic, I'd report their license plate to 911.",8
+"851",51,9,"Slow up and make sure I have room to stop if there is an accident.",6
+"852",52,9,"I would call 911",1
+"853",53,9,"Call the police and report the person so that no one gets harmed.",1
+"854",54,9,"Call the cops",1
+"855",55,9,"Start pulling over to the side of the road until the driver passes and then call 911.",2
+"856",56,9,"Call 911 to come and check out the guy",1
+"857",57,9,"I would flash my lights at the car to see if that gets them to pay more attention. If not, I would continue to follow them to see if they arrived somewhere safely. ",9
+"858",58,9,"I would call the police on a hands free device and follow from a safe distance, to make sure no one got hurt. ",1
+"859",59,9,"I would call the police.",1
+"860",60,9,"Drive carefully and try and get around them to minimize risk of driving into them or them driving into me. ",3
+"861",61,9,"I would call 911.",1
+"862",62,9,"Drive past him.",3
+"863",63,9,"Call 911",1
+"864",64,9,"The road is the car of die ",-99
+"865",65,9,"I'd maintain a safe distance from the driver and monitor them more as well as get the license plate and vehicle info. Then pull over and report this to 911",6
+"866",66,9,"I would call the police and give them my location and a license plate number",1
+"867",67,9,"Call the police",1
+"868",68,9,"I would call 911 and report a possibly impaired driver. ",1
+"869",69,9,"I would flash and honk my horn to get theior attention. If this didn't work I would call 911 and notify them and follow the individual at distance to try and keep them safe and to help if anything happens.",9
+"870",70,9,"Stay back and call 911",1
+"871",71,9,"Call 911 and report the driver.",1
+"872",72,9,"driving home on a two-lane road and think",-99
+"873",73,9,"Pull over as far to the right as possible and stop, get out of the car (if time allows) and call 911",2
+"874",74,9,"I stop it",14
+"875",75,9,"I would most likely call the police and let them know about it, if I truly believed they were a threat to others on the road and drunk.",1
+"876",76,9,"I would wait until the next intersection and immediately change routes. I would also call 911 on the driver.",4
+"877",77,9,"I would continue to follow at a safe distance while I call the police and let them know the situation. I believe this person and everyone on the roads safety is a first priority.",8
+"878",78,9,"Let space form between us and call the highway patrol",6
+"879",79,9,"I would follow behind the vehicle at a safe distance and get the license number and call the police and follow the car until they got there.",8
+"880",80,9,"Call 911.",1
+"881",81,9,"I decide to call 911 and report the car in front of me I give the 911 the cars license plate number and tell them what the car is doing slowly drifting between the two lanes.",1
+"882",82,9,"I would stay far back of the driver and call 911.",6
+"883",83,9,"I would take notice of their license plate number and car description and I would call the police",11
+"884",84,9,"pull him over",13
+"885",85,9,"I would report them.",1
+"886",86,9,"Get back a way",6
+"887",87,9,"try to avoid the driver",6
+"888",88,9,"Call the police and report it.",1
+"889",89,9,"I will drive the car",-99
+"890",90,9,"I would call the police.",1
+"891",91,9,"I would call 911 before they wreck.",1
+"892",92,9,"I would speed up and try and pass him. ",3
+"893",93,9,"Get the license plate number and call the cops",1
+"894",94,9,"Call Highway Patrol and provide them with the license plate in order to locate the driver. ",1
+"895",95,9,"Slow down",6
+"896",96,9,"call 911",1
+"897",97,9,"Honk and put my bright lights on to warn the driver.",5
+"898",98,9,"Call 911.",1
+"899",99,9,"Drive slow behind him and call the police.",6
+"900",100,9,"call 911",1
+"901",1,10,"Sorry I cannot help you",5
+"902",2,10,"If this woman approached me, I would offer to buy her a taxi.",7
+"903",3,10,"Apologize to her and let her know that I don't give rides to strangers.",5
+"904",4,10,"tell her to try someone else",5
+"905",5,10,"Apologize and say I can not give them a ride.",5
+"906",6,10,"Offer to call her a Lyft or with a few dollars.",7
+"907",7,10,"Tell her I am sorry but I cant give her a ride.",5
+"908",8,10,"I would say I can't and leave unless I really had time to help",5
+"909",9,10,"I would ask for gas money in return.",4
+"910",10,10,"I would say that I have other things that I need to so and that I am sorry that I could not help. ",5
+"911",11,10,"Give her money for a cab.",7
+"912",12,10,"politely explain that I don't feel comfortable giving her a ride",5
+"913",13,10,"Tell her there will be someone else along that may be able to help, but I need to pick up my child before Daycare closes. ",5
+"914",14,10,"Tell her that I don't have time",5
+"915",15,10,"Apologize and decline",5
+"916",16,10,"I would decline.",5
+"917",17,10,"either take her or take her that direction as far as im going",3
+"918",18,10,"i would offer to call someone for her but not take her",7
+"919",19,10,"I would decline the request and instead suggest she call a taxi or call one for her.",5
+"920",20,10,"I wouldn't give her a ride. I don't trust people who approach me at gas stations.",5
+"921",21,10,"I have decide for help",2
+"922",22,10,"I wouldn't take them, I don't trust anyone. If I had the extra money I would probably offer an uber.",5
+"923",23,10,"I use my intuition and likely take  her",2
+"924",24,10,"lie and tell her i'm headed somewhere else",6
+"925",25,10,"I would tell her that I'm not going that way.",5
+"926",26,10,"Talk to her to get a feel for her and if safe take her 10 miles further.",0
+"927",27,10,"I would politely tell them no.",5
+"928",28,10,"give her a ride",2
+"929",29,10,"okay I will do it",2
+"930",30,10,"I let her know that I have a time to keep and offer to order her an uber to where she is heading on my dime.",7
+"931",31,10,"Tell her sorry I can't take her",5
+"932",32,10,"help the woman out",2
+"933",33,10,"give her a ride",2
+"934",34,10,"nope, say sorry",5
+"935",35,10,"Tell her I will take her as far as I am going.",3
+"936",36,10,"apologize and tell her  no",5
+"937",37,10,"tell her no",5
+"938",38,10,"I would drive her, because an extra 20 miles isn't much of an issue",2
+"939",39,10,"decline",5
+"940",40,10,"I would have to respectfully decline her request.",5
+"941",41,10,"Give her a ride",2
+"942",42,10,"give her money for a cab",8
+"943",43,10,"I'd say sorry I'm not going that far",5
+"944",44,10,"Say that i can't help",5
+"945",45,10,"Tell her sorry, but I cannot take her there",5
+"946",46,10,"never pick up hitchhikers. tell her sorry i cant drive her.",5
+"947",47,10,"Politely decline. I don't let strangers in my car for any reason, it's nothing personal.",5
+"948",48,10,"No I don't give rides to strangers sorry",5
+"949",49,10,"help the lady",2
+"950",50,10,"I would decline giving them a ride, but suggest Uber or a taxi; too unsafe to take a stranger",5
+"951",51,10,"Politely pass on offering a ride.",5
+"952",52,10,"Tell the person I have an appointment and can not give her a ride.",5
+"953",53,10,"I'd ask her if she'd be ok with me dropping her off near my house which is 10 miles away from her destination and she could go from there.",3
+"954",54,10,"Call my wife and tell her I am picking her up, keep her on the phone and we drop the woman off",0
+"955",55,10,"I would lie and tell her that unfortunately, I am not going in that direction.",6
+"956",56,10,"I will give her a ride",2
+"957",57,10,"I would giver her some money for a cab or Uber ride to her destination. ",8
+"958",58,10,"I would offer to call her a taxi or give a few dollars for bus fare if i had it, i would not give the woman a ride. ",7
+"959",59,10,"I would give her a ride.",2
+"960",60,10,"I would say that I was sorry but I am unable to give the woman a ride. ",5
+"961",61,10,"I would say no and apologize and say I'm not heading in that direction. I could give her some money to find a different ride over there.",5
+"962",62,10,"Give her a ride.",2
+"963",63,10,"Say no",5
+"964",64,10,"The planned is city on the nerar.",-99
+"965",65,10,"I would most likely politely decline the ride and then offer instead to call the woman a ride service",5
+"966",66,10,"I would offer to buy her an uber home",7
+"967",67,10,"Do not give the stranger a ride",5
+"968",68,10,"I would tell her I'm going the other way and I can't. ",6
+"969",69,10,"I most likely wouldn't offer the lady a ride, but I would instead offer her an uber or taxi to get her way she is going and pay for it.",7
+"970",70,10,"call 911 and see what they can do for the woman.",12
+"971",71,10,"Tell her no.",5
+"972",72,10,"yes woman approaches you to ask for a ride to a nearby city",-99
+"973",73,10,"I would tell her I couldn't give her a ride and if pressed tell her I was late for an appointment.",5
+"974",74,10,"I cancel the plan",-99
+"975",75,10,"If I had the time to do so and truly believed she needed help, I would consider doing so. If I had worked all day and needed to get home to my kids, I'd put my family first and get home to make them dinner. ",2
+"976",76,10,"I'd agree and ask her to compensate me for gas.",4
+"977",77,10,"I would ask if she called an uber to find out the situation, if she tried or didn't have the money and I did I would call her an Uber so she could get home.",7
+"978",78,10,"Give her a ride",2
+"979",79,10,"I would tell her that I will take her as far as I am going and then she will need to figure it out from there.",3
+"980",80,10,"""No, sorry.""",5
+"981",81,10,"I would say sorry but I have to go a different direction then that plus I am short on time and have to be somewhere!",5
+"982",82,10,"I would give her the ride to the destination.",2
+"983",83,10,"I would politely decline purely based on the fact that I will not allow compete strangers in my vehicle.",5
+"984",84,10,"get gas",-99
+"985",85,10,"I would tell her to call an Uber.",10
+"986",86,10,"I am complete destination",-99
+"987",87,10,"tell her i cant",5
+"988",88,10,"I would go ahead and give them a ride. It is not a big deal.",2
+"989",89,10,"I ased her to pay for extra 10 miles",4
+"990",90,10,"I would give her the ride.",2
+"991",91,10,"I would say no but offer her my phone to call someone else.",13
+"992",92,10,"would ditch the woman. ",1
+"993",93,10,"Decline. I don't give rides to strangers",5
+"994",94,10,"Call her a taxi, since this is a stranger.",7
+"995",95,10,"I would help her",2
+"996",96,10,"Hell no, I would not give her a ride",5
+"997",97,10,"I would take her to her destination",2
+"998",98,10,"Offer to pay for an Uber for the woman.",7
+"999",99,10,"Take her to where she needs to go.",2
+"1000",100,10,"Sorry, no rides. ",5
+"1001",1,11,"Call 911",1
+"1002",2,11,"I would call the police and start a timer, after 5 minutes I would bust the window.",1
+"1003",3,11,"Call the police and fire station to report animal abuse.",1
+"1004",4,11,"give him water",0
+"1005",5,11,"Get security from the mall and ask for their help.",4
+"1006",6,11,"Break the glass and get it out.",2
+"1007",7,11,"Bust the window and rescue him.",2
+"1008",8,11,"call the police",1
+"1009",9,11,"I would call 911 and explain that I am going to break the front window of this car to help the dog not die.",1
+"1010",10,11,"I would call security immediately. Try and get the owner to get there soon and maybe get a locksmith there. ",4
+"1011",11,11,"call mall security.",4
+"1012",12,11,"call 9-1-1 immediately",1
+"1013",13,11,"Call Mall Security to help the dog. ",4
+"1014",14,11,"call the police",1
+"1015",15,11,"Call the police and stay by the car. If the dog's condition worsens before the police arrive, break the window",1
+"1016",16,11,"I would call animal control immediately.",8
+"1017",17,11,"call the police/fired dept",1
+"1018",18,11,"Call the police. If necessary break the window.",1
+"1019",19,11,"Notify mall security.",4
+"1020",20,11,"I would tell mall security so the could find the owner. ",4
+"1021",21,11,"I have give the food for dog.",0
+"1022",22,11,"I would call 911, instruct someone to call the mall and have a page announced about the car and dog. Ask the 911 operator about the law in the state on breaking a window. Because that dog is getting out of that car alive if I have anything to do with it.",1
+"1023",23,11,"Break window quickly, call police.",2
+"1024",24,11,"call 911",1
+"1025",25,11,"I would get mall security or call the police.",4
+"1026",26,11,"Ask around, get others involved.",13
+"1027",27,11,"I would get mall security to get the dog out.",4
+"1028",28,11,"break the window",2
+"1029",29,11,"break a window open and let the dog out and call the police",2
+"1030",30,11,"I will find the owner of the car, if I cannot find him within a few minutes a brick is going through the window.",7
+"1031",31,11,"Call someone to break the window",0
+"1032",32,11,"call 911",1
+"1033",33,11,"Call the police",1
+"1034",34,11,"call 911",1
+"1035",35,11,"Call the cops.",1
+"1036",36,11,"Break the window and call emergency services.",2
+"1037",37,11,"break the window",2
+"1038",38,11,"I would call the police",1
+"1039",39,11,"call the police, ask them if i am within my rights to break the window to save the dog.",1
+"1040",40,11,"I would go about my day as usual, because it is not my dog.",6
+"1041",41,11,"Call the cops",1
+"1042",42,11,"call cops.  brake window.",1
+"1043",43,11,"call the police",1
+"1044",44,11,"Call animal services",8
+"1045",45,11,"Break the window so that the dog can get air",2
+"1046",46,11,"call security ",4
+"1047",47,11,"Call the police",1
+"1048",48,11,"Bust the window out and call someone who can take care of him properly.",2
+"1049",49,11,"call the police",1
+"1050",50,11,"Call security immediately to make announcements in the mall and/or to rescue the dog",4
+"1051",51,11,"Check to see if it's locked. If not, crack a window for the pooch.",3
+"1052",52,11,"Call the police and then try to break the window to get to the dog.",1
+"1053",53,11,"I would go back into the mall and alert security so they could page someone or use methods to free the dog.",4
+"1054",54,11,"Break the car window",2
+"1055",55,11,"I am going to keep on walking, there is not way I can find out who owns the car.",6
+"1056",56,11,"Break the window to try and get the dog to get some air",2
+"1057",57,11,"I would find something to break the car window. I would try to stop other people so they can verify why I am vandalizing the car.  ",2
+"1058",58,11,"I break the window and get that dog out of the car and get it water immediately. I would contact police before or as I was breaking the window. ",2
+"1059",59,11,"I would call 911.",1
+"1060",60,11,"Go to the mall security/help desk and inform them about the situation in the hope that they can alert the person who left their dog in the car. ",4
+"1061",61,11,"I would try to see if any of the doors open and if not, then I would try to break one of the windows.",3
+"1062",62,11,"Call security.",4
+"1063",63,11,"Call 911",1
+"1064",64,11,"The take is the pantinh",-99
+"1065",65,11,"I would first call the police and or fire department to explain the situation ",1
+"1066",66,11,"I would call the police and wait by the car and flag down other passerbys",1
+"1067",67,11,"See if the owner is near, if not, inform a mall guard",7
+"1068",68,11,"I would try to open the car doors to give water to the dog. If the doors were locked, I'd go into the mall and attempt to have someone locate the owner via a PA system. If that fails, I'd call police. ",3
+"1069",69,11,"I would call the police and ask for their recommendations and see if I can get access into the vehicle without damage. I would most likely recruit others around me to help.",1
+"1070",70,11,"Call 911 and then break the window",1
+"1071",71,11,"Call animal control and report the dog in the car.",8
+"1072",72,11,"car windows open",11
+"1073",73,11,"Call 911",1
+"1074",74,11,"I go the home",-99
+"1075",75,11,"I would call authorities. Police. If they couldn't help me directly, they could lead me to a number that COULD help.",1
+"1076",76,11,"I let security know inside the mall and let them deal with it.",4
+"1077",77,11,"I would call the police and head back into the mall to make an announcement for whoevers dog it is. I would stay with the dog until either police arrived or the person came to car. If the dog seems like he is going to die, I will have no choice but to smash the window and pay later for the damages.",1
+"1078",78,11,"Tell the store to announce on PA",4
+"1079",79,11,"I would look around for any sign of the owner then I would check if the car was unlocked if not I would break a window and then call police.",7
+"1080",80,11,"Call 911.  Perhaps break car window if need be.",1
+"1081",81,11,"I would immediately call 911 and stay near the car until they got there to help the pet .",1
+"1082",82,11,"I would call 911  for help and wait by the car for the owner to show up.",1
+"1083",83,11,"I would absolutely stand there and call the police. I'd stay there until someone arrived to help. If the situation got too dire, I would break the window.",1
+"1084",84,11,"break the window",2
+"1085",85,11,"I would brake the window and save the dog.",2
+"1086",86,11,"I am go to dog in hospital",0
+"1087",87,11,"ignore the dog",6
+"1088",88,11,"Call the police to get the dog out of the car before it dies.",1
+"1089",89,11,"I give some water to dog",0
+"1090",90,11,"I would smash the window, then call the police.",2
+"1091",91,11,"I would call 911 and possibly break the window.",1
+"1092",92,11,"call 911 as this is highly illegal and dangerous. ",1
+"1093",93,11,"Call the police and report it",1
+"1094",94,11,"Search for the owner of the car before taking more extreme measures. ",7
+"1095",95,11,"I would look for its owner",7
+"1096",96,11,"call 911",1
+"1097",97,11,"Call the fire department or police.  Go to the customer service booth in the mall to report it.  Try to look for the owner and wait until the owner returned.",1
+"1098",98,11,"Break the car window immediately, to save the dog. Call 911.",2
+"1099",99,11,"Call animal control and alert the mall security.",8
+"1100",100,11,"Call mall security",4
+"1101",1,12,"Tell them ahead if time",1
+"1102",2,12,"I would throw the knife away, or tell them why it is in my bag so they can dispose of it.",2
+"1103",3,12,"Walk up to security and let them know",1
+"1104",4,12,"give it to security",14
+"1105",5,12,"Tell the security guy and let them search my bag and take the knife.",15
+"1106",6,12,"I would throw it out.",2
+"1107",7,12,"Tell security I accidentally brought it and they can dispose of it.",1
+"1108",8,12,"I would leave the security line and see if there is somewhere to mail it nearby",3
+"1109",9,12,"I would self-report to the TSA and turn my knife in and explain the situtation.",15
+"1110",10,12,"I would surrender the knife and tell them what my occupation is and my reason for travelling. ",15
+"1111",11,12,"Leave knife behind.",2
+"1112",12,12,"tell security before they find it",1
+"1113",13,12,"See if you can get your checked bag back to pack the knife away. ",4
+"1114",14,12,"throw it in the garbage really quickly",2
+"1115",15,12,"Alert a TSA agent. Ask if there is any way to check the knife.",1
+"1116",16,12,"I would tell the security officer that I accidentally brought my knife in my bad and I am a chef going to a food festival. If they don't let me bring it, I would find a locker and store the knife there.",1
+"1117",17,12,"tell TSA and have them disposed of it and buy a new knife in chicago",14
+"1118",18,12,"explain the situation to the security",1
+"1119",19,12,"Inform TSA of the knife and why it's there and let them take it out and check it in luggage. Otherwise I would leave the knife and get another one when I arrive in Chicago.",1
+"1120",20,12,"I would reschedule my flight and return the knife to my house. ",6
+"1121",21,12,"I have explain about my work",1
+"1122",22,12,"I would get the attention of a TSA agent or airport employee, explain to them what is going on and find out how to handle the situation. I don't think I would wait until I reach the point of security before saying something.  ",1
+"1123",23,12,"Don't say anyuthing, they likely won't find it and if they do, you lose an expensive knife. ",5
+"1124",24,12,"throw the knife away",2
+"1125",25,12,"I would mail the knife back to myself lest it be confiscated. If the knife were'nt especiall valuable I might turn it over for disposal if they won't let me put it in my checked baggage.",3
+"1126",26,12,"If possible take it back to my car quickly.",9
+"1127",27,12,"I would explain what happened and what my job is and ask if they can just take the knife, so I can get on my flight.",14
+"1128",28,12,"tell them and leave it",14
+"1129",29,12,"throw the knife away",2
+"1130",30,12,"I determine if the knife is essential or not, if it is I buy a small bag at the airport and check the knife. If it's cheap, I leave it behind.",4
+"1131",31,12,"Admit to having the knife and say it was a mistake",1
+"1132",32,12,"Tell security about the situation",1
+"1133",33,12,"Throw the knife away.",2
+"1134",34,12,"whoops, ask to put in my check in",4
+"1135",35,12,"Tell the security that I have a knife",1
+"1136",36,12,"Be honest and tell security.",1
+"1137",37,12,"throw it away",2
+"1138",38,12,"I would inform the nearest security person of my mistake",1
+"1139",39,12,"Put the knife in my luggage",4
+"1140",40,12,"I would explain my situation to security in order to avoid conflict.",1
+"1141",41,12,"I would tell the security I brought my knife and am a chef and see what options they have for me",1
+"1142",42,12,"explain it to security.  And hope they only take the knife and not press charges.",1
+"1143",43,12,"let security know",1
+"1144",44,12,"Get out of line and get rid of it",2
+"1145",45,12,"Immediately tell security that I have the knife",1
+"1146",46,12,"Let security know my mistake ",1
+"1147",47,12,"Let security know and ask if you can check the bag. If not, I'd return to my car and leave the knife there. I'd have to find a new knife to work with in Chigaco.",4
+"1148",48,12,"I would show them my chef certification and explain those are for work",0
+"1149",49,12,"give it to tsa",14
+"1150",50,12,"Step out of line and immediately report it before getting to the security scanner.",1
+"1151",51,12,"Let TSA know and see if I can put in luggage.",4
+"1152",52,12,"I would immediately tell the security and explain why I had the knife.",1
+"1153",53,12,"Tell security that I accidentally brought my chefs knife and showed my identification and ask if they could store it under the plane.",4
+"1154",54,12,"Claim it and take the punishment ",1
+"1155",55,12,"Tell security you are a chef and forgot to take it out before they check you.",1
+"1156",56,12,"I will explain to them my role and also leave the knife behind",1
+"1157",57,12,"I would provide the knife to security for disposal and continue with my flight. ",14
+"1158",58,12,"Tell the security officer immediately and ask him to remove it and throw it away.",1
+"1159",59,12,"I would leave the line and dispose of the knife. Or, if it's too late to leave the line, I would admit immediately the mistake.",2
+"1160",60,12,"Explain to security that I am a Chef and mistakenly left one of my knives in my bag. ",1
+"1161",61,12,"I would leave the line and get rid of the knife.e",2
+"1162",62,12,"Explain the situation to TSA.",1
+"1163",63,12,"Let them know I accidently brought the knife",1
+"1164",64,12,"The knife is the my bag shiped.",-99
+"1165",65,12,"I'd alert the TSA agents that I'm a chef and accidentally brought this knife and ask them how to proceed.",1
+"1166",66,12,"I would inform TSA that I forgot the knife",1
+"1167",67,12,"If the knife is properly sheathed and secured, inform TSA that it will be in your checked bag, as is proper. Otherwise you would have to forfeit the knife",4
+"1168",68,12,"I'd go to the bathroom and throw it away. ",2
+"1169",69,12,"I would clearly and calmly notify the airport staff and explain my field of work. I would then understand if they remove and throw the item in questions away. I would ask if they can keep it until I return so I can still keep it when I return.",1
+"1170",70,12,"Throw it away.",2
+"1171",71,12,"Get out of line and dispose of the knife in the trash.",2
+"1172",72,12," food festival in Chicago",-99
+"1173",73,12,"I would proactively forfeit the knife to authorities, state this was an accident and be prepared to accompany them for questioning.",1
+"1174",74,12,"I stop that incidence",-99
+"1175",75,12,"I would inform the security personnel of the knife ahead of time, letting them know it is there beforehand (and tell them why it is there, it is what I use for my employment) so they don't find it surprised and no one would hurt themselves.",1
+"1176",76,12,"I would just proceed and worst case scenario have to dispose of the knife.",5
+"1177",77,12,"I would either let the security know that I accidently brought a Knife and find out what they want me to do, if I cannot have it put on the bottom of the plane then I would just have them throw it away.",1
+"1178",78,12,"Inform security before they check it ",1
+"1179",79,12,"I would declare that I have the knife at security and tell them they may remove it from my possession and do what they want to with it. ",15
+"1180",80,12,"As I approached TSA, I would try to get the attention of one of the TSA people before I put my bag through.  As a chef, this should be a perfectly understandable mistake.  ",15
+"1181",81,12,"Once I got up there I would say that I am chief and forgot that I had put my knife in my bag.",1
+"1182",82,12,"I would leave the line and try to take a later flight when I didn't have the knife.",6
+"1183",83,12,"I would check the knife as luggage.",4
+"1184",84,12,"Unsure what to do",0
+"1185",85,12,"I would call a close by friend to come get it.",7
+"1186",86,12,"I surrender my way",0
+"1187",87,12,"tell the security my situation ",1
+"1188",88,12,"I would make it clear what I work as and why there is a knife in my bag. Offer to let them dispose of it if required.",15
+"1189",89,12,"Before checking I hand over knife to security and explain why I had this",15
+"1190",90,12,"I would stay in line and explain my mistake to security.",1
+"1191",91,12,"I would explain, apologize and show proof that I'm a chef on my way to a food festival.",1
+"1192",92,12,"i would try and get rid of the knife ",2
+"1193",93,12,"Tell TSA when I get up to them",1
+"1194",94,12,"Notify airport security that I did this by mistake and hand over the weapon.",15
+"1195",95,12,"I would explain it to the security and offer to leave behind",15
+"1196",96,12,"let them know",1
+"1197",97,12,"Take the knife out of the bag and throw it away.  I can buy a new one in Chicago.",2
+"1198",98,12,"Confess the truth before it is discouraged and causes panic.",1
+"1199",99,12,"Let security know I brought it and let them dispose of it.",1
+"1200",100,12,"talk to security about how to ship my knife so I can keep working",3
+"1201",1,13,"cry and apologize",15
+"1202",2,13,"I would call the taxi company I used to see if the taxi driver has it, and offer them a tip to bring it to me and for keeping it safe.",1
+"1203",3,13,"Take my ring off and whisper ""roll with it""",16
+"1204",4,13,"tell the the truth",18
+"1205",5,13,"Call the taxi service.",1
+"1206",6,13,"I would whisper to my sister what the situation was and call the taxi company.",2
+"1207",7,13,"Try to call the Taxi driver and see if anyone else at the service has a ring I can borrow in the meantime. ",1
+"1208",8,13,"I would try to find something in my pockets that resembled a ring",9
+"1209",9,13,"I would excuse myself to call the taxi service and let whoever is running the wedding know that the ring is not here.",1
+"1210",10,13,"Tell my sister immediately and ask if we could use someone's ring in an emergency so that people would not even notice. ",2
+"1211",11,13,"call the cab company.",1
+"1212",12,13,"immediately tell my sister and then call the taxi company",2
+"1213",13,13,"Find a short term replacement so the ceremony can continue.",3
+"1214",14,13,"panic and signal to someone to call the taxi",1
+"1215",15,13,"Discreetly leave and call the cab company",1
+"1216",16,13,"I would try to call the taxi company and report it. I would go to the nearest place and find a cheap ring in replacement.",1
+"1217",17,13,"call taxi and tell sis to delay ceremony for a little while",1
+"1218",18,13,"Try and borrow a ring from someone at the wedding to use",3
+"1219",19,13,"Inform my sister and call the cab company to see if the ring has been found.",2
+"1220",20,13,"I call the taxi to see if the ring is still there and if not I would tell my sister what happened. ",1
+"1221",21,13,"Urgently go to the spot and find the ring",10
+"1222",22,13,"Take off my ring for them to use. Whisper very quickly what happened and smile, always smile to reassure it will be ok. Afterwards call the taxi service, see if the taxi driver happen to find the ring or if someone turned it in. If not then I guess I will be buying a new ring.",16
+"1223",23,13,"Get rings from anyone I can then when its time to give them the rings, do so with a short note thats says don't worry.",3
+"1224",24,13,"step outside and call the cab company",1
+"1225",25,13,"I would mine the motions then explain the missing ring later, so as not to disrupt the proceedings.",12
+"1226",26,13,"Tell the main party immediately.",2
+"1227",27,13,"I would try to get my mothers attention to explain what happened.",11
+"1228",28,13,"call the taxi",14
+"1229",29,13,"let my sister know what happened",2
+"1230",30,13,"I call the taxi and offer him incentive to come back immediately.",14
+"1231",31,13,"Tell my sister the truth",2
+"1232",32,13,"leave the wedding and find the ring",10
+"1233",33,13,"call the taxi",14
+"1234",34,13,"tell my sister ask if she wants me there or call the taxi first",2
+"1235",35,13,"Freak out.",15
+"1236",36,13,"track it down.",10
+"1237",37,13,"run..id run",13
+"1238",38,13,"I would approach my sister and whisper into her ear the mistake that I made",2
+"1239",39,13,"call the taxi.",14
+"1240",40,13,"I would immediately call the taxi service to recover the ring.",1
+"1241",41,13,"Inform my sister and try and get a hold of the taxi company and let them know",2
+"1242",42,13,"call taxi company get car back.  use something else if needed to complete the ceremony.",1
+"1243",43,13,"call the taxi company about the ring and tell my sister immediatly",1
+"1244",44,13,"Call the taxi driver",14
+"1245",45,13,"Call the taxi company and describe the situation to them so they can contact the driver and have the ring brought back",1
+"1246",46,13,"call the taxi company",1
+"1247",47,13,"Quietly see if you can borrow someone else's ring and apologize profusely to the bride and groom later. Once the ceremony is over, call the taxi company.",3
+"1248",48,13,"Call the taxi hub and tell them whpo the driver was, what they looked like and exactly what the ring looked like.",1
+"1249",49,13,"call the taxi company and hope they are honest",1
+"1250",50,13,"Immediately call the taxi company, then find an alternative to use for the ceremony, so not to make things worse.",1
+"1251",51,13,"Slip out and call the taxi company.",1
+"1252",52,13,"Use another ring and try to find hers after the ceremony.",3
+"1253",53,13,"Text a friend and give them the information on the taxi and see if they could track down the cab ASAP.",11
+"1254",54,13,"Apologize and call the taxi company",1
+"1255",55,13,"Try to get in touch with the taxi service to see if it's still there, meanwhile try to borrow a ring to get through the service.",1
+"1256",56,13,"Get someone's ring and use it for formality then sort the ring issue later",3
+"1257",57,13,"I would borrow a ring from comeone temporarily. Then call the cab company as soon as I was able to let them know the situation. ",3
+"1258",58,13,"I would panic, and then go tell her what happened and call the Taxi service. ",15
+"1259",59,13,"I would explain to my sister what happened and call the taxi service I used.",2
+"1260",60,13,"Try and quietly explain the situation to the officiant/couple. ",7
+"1261",61,13,"I would call the taxi service immediately and see if I can track it down.",1
+"1262",62,13,"Use a replacement ring for now. Try to get the other ring later.",3
+"1263",63,13,"Go find the ring",10
+"1264",64,13,"The ring is calculate on the places.",-99
+"1265",65,13,"Call the taxi company and then alert my sister of the situation. ",1
+"1266",66,13,"Call the taxi company and explain the situation",1
+"1267",67,13,"Call the taxi company to locate the ring",1
+"1268",68,13,"I would probably leave the wedding and tell one person my mistake, while urgently trying to contact the taxi driver from my ride. ",14
+"1269",69,13,"Call the taxi company and ask for them to rush the car back if possible. then tell the wedding people we need to delay a bit due to this issue.",1
+"1270",70,13,"Cry",15
+"1271",71,13,"Admit what has happened, whispering to my sister.",2
+"1272",72,13,"ring bearer at your sister‚Äôs wedding. 10 minutes",-99
+"1273",73,13,"Tell the bride and groom what happened and then contact the taxi company",2
+"1274",74,13,"to go fast, this is more important in my life",-99
+"1275",75,13,"I would panic, not going to lie, lol... but I would immediately call the taxi company and hope a good sole was driving that car that didn't already steal it and the ring is still there and recoverable. ",1
+"1276",76,13,"I would let my sister and her groom know what happened. I'd make a makeshift ring for the reception and call the taxi service to try to get ahold of my taxi driver.",2
+"1277",77,13,"I would try to get ahold of the taxi to get it back. Meanwhile if there is no time I would have to get a place holder and pay them back later for loosing her ring.",14
+"1278",78,13,"Run away ",13
+"1279",79,13,"Well I guess I would have to bite the bullet so to speak and just come clean and the call the taxi cab service and see if we could track down the ring.",18
+"1280",80,13,"I would not interrupt the ceremony.  If I had a substitute ring (my own), I would use that.  If not, I would quietly relay the info at the appropriate point in the wedding.  Immediately after that I would call the taxi company.",16
+"1281",81,13,"I would go and call the taxi service and tell them my situation and pray and hope that they find the rings for me and bring them back to the ceremony while I am trying to get them I would tell my mom to let them know what happened.",1
+"1282",82,13,"I would have to announce that I lost the ring, then I would call the taxi service to try to find it.",18
+"1283",83,13,"Jeez. I would flag down the nearest responsible person that isn't in the wedding party, explain the situation to them, try to get the ceremony drawn out, and call the taxi and hope for the best.",11
+"1284",84,13,"go get the phone",0
+"1285",85,13,"I would tell my sister.",2
+"1286",86,13,"I go to buy another ring",5
+"1287",87,13,"tell her i lost the ring",2
+"1288",88,13,"Explain and try to find it. Offer to replace it if needed.",18
+"1289",89,13,"I asked anyone had a new ring for wedding gift",0
+"1290",90,13,"I would give her another ring as a temporary replacement to use in the ceremony and get the original ring back from the taxi company later.",3
+"1291",91,13,"I would call the taxi company and freak out.",1
+"1292",92,13,"Try and find the keys ",-99
+"1293",93,13,"Tell someone at the wedding in order to not make a scene and then excuse myself to start calling the cab company",11
+"1294",94,13,"Call the taxi company immediately to narrow down the best wat to reach the driver.",1
+"1295",95,13,"Call the taxi deriver",14
+"1296",96,13,"Shit my pants",15
+"1297",97,13,"Panic but immediately call the taxi service to have them see if it was still there",1
+"1298",98,13,"Announce the truth. Ask the audience for a stand-in ring.",18
+"1299",99,13,"Let everyone know I do not have the ring and find a temporary substitute.",18
+"1300",100,13,"Call the taxi ",14
+"1301",1,14,"Research other options. Possibly move to bigger place.",3
+"1302",2,14,"I make as much room as possible and take care of him.",1
+"1303",3,14,"Make it work, family comes first.",0
+"1304",4,14,"ask relatives to help",4
+"1305",5,14,"Reach out to family to figure out a way to get his needs met and apply for state assistance.",4
+"1306",6,14,"I would still move him in to my apartment.",1
+"1307",7,14,"I would move in with him to care for him or I would get a bigger apartment.",2
+"1308",8,14,"look into community resources for him",19
+"1309",9,14,"I would find new living conditions that work for the new situation.",3
+"1310",10,14,"Ask another family member for help. They also should help if they could. I should have someone to count on in my family. ",4
+"1311",11,14,"Let him stay at my apartment.",1
+"1312",12,14,"move in with my father",2
+"1313",13,14,"Find a house and move in with Dad.",3
+"1314",14,14,"see if there is another relative he could stay with",4
+"1315",15,14,"Move in to his home or find an in home caretaker",2
+"1316",16,14,"I would talk to my brother to see if we can come up with enough money for a retirement home. If not, I would let my father live with me and apply for welfare.",4
+"1317",17,14,"ask a relative for help",4
+"1318",18,14,"See information online or look for low income housing. In the meantime he stays with me.",19
+"1319",19,14,"I would take him into my home regardless of the space available.",1
+"1320",20,14,"I would contact his doctor to see if he knows of any charities that could help. ",9
+"1321",21,14,"I have definitely buy a another apartment for my father.",3
+"1322",22,14,"Move in with my father into his house. If it is too small then get a bigger place to live. ",2
+"1323",23,14,"It doesnt matter what it takes, I figure it out. Probably first I get on the phone to find available resources",19
+"1324",24,14,"find him a roommate",0
+"1325",25,14,"There are facilities to deal with this situation funded with tax money.",6
+"1326",26,14,"He moves in for a while.",1
+"1327",27,14,"I would have to take him in and try to find a larger place.",1
+"1328",28,14,"try to raise money",14
+"1329",29,14,"find a friend to take care of him",16
+"1330",30,14,"I will downsize my belongings to have more space and make dad my roommate.",1
+"1331",31,14,"Move in with my father",2
+"1332",32,14,"let him live with me",1
+"1333",33,14,"take care of him",7
+"1334",34,14,"keep him with me",1
+"1335",35,14,"Make room for him at my apartment",1
+"1336",36,14,"Move him in with me.",1
+"1337",37,14,"get a bigger place",3
+"1338",38,14,"I would do my best to move things around so that a second person could fit",1
+"1339",39,14,"spend time teaching him what he needs to know to aid himself, ask others to help.",0
+"1340",40,14,"I would find my father some additional help using other outside sources.",19
+"1341",41,14,"Ask for government assitance",6
+"1342",42,14,"move in with him.",2
+"1343",43,14,"get a bigger place or move in with him",3
+"1344",44,14,"Live with roommate and leave him to have my apt",-99
+"1345",45,14,"Move him in anyway! Not much I can do about it",1
+"1346",46,14,"get him help from family members",4
+"1347",47,14,"Reach out to relatives for help",4
+"1348",48,14,"Take care of him anways",7
+"1349",49,14,"look for another apartment",3
+"1350",50,14,"Take him in while continuing to look for a place to take care of him.",1
+"1351",51,14,"I'd move in with him.",2
+"1352",52,14,"I would either move to a bigger apartment or move in with my father at his home.",3
+"1353",53,14,"I would ask my father if he would like me to move in with him and help him and for company.",2
+"1354",54,14,"Move into your fathers house ",2
+"1355",55,14,"Move him into an assisted living apartment, hopefully, he has low income, otherwise I'm not so sure.",6
+"1356",56,14,"Ask for help for me to be able to get a bigger space",3
+"1357",57,14,"I would move in with himn if there was room. If not I would move him in with me until we could locate a more comfortable place for us to live. ",2
+"1358",58,14,"Move in with him where he is living. ",2
+"1359",59,14,"I would try to find him a temporary accommodation with a family friend until I can sort out the situation.",16
+"1360",60,14,"I would look into help/assistance programs for taking care of the elderly long term. In the short term I would take on the burden of care. ",6
+"1361",61,14,"I would get loan and see if we could move somewhere bigger. I would ask if another family member could help.",15
+"1362",62,14,"Ask other relatives for help.",4
+"1363",63,14,"Find a relative to assist ",4
+"1364",64,14,"The room is free on the person.",-99
+"1365",65,14,"I would ask any other relatives if they could short term look after him until I find a place for the both of us.",4
+"1366",66,14,"I would let him move in until I can find a bigger place",1
+"1367",67,14,"Make it work with the space you have",1
+"1368",68,14,"I'd attempt to find in home care for him. ",10
+"1369",69,14,"I would ask around my family and explain the situation and see if we can come together to provide a solution to this for dad.",4
+"1370",70,14,"I would take him in and care for him.",1
+"1371",71,14,"Move my father in with me anyway.",1
+"1372",72,14,"i am out ",-99
+"1373",73,14,"Temporarily move in with my father until I can better assess the situation and create a plan for moving forward.",2
+"1374",74,14,"I definitely to go ",-99
+"1375",75,14,"I would move in with him or, even if it is a tight squeeze, I would move him in with me anyway and he could have the living room. I would never abandon either of my parents after all they have done for me.",2
+"1376",76,14,"I would put my father in my living room and make due with what I have. I'd also call a social worker to get help in getting my father some sort of help.",1
+"1377",77,14,"I would try to find him a cheap apartment, if not I would just have to make due in my apartment until I could come up with a better solution.",3
+"1378",78,14,"Seek Additional help ",0
+"1379",79,14,"I would take my father in and we would make do until I could get us into a bigger place.",1
+"1380",80,14,"Time for family conference.",4
+"1381",81,14,"I would rent a big place with our combined income and take care of him myself.",3
+"1382",82,14,"I would try to find a bigger apartment where I could take care of him.",3
+"1383",83,14,"I'd make room in my apartment. There's no way you can tell me that we wouldn't be able to fit him in somehow. Either that or we would find a new apartment with more room or I'd move into his existing house.",1
+"1384",84,14,"help him out",7
+"1385",85,14,"I would move in with my father.",2
+"1386",86,14,"I use my job",0
+"1387",87,14,"take out a loan and put him in a nursing home",15
+"1388",88,14,"Try to find a solution with hospice.",0
+"1389",89,14,"I build another room for my father",1
+"1390",90,14,"I would get a bigger apartment and live there with my father.",3
+"1391",91,14,"I would move in with my father at his place.",2
+"1392",92,14,"I would take care of him myself. ",7
+"1393",93,14,"Move him in with me anyway",1
+"1394",94,14,"Find a way to move him in ",1
+"1395",95,14,"I would take him to my place still",1
+"1396",96,14,"ask family for help",4
+"1397",97,14,"Move in with him and help take care of him",2
+"1398",98,14,"Move my father in with me and tough it out until I can get a bigger place.",1
+"1399",99,14,"Use his pension and combine it my income to afford a somewhat larger dwelling.",3
+"1400",100,14,"Move in with father, if no other siblings can.",2
+"1401",1,15,"Do some math and ration food",1
+"1402",2,15,"I pray for a miracle to happen for all of us on the ship.",0
+"1403",3,15,"Let the crew know to start rationing food and water.",1
+"1404",4,15,"eat less, ration, triage",1
+"1405",5,15,"Ration food and try to assign people tasks to keep them distracted and hopeful.",1
+"1406",6,15,"I would conserve food but make sure there was ample water.",1
+"1407",7,15,"Set off flares.",6
+"1408",8,15,"I would count the food supply, secure it, and come up with a ration plan before telling everyone.",1
+"1409",9,15,"I would ration supplies and explain the situation to the crew and passangers.",1
+"1410",10,15,"Make sure that we ration the food and water to the bare minimum and keep everyone calm by reassuring them that everything will be ok.",1
+"1411",11,15,"Try to ration the food and keep calm.",1
+"1412",12,15,"tell the passengers the situation, ration meals",11
+"1413",13,15,"Tell everyone to start fishing and boiling water so you have food and clean water. ",3
+"1414",14,15,"tell them that help will arrive soon and encourage calm",4
+"1415",15,15,"Lay out a clear rationing plan. Advise people to stay out of the sun and not drink sea water. Try and set up a way to collect water.",1
+"1416",16,15,"I would take all the food supplies under my control and ration them out equally each meal. I would lock the food supply somewhere safe and check to see no one is dehydrated.  ",1
+"1417",17,15,"tell them to ration the food until help arrives",1
+"1418",18,15,"Explain the situation and ration out of the food accordingly",11
+"1419",19,15,"Ration the supplies.",1
+"1420",20,15,"I would instruct the crew to keep passengers calm and I would make sure we're rationing food. ",4
+"1421",21,15,"I have inform for my superior and convince for all the passengers",0
+"1422",22,15,"Ration the food, give just enough to get by, make it stretch out. I would gather everyone together in person and explain what has happened, explain about the food, explain not to panic that help is on the way. ",1
+"1423",23,15,"You have to be honest, nobody is in danger. Make up some fun things to do and offer them free shit.",16
+"1424",24,15,"ration food and say calming things to prevent a panic",1
+"1425",25,15,"Immediately begin rationing the food and especially the water and enforce it strictly.",1
+"1426",26,15,"Take careful analysis of all the factors.",0
+"1427",27,15,"I would try to figure out if there is a way to ration the food to keep everyone alive.",1
+"1428",28,15,"ask a professional for advice.",10
+"1429",29,15,"ration the food out until it gets there",1
+"1430",30,15,"I ask everyone to ration the food and water and to work together because it will be a long week and we will need each other's support.",1
+"1431",31,15,"Lie to keep everyone calm",7
+"1432",32,15,"ration the food",1
+"1433",33,15,"Comfort the people",4
+"1434",34,15,"tell them the situation, ration food",11
+"1435",35,15,"Ration the supplies to last as long as they can.",1
+"1436",36,15,"Ration out the food evenly.",1
+"1437",37,15,"call the coast guard",6
+"1438",38,15,"I would instruct my crew to lock the food supplies somewhere secure until we could come up with a rationing plan",1
+"1439",39,15,"ration the food, attend to health and safety of all passengers",1
+"1440",40,15,"I would attempt to repair the engine.",15
+"1441",41,15,"I would ration the food out and hope help arrives shortly",1
+"1442",42,15,"limit food and remain calm and tell the people what is going on",1
+"1443",43,15,"explain to them to stay calm and help is coming.  then make sure the food is rationed approprioptly",11
+"1444",44,15,"Ration food and tell people to keep calm",1
+"1445",45,15,"Ration supplies to make them last; try to keep the passengers entertained in the meantime",1
+"1446",46,15,"i need to be direct and say we need to perserve food",11
+"1447",47,15,"Call or radio my boss for advice",10
+"1448",48,15,"I would start fishing",3
+"1449",49,15,"ration suppiles to hol out",1
+"1450",50,15,"Explain the situation to everyone, ration food and try to keep people occupied so not to worry.",11
+"1451",51,15,"Tell them the situation and ask them to keep calm. Prayers would help.",11
+"1452",52,15,"I would ration out the food and hope for the best.",1
+"1453",53,15,"I would start taking inventory of all of the food, then would start a plan for rationing.",1
+"1454",54,15,"Try to find the nearest port and see if you can ride the current offshore, anchor up and tender people off for a bit",0
+"1455",55,15,"Start rationing portions and let the crew know help is on the way but it could take a couple of days.",1
+"1456",56,15,"I will try to advise the team to manage with what we have till we get rescue",1
+"1457",57,15,"I would do an inventory of all the supplies. Then make a quick accounting of the amount available per passenger. I would explain the situation and what they are allotted to them. ",1
+"1458",58,15,"I would make a plan to ration, and i would radio for help to get a supply helicopter to bring more. ",1
+"1459",59,15,"I would come up with a plan that structures access and distribution to food supplies.",1
+"1460",60,15,"Tell everyone to remain calm, inform people of the situation and that there might be a week wait for rescue. Let them know that food will be rationed out during this period so that everyone can survive the wait. Inform the crew of the plans to ration said food. ",4
+"1461",61,15,"I would try my best to explain the situation in a way that would not make them panic too much.",11
+"1462",62,15,"Tell them to stay calm and the situation is under control.",4
+"1463",63,15,"Make a plan with all involved ",0
+"1464",64,15,"The passanger is high rate and good,",-99
+"1465",65,15,"Explain to passengers and crew the situation and that food and water should be carefully rationed",11
+"1466",66,15,"I would instruct that we need to ration food and everyone should stay calm and know that rescue is on the way",1
+"1467",67,15,"Take stock of supplies and ration as needed",1
+"1468",68,15,"I would divide the 50 passengers into groups; 5 groups of 10. They will elect the group's leader and I will divide resources among us, entrusting them to each group's leader to use responsibly. ",1
+"1469",69,15,"With food being sparce, I would distribute food in a method to assure we can last longer than a week and push a water heavy diet and good resting to maintain our energy and attitudes.",1
+"1470",70,15,"Show people how to fish",3
+"1471",71,15,"Keep the food and water under my supervision, ration the remaining supplies and find containers to store easch individual's urine.",1
+"1472",72,15,"50-passenger cruise ship",-99
+"1473",73,15,"I would tell the passengers and crew the details of our predicament and let them know if might be a week before help arrives so we will need to start rationing food.",11
+"1474",74,15,"I give some help for engine starting problem.",15
+"1475",75,15,"I would be honest with my crew but tell them we will be okay if we can eat sparingly and stick together as a team, as to prevent chaos and panic.",11
+"1476",76,15,"I would announce that we are rationing food over the next week until help arrives.",1
+"1477",77,15,"I would have to firstly cut food down to rations, and then explain the situation to everyone and make sure they know this isn't good and if we want to survive we must all work together.",1
+"1478",78,15,"Hold a meeting and count supplies ",1
+"1479",79,15,"I would take a deep breath and then calculate how many supplies we have and how much we could eat each day to make it last then I would instruct everyone accordingly.",1
+"1480",80,15,"I would be honest with both crew and passengers and tell them that we will need to ration food until rescue.",11
+"1481",81,15,"First I would check the food supply and start ration it out and try to make it last us for as long as possible and then I would try to keep everyone calm and tell them what is going on.",1
+"1482",82,15,"Everyone on board would have to start rationing food.",1
+"1483",83,15,"Well firstly, I'd panic. I assume as a trained captain of a cruise ship that there are procedures related to this instance. I guess I would start by rationing the food.",1
+"1484",84,15,"tell them to ration food",1
+"1485",85,15,"I would be honest with the passengers and work with them to make sure the food will last.",11
+"1486",86,15,"I am follow the instruct",-99
+"1487",87,15,"tell people they have to rationalize the food.",1
+"1488",88,15,"Let them know food will be distributed but it will be limited. There is rescue on the way, so just bare with it for a few days.",1
+"1489",89,15,"I explained the situation to crew and asked some ideas",10
+"1490",90,15,"I would institute strict rationing and hope for the best.",1
+"1491",91,15,"I would take food inventory.",1
+"1492",92,15," I would try and manage the remaining food supplies, and tell the fattest passengers to prepare to eat less. A lot less. ",1
+"1493",93,15,"Start rationing food and make a plan",1
+"1494",94,15,"Set up a daily routine and plan for food rationing.",1
+"1495",95,15,"I would think of how to catch fish",3
+"1496",96,15,"ration the food",1
+"1497",97,15,"I would instruct the crew of the situation, but try to keep the passengers from being too alarmed.  I would ration the dwindling supplies as best as possible.",4
+"1498",98,15,"Ration the food supplies, have an assembly where you calmly tell the passengers the truth and ask for help from them, according to their professional knowledge.",1
+"1499",99,15,"Let the passengers know the situation and advise of a food rationing.",11
+"1500",100,15,"Have a meeting and implement rationing. See if we have fishing equipment. Prepare to gather rain water if possible.",1
+"1501",1,16,"Hike back to where you started or find a signal",1
+"1502",2,16,"Calling 911 works, unless you have no battery, so I would keep calling until I got an answer. ",4
+"1503",3,16,"Give my shirt to Todd for shade and walk to get help.",9
+"1504",4,16,"take my shirt off to help shield from the sun",9
+"1505",5,16,"Shade Todd the best I can and quickly try to find service.",9
+"1506",6,16,"I would go to find water, leaving a trail behind me to get back to him.",5
+"1507",7,16,"Try to go get help or find a spot where I have service and then come back for Todd.",1
+"1508",8,16,"shelter him in place and leave to find help",1
+"1509",9,16,"I would work on freeing his arm.",7
+"1510",10,16,"I would go to get help as fast as I could. Being there with them would not help and I would have to go fast. ",1
+"1511",11,16,"shelter Todd and go for help.",1
+"1512",12,16,"leave Todd with all the supplies and leave him to go get help",1
+"1513",13,16,"Find some branches to build a shelter for shade, get him water then a large stick to help pry the crevice open.",9
+"1514",14,16,"look on nearby trails to try and find other people who could go get help",1
+"1515",15,16,"Leave Todd with fod and water and cover him from the sun then go for help",1
+"1516",16,16,"I would leave Todd and walk over to where I get better reception. After I call 911, I would return to where Todd is.",4
+"1517",17,16,"walk until i have service",4
+"1518",18,16,"leave him with as much supplies as possible and seek help.",1
+"1519",19,16,"Find something with which to cover Todd to protect him from sun exposure and the elements, give him whatever rations and water I can spare him of my own supply and then leave to find help, leaving trail markers along the way to find my way back.",1
+"1520",20,16,"I try to stay calm and keep Todd calm. If I'm positive I can't help him myself I would move around to try to get service. ",4
+"1521",21,16,"I have inform for everyone about the issue",12
+"1522",22,16,"Start walking until you have service or have reached someone who can get help. ",1
+"1523",23,16,"I find water for Todd, shelter him from the sun and get help or find a signal",5
+"1524",24,16,"might wait until dusk to climb higher and get cell service",4
+"1525",25,16,"I'd leave my water with Todd and go for help, all the while checking to see if I now have a cell signal.",1
+"1526",26,16,"See if there is water near by.",5
+"1527",27,16,"I would try to find somewhere with cell service.",4
+"1528",28,16,"try to walk for help",1
+"1529",29,16,"try to go get help",1
+"1530",30,16,"Tell Todd to hang tight for a minute, and go find a signal for some help.",1
+"1531",31,16,"Tell Todd I am going to find help",1
+"1532",32,16,"continue helping todd",7
+"1533",33,16,"find help",1
+"1534",34,16,"help and don't stop helping",7
+"1535",35,16,"Try to go up or down the mountain looking for service.",4
+"1536",36,16,"Keep trying until you get Todd free.",7
+"1537",37,16,"run to get help...or service",1
+"1538",38,16,"I would help Todd get as comfortable as possible, then I would begin hiking out until I could get a cell signal",4
+"1539",39,16,"travel until I find signal.",4
+"1540",40,16,"I would find some ropes to tie around Todd in order to pull him out.",7
+"1541",41,16,"I would climb down and try to find help",1
+"1542",42,16,"cover him from the sun.  walk till I have cell service and call for help",1
+"1543",43,16,"keep trying to get him unstuck and wander off a little to try and find a signal or help",7
+"1544",44,16,"Go try to find water then come back to help",5
+"1545",45,16,"Try to stay relatively close but see if I can walk around and find service.",4
+"1546",46,16,"drink water and get help",1
+"1547",47,16,"Leave and look for somewhere with service or find help.",4
+"1548",48,16,"I leave for help.",1
+"1549",49,16,"walk to were there is service",4
+"1550",50,16,"Tell him to stay calm, then cover my head and skin as much as possible and go for help, whether a nearby roadway or back to the original departure point",1
+"1551",51,16,"Try to find a signal elsewhere and call for help.",4
+"1552",52,16,"I would go to another spot where I can pick up service.",4
+"1553",53,16,"I would have no choice but to leave Todd and try to find help or try to get better reception on my cell phone.",1
+"1554",54,16,"Keep trying to get it out",7
+"1555",55,16,"Keep trying to get his arm out until I do.",7
+"1556",56,16,"I will try hold him till we get help",3
+"1557",57,16,"I would make Todd as comfortable as possible. Then I would scout about for an area where I could get a cell signal to call for help. ",4
+"1558",58,16,"I would get myself to safety and call 911 as soon as possible.",4
+"1559",59,16,"I would try to reach an area with service and call 911 again.",4
+"1560",60,16,"I would tell Todd to remain calm and wait here whilst I go to find a place where I can get a signal or find help. ",1
+"1561",61,16,"I would try to climb down the mountain and see if I could get a signal for my phone.",4
+"1562",62,16,"Leave Todd to try to find help.",1
+"1563",63,16,"Go find a place with service to call 911",4
+"1564",64,16,"The todd is rock and the slips.",-99
+"1565",65,16,"I think there'd be no choice but to tell Todd that amputation would be our only option",6
+"1566",66,16,"I will stay with him until he decides what is best for him",3
+"1567",67,16,"Leave Todd with supplies, and go to get cell reception or help",1
+"1568",68,16,"I'd make a shade over Tom, leave him with some water, and go try to find service and help immediately. ",1
+"1569",69,16,"I would first tell my friend I am not leving him but need to see if we can get reception in a better location fast. I would be gone no longer than 10 minutes. If this didn't work I would then return and work out ways in which could get him free and or out of the crevice.",4
+"1570",70,16,"Keep working to free him",7
+"1571",71,16,"Leave on foot and try and get help.",1
+"1572",72,16,"Todd's arm out of the rock",-99
+"1573",73,16,"I'd make sure Todd was not in immediate danger and attempt to move into cell tower range and call for help",4
+"1574",74,16,"I reach the near people help",1
+"1575",75,16,"I would try longer to free his arm. If we really could not free him, I would mark our exact location on my phone and travel alone until I found service and could reach help successfully. Once I reached 911 and was sure they were coming, I would return to my friend and wait with them. Or, I would wait where 911 could find me easily and lead them to my friend.",7
+"1576",76,16,"I create a SOS with land markers or rocks if able. Afterwards, I travel down the mountain to try to get service. When I finally get a call for help I come back up to my friend to wait with them. I'd do my best to help them avoid too much skin exposure to the sun.",8
+"1577",77,16,"The drastic part of this is us dying from dehydration, it is a long way down so if we are to high up to get help then I might have to cut his arm off.",6
+"1578",78,16,"Possible break his arm to get it out or go get help and come back",6
+"1579",79,16,"I would try to walk a little in both directions to try to get signal if I was unable to get signal I would tell Todd that I need to go for help.",4
+"1580",80,16,"I would cover Todd with jacket, etc., to keep him from sun exposure and keep moving about until I got cell phone service.",9
+"1581",81,16,"I would keep trying until finally I got it lose and I would try to conserve as much energy as I could for the rest of the mountain climbing.",5
+"1582",82,16,"I would try to find water for the both if us and stay with my friend until someone comes looking for us.",5
+"1583",83,16,"I'd shade Todd, find water for both of us. Try to find signal close, if I can't then I'd have to leave Todd for help",9
+"1584",84,16,"stop and help",-99
+"1585",85,16,"I would go for help.",1
+"1586",86,16,"I am so sad this situation but I am complete my way",-99
+"1587",87,16,"keep trying to get todd out until help arrives ",7
+"1588",88,16,"Continue to try to help them no matter what.",7
+"1589",89,16,"I try some other way to get people",1
+"1590",90,16,"I would leave Todd and quickly go for help.",1
+"1591",91,16,"I would leave Todd and quickly bring back help.",1
+"1592",92,16,"leave ted for dead. ",2
+"1593",93,16,"Leave whatever water you have and go try to find help",1
+"1594",94,16,"Find the closest place with signal to get help.",4
+"1595",95,16,"I would run down and look for help.",1
+"1596",96,16,"Cover him and go for help",1
+"1597",97,16,"Try to get some water.  Try to make it to somewhere that has service.",5
+"1598",98,16,"Cover Todd with your shirt to shield him from the sun. Go for help.",9
+"1599",99,16,"Keep trying and see if I can find some cover for shade.  Hopefully, I have left emergency contact information with someone.",7
+"1600",100,16,"Shield Todd and myself from the sun. Drink fluids (we had enough for the day, right?), secure Todd and try to get back to where I had cell service.",9
+"1601",1,17,"Leave the store and lock it.",3
+"1602",2,17,"I would call where my appointment is and let them know I could be late because my boss is running late.",7
+"1603",3,17,"Lock the store and leave a note....the boss obviously knows that I have the appointment.",3
+"1604",4,17,"go to court",6
+"1605",5,17,"Call my other coworkers to see if somebody can help me close the store until the manager answers.",2
+"1606",6,17,"Call my co-workers and ask them to come in for a bit.",2
+"1607",7,17,"Try to call another coworker but if they do not answer then I would close the shop and come back after my court appointment and reopen.",2
+"1608",8,17,"I would lock the store and leave to my appointment",3
+"1609",9,17,"I would lock the store and leave a note for my boss.",3
+"1610",10,17,"Go to court and lock the store. My life is more important for that day. ",3
+"1611",11,17,"call an employee to see that is near.",2
+"1612",12,17,"I would call a coworker to see if they can fill in for me.",2
+"1613",13,17,"Close the store and hang a sign apologizing for the inconvenience.",3
+"1614",14,17,"lock the store and leave for the appointment",3
+"1615",15,17,"Close the store and leave",3
+"1616",16,17,"I would lock the convenience store and leave a voicemail and text message that I have to leave for my court appointment and tell him that I locked up the store.",3
+"1617",17,17,"stay till either he or another coworker gets there",4
+"1618",18,17,"Leave him a note explaining the situation and head to court",12
+"1619",19,17,"Call the courthouse to advise of the situation and request a delay.",7
+"1620",20,17,"I would call my coworkers to see if anyone could cover for me. ",2
+"1621",21,17,"I have immediately inform the boss's neighbors.",14
+"1622",22,17,"I would call another employee or manager to come in for me. If I couldn't get a hold of anyone I would call my lawyer, you need to have a lawyer for any court proceedings, get their advice and go from there. It may be a case where it can be postponed. If it isn't that type of case I HAD to show up or risk jail time, I would probably lock the store up and go to court. I can always find another job.",2
+"1623",23,17,"Assuming I told my boss about the court date, I lock the store and go to court.",3
+"1624",24,17,"it depends on if i can contact the court or not and how much trouble i could be in. if it would be a warrant I might just lock the store.",3
+"1625",25,17,"I would have discussed the matter well in advance and we could have arrived at a contigency plan. That failing, I would call the court and explain the situation and ensure that they know it's my boss's fault, not mine.",7
+"1626",26,17,"Lock the door, leave a note.",3
+"1627",27,17,"I would lock the store up and leave.",3
+"1628",28,17,"Lock up shop and leave",3
+"1629",29,17,"lock the store down until he gets there",3
+"1630",30,17,"I will call my lawyer and explain the situation in advance so he can be prepared when he's in front of the judge.",7
+"1631",31,17,"Close up shop and go to court",3
+"1632",32,17,"continue working",5
+"1633",33,17,"Stay until boss shows up",4
+"1634",34,17,"leave",6
+"1635",35,17,"Try to call someone else to come in.",8
+"1636",36,17,"Close the store and go to my appointment.",3
+"1637",37,17,"call him ",1
+"1638",38,17,"I would try and contact any other coworkers to see if they could come in and take over until the boss shows up",2
+"1639",39,17,"Close the store, leave a note.",3
+"1640",40,17,"I will not work free overtime. I will show up at my court appointment after I clock out.",6
+"1641",41,17,"I would call another worker to see if they can fill in",2
+"1642",42,17,"You have to wait till he gets there.  Call lawyer and ask for an extension.  ",4
+"1643",43,17,"try and call another employee in to relive me",2
+"1644",44,17,"Leave for court and talk to the boss later",6
+"1645",45,17,"Put up a ""sorry, we're closed!"" sign and close the store down. I have to do what I have to do.",3
+"1646",46,17,"call another coworker to cover",2
+"1647",47,17,"Call his boss. Call another employee to see if they can take over.",1
+"1648",48,17,"Stay, as much as it sucks it's my job.",5
+"1649",49,17,"leave him a message saying you must leave and leave",12
+"1650",50,17,"I'd stay until the last minute in order to make it to court on time; lock up and leave a note if my boss still hasn't arrived.",3
+"1651",51,17,"Call the court and explain my situation.",7
+"1652",52,17,"I would have no choice other than closing the store.",3
+"1653",53,17,"I would then call the assistant manager or another employee to come take over my shift so I could get to my appointment.",2
+"1654",54,17,"Leave and go to court",6
+"1655",55,17,"I may try to call someone to cover the shift until the boss arrives.",8
+"1656",56,17,"I will go for the appointment",6
+"1657",57,17,"I would call a coworker to come cover the store. ",2
+"1658",58,17,"I would write a note and close up the store and make it to my appointment on time. ",3
+"1659",59,17,"I would call a co-worker for help.",2
+"1660",60,17,"I would leave a note for my boss and close up the store and go to my court appointment as scheduled.",3
+"1661",61,17,"I would try to call another employee to see if they can cover and if not, I'll lock up the store.",2
+"1662",62,17,"Lock up the store and go to my appointment.",3
+"1663",63,17,"Continue to try and call my boss",1
+"1664",64,17,"The shift is the alert in boss time.",-99
+"1665",65,17,"I'd wait until he arrives and ask for an explanation letter to give to the court. ",4
+"1666",66,17,"I would close the store temporarily",3
+"1667",67,17,"Close the store and leave, court obligations are more important.",3
+"1668",68,17,"I would call the GM if there is one, and tell them I have an emergency and must be relieved of my shift. If they can't immediately find someone to replace me, I have no choice but to secure the store and leave. ",2
+"1669",69,17,"I would call the court appointment and see if it can be delayed a bit, otherwise I would go to the appointment.",7
+"1670",70,17,"Close the store",3
+"1671",71,17,"Lock the store and go to court.",3
+"1672",72,17,"next shift work in day",-99
+"1673",73,17,"Wait until the absolute last minute for my boss to show up, leave a voicemail reminding the owner about my appointment at 8 am, left him know I am locking the store, setting the alarm and leaving.",10
+"1674",74,17,"I grant request to ask my store owner ",-99
+"1675",75,17,"I would call the court and ask them if I could attend virtually.",7
+"1676",76,17,"I'd leave a message for my boss and leave for my court appointment to avoid warrants.",12
+"1677",77,17,"I would have to call another employee or someone to take my place. If I cannot get ahold of anyone, then I would have to close the store and reopen it when I am finished.",2
+"1678",78,17,"Call the courthouse ",7
+"1679",79,17,"Well it depends on several things such as how far away the courthouse is but  likely I would contact my attorney or the courthouse and explain the situation so that they know I may be late and I would give my boss a few more minutes if I didn't hear from him I would lock up the store and leave him a text and voicemail explaining the situation",7
+"1680",80,17,"I would stay at the store; attempt to call the court clerk; continue calling my boss.  Also try phone # of second in command, assistant manager.",7
+"1681",81,17,"I called and left a message telling him that I had to go ahead and close up the store because I had an important court appointment at 8 am that I could not miss.",3
+"1682",82,17,"Ask another employee to cover for me.",2
+"1683",83,17,"I would close the shop and lock up. My shift is over, the person that is responsible hasn't shown up and I have a life outside of my job",3
+"1684",84,17,"Unsure what to do",0
+"1685",85,17,"I would call other employees and find someone to cover for me.",2
+"1686",86,17,"I am go to attend meeting first",6
+"1687",87,17,"call the second in charge and tell them what the problem is",2
+"1688",88,17,"Close the store. My boss should be able to open it when he arrives.",3
+"1689",89,17,"I asked my colleague to take care",2
+"1690",90,17,"I would lock up, put a sign on the door, and leave.",3
+"1691",91,17,"I would lock the store and go to court.",3
+"1692",92,17,"would leave the job. ",9
+"1693",93,17,"Wait as long as possible and close down the store if he hasn't shown up",3
+"1694",94,17,"Call a colleague for help and leave a note for my boss. ",2
+"1695",95,17,"I will call a colleague",2
+"1696",96,17,"Call coworkers to come in",2
+"1697",97,17,"Call his boss, as as well as other employees to see if someone can rush to cover his shift",1
+"1698",98,17,"Close the store down and lock it. It's not my responsibility to stay.",3
+"1699",99,17,"Call my attorney and see if it can be delayed otherwise, close the store and go.",7
+"1700",100,17,"If I have keys, lock the door and put up a sign, and go to court. Also, call the boss' emergency contacts and other employees to try to find coverage fast.",3
+"1701",1,18,"Help him or get help",11
+"1702",2,18,"I would stop and help my competitor up, so they can at least get medical attention.",4
+"1703",3,18,"Stop and help the competitor to make sure they are alright.",4
+"1704",4,18,"call them out",-99
+"1705",5,18,"Stop and help.",4
+"1706",6,18,"I would pick him up and bring him back and then go back for the dogs",3
+"1707",7,18,"Call the police and an ambulance.",1
+"1708",8,18,"try and help them",4
+"1709",9,18,"I would tie him to his sled, tie the sled to mine, and tow him and his dogs.",3
+"1710",10,18,"I would help them. The life of others is more important than winning the race.",4
+"1711",11,18,"help him.",4
+"1712",12,18,"call 9-1-1 immediately",1
+"1713",13,18,"Get help for my competitor - No one wants to die",10
+"1714",14,18,"I would stop and help them and call to get other people to help",4
+"1715",15,18,"Stop my sled and try to render aid. Call for medical help.",4
+"1716",16,18,"I would stop and help the person. I would call 911 and people running the competition.",4
+"1717",17,18,"stop and call for help",4
+"1718",18,18,"Stop and try to help the person. Winning can wait",4
+"1719",19,18,"Exit the race and assist the unconscious competitor.",4
+"1720",20,18,"I would stop to help them. ",4
+"1721",21,18,"I have inform the police and continue for my race",5
+"1722",22,18,"Stop and rush over to see what can be done for them. Call for a rescue team and stay with the hurt competitor until help arrived.",4
+"1723",23,18,"I radio to race officials. Im not a doctor and I don't know how I would make the situation better",1
+"1724",24,18,"administer first aid",4
+"1725",25,18,"I have no medical training, and time is of the essence, so I would press forward and get help. This is assuming no cell service way out in the middle of nowhere in sled dog country.",10
+"1726",26,18,"Keep going as others are too and someone will help him who is paid to do so.",2
+"1727",27,18,"I would help them.",4
+"1728",28,18,"help them",5
+"1729",29,18,"stop and radio for help",5
+"1730",30,18,"I will alert racing officials to their condition and continue the race.",5
+"1731",31,18,"Call for help",1
+"1732",32,18,"Help the competitor",5
+"1733",33,18,"Keep going",2
+"1734",34,18,"stop and help them",4
+"1735",35,18,"Call for help.",1
+"1736",36,18,"Stop and help the person.",4
+"1737",37,18,"help the sledder ",4
+"1738",38,18,"I would have no choice but to stop, and while helping my competitor I would be coming up with ideas for how I might pull ahead and still win",4
+"1739",39,18,"help them.",4
+"1740",40,18,"I would continue to race, because there is a chance I could be blamed for the crash.",2
+"1741",41,18,"I would continue the race and win and then tell people he needs help",7
+"1742",42,18,"YOu help them.  Nothing is more important than life.",4
+"1743",43,18,"stop and help  them and call the police or medics on scene",4
+"1744",44,18,"Help them",4
+"1745",45,18,"Stop and try to assist the competitor, trying to flag down people for help",4
+"1746",46,18,"keep going because honeslty i need to go get help because im no help to him",10
+"1747",47,18,"Stop and get help for the competitor",4
+"1748",48,18,"Tend to them, no human beings life is worth less than any amount of money.",11
+"1749",49,18,"help them call for help",1
+"1750",50,18,"Get them out of the snow and cold and call for help; continue with the race once help arrived",6
+"1751",51,18,"Stop to help the crashed driver.",4
+"1752",52,18,"Since there would be not much I could do to actually help, I would continue and the first person I seen I would have them go back and help this person.",14
+"1753",53,18,"I would check to see what their injuries are.  I would then call either on the radio or on a cell phone to the race medics to come take a look.  I would stay with the person until help arrived.",11
+"1754",54,18,"Stop and help",4
+"1755",55,18,"Try to do CPR, call for help and get on with the race.",4
+"1756",56,18,"I will go check on my competitor",11
+"1757",57,18,"I woul sttempt to help the competitor and stay with them until medical personnel arrived. ",6
+"1758",58,18,"I would pull over immediately and get them whatever help or medical attention I could, and make sure the dogs were ok. I would get them to safety. ",4
+"1759",59,18,"I would stop to help.",4
+"1760",60,18,"Check to see if anyone else has called/alerted help, if not then I would stop and try and get help for the individual. ",4
+"1761",61,18,"I would check on them and then try to call for some help/aid for them.",11
+"1762",62,18,"I would stop and try to contact help.",4
+"1763",63,18,"Stop and render aid ",4
+"1764",64,18,"The mile is long but unconscious",-99
+"1765",65,18,"I'd stop and check their pulse, alert some authorities on how to proceed or put him on the sled and have his dogs follow mine.",11
+"1766",66,18,"I would stop and try to call for help",4
+"1767",67,18,"Radio to race officials and tell them the location",1
+"1768",68,18,"I would make sure they were covered and call for help from the organizers. I would then continue. ",5
+"1769",69,18,"I would stop and care for them if possible, otherwise I would flag down other racers or even call the organizers and stay with the participant.",4
+"1770",70,18,"Stop and help them.",4
+"1771",71,18,"Stop and help them, call for help.",4
+"1772",72,18,"first and use the prize money to pay for your college tuition",-99
+"1773",73,18,"Stop to render aid and call 911",4
+"1774",74,18,"I drop it",2
+"1775",75,18,"I would absolutely stop and assist this person.",4
+"1776",76,18,"I would put them on my sled and take them to the next checkpoint with staff for the race.",3
+"1777",77,18,"I would stop and pick up the other unconcious competitor and bring him with through the rest of the race.",3
+"1778",78,18,"Stop and aid them",4
+"1779",79,18,"I would stop and help the person to the best of my ability.",4
+"1780",80,18,"No question.  You stop, attempt to aid, use phone to get help.",4
+"1781",81,18,"I would stop and help him out because college can wait but a person life can't wait so I would load him on my sled and take him to the nearest help or place I could find to get him help!!",4
+"1782",82,18,"I would stop to see if I could help.",11
+"1783",83,18,"I would tie them to my sled, and their dogs, and I would finish the race the best I could. Money isn't worth another person's life, although, someone else might have come along and found them. I don't think my conscious would let me leave them.",3
+"1784",84,18,"stop and help",4
+"1785",85,18,"I would stop racing and get them help.",4
+"1786",86,18,"I complete my destination",2
+"1787",87,18,"keep going",2
+"1788",88,18,"Stop and help. The race is not worth a life.",4
+"1789",89,18,"I helped him",4
+"1790",90,18,"I would have to stop and help them.",4
+"1791",91,18,"I would stop to help.",4
+"1792",92,18,"I would stop and try and help him get medical assistance. ",4
+"1793",93,18,"Stop and try to help",4
+"1794",94,18,"Stop immediately and check for a pulse. If there was no immediate help nearby, I would carry the individual personally to safety.",11
+"1795",95,18,"I would call the ambulance",1
+"1796",96,18,"stop to render aid",4
+"1797",97,18,"Get out and help my competitor.",4
+"1798",98,18,"Stop immediately to help. Someone's life is more important than any prize.",4
+"1799",99,18,"Stop and assist the person.",4
+"1800",100,18,"Render aid, call for help.",4

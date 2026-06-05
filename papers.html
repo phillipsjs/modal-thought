@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Publications — Modal Thought</title>
+  <title>Papers — Modal Thought</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; }
 
@@ -151,6 +151,17 @@
       border: 1px solid #e2e8f0;
     }
 
+    .status-badge {
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 0.7rem;
+      padding: 1px 8px;
+      border-radius: 999px;
+      background: #fefce8;
+      color: #854d0e;
+      border: 1px solid #fde68a;
+      margin-left: 0.5rem;
+    }
+
     /* ── Links ───────────────────────────────────────────────── */
     .pub-links {
       display: flex;
@@ -194,7 +205,7 @@
 
   <header class="page-header">
     <a class="site-label" href="index.html">← Modal Thought</a>
-    <h1>Publications</h1>
+    <h1>Papers</h1>
   </header>
 
   <div class="filter-bar" id="filter-bar">
@@ -204,22 +215,23 @@
 
   <main>
     <div id="pub-list"></div>
-    <p id="empty-msg">No publications match this filter.</p>
+    <p id="empty-msg">No papers match this filter.</p>
   </main>
 
   <script>
     const LINK_LABELS = {
-      journal:   'Journal',
-      pdf:       'PDF',
-      preprint:  'Preprint',
-      data:      'Data',
-      code:      'Code',
-      osf:       'OSF',
-      supmat:    'Supplement',
+      journal:    'Journal',
+      pdf:        'PDF',
+      manuscript: 'Manuscript',
+      preprint:   'Preprint',
+      data:       'Data',
+      code:       'Code',
+      osf:        'OSF',
+      supmat:     'Supplement',
     };
 
     async function load() {
-      const pubs = await fetch('site/publications.json').then(r => r.json());
+      const pubs = await fetch('site/papers.json').then(r => r.json());
 
       // Collect all tags and build filter buttons
       const allTags = [...new Set(pubs.flatMap(p => p.tags || []))].sort();
@@ -261,7 +273,7 @@
           item.appendChild(authors);
         }
 
-        // Venue
+        // Venue + status
         const venueParts = [p.journal];
         if (p.volume) {
           let v = p.volume;
@@ -271,7 +283,13 @@
         }
         const venue = document.createElement('p');
         venue.className = 'pub-venue';
-        venue.textContent = venueParts.filter(Boolean).join(', ');
+        venue.textContent = venueParts.filter(Boolean).join(', ') || p.year;
+        if (p.status) {
+          const badge = document.createElement('span');
+          badge.className = 'status-badge';
+          badge.textContent = p.status;
+          venue.appendChild(badge);
+        }
         item.appendChild(venue);
 
         // Tags
@@ -367,7 +385,7 @@
     }
 
     load().catch(err => {
-      document.getElementById('pub-list').textContent = 'Error loading publications: ' + err.message;
+      document.getElementById('pub-list').textContent = 'Error loading papers: ' + err.message;
     });
   </script>
 </body>

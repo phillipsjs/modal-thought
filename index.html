@@ -346,8 +346,8 @@
 
     <div id="pub-nav">
       <div id="pub-nav-header">
-        <span id="pub-nav-label"><a href="publications.html">Publications</a></span>
-        <button id="pub-nav-toggle" aria-label="Toggle publications">−</button>
+        <span id="pub-nav-label"><a href="papers.html">Papers</a></span>
+        <button id="pub-nav-toggle" aria-label="Toggle papers">−</button>
       </div>
       <ul id="pub-nav-list"></ul>
     </div>
@@ -474,13 +474,13 @@
       const pubList   = document.getElementById('pub-nav-list');
       const pubToggle = document.getElementById('pub-nav-toggle');
 
-      fetch('site/publications.json')
+      fetch('site/papers.json')
         .then(r => r.json())
         .then(pubs => {
           pubs.sort((a, b) => b.year - a.year).forEach(p => {
             const li = document.createElement('li');
             const a  = document.createElement('a');
-            a.href        = 'publications.html';
+            a.href        = 'papers.html';
             a.textContent = p.title;
             a.title       = ``;
             li.appendChild(a);

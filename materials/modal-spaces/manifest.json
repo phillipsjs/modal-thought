@@ -1,0 +1,78 @@
+{
+  "paper": {
+    "title": "Modal spaces as a foundation for high-level cognition",
+    "authors": ["Hecht, E.", "Phillips, J."],
+    "year": 2024,
+    "status": "unpublished"
+  },
+  "github": "https://github.com/PhilLaboratory/modal-spaces",
+  "sections": [
+    {
+      "label": "Manuscript",
+      "files": [
+        { "name": "Manuscript with analyses (HTML)", "path": "paper.html" },
+        { "name": "R Markdown source", "path": "code/writeUP.Rmd" }
+      ]
+    },
+    {
+      "label": "Code",
+      "files": [
+        { "name": "NLP coding (Jupyter notebook)", "path": "code/nlpCoding.ipynb" }
+      ]
+    },
+    {
+      "label": "Data",
+      "files": [
+        { "name": "Study 1a", "path": "data/study1a.csv" },
+        { "name": "Study 1b", "path": "data/study1b.csv" },
+        { "name": "Study 1c", "path": "data/study1c.csv" },
+        { "name": "Study 2", "path": "data/study2.csv" },
+        { "name": "Study 3", "path": "data/study3.csv" },
+        { "name": "Study 4", "path": "data/study4.csv" },
+        { "name": "Study 5a", "path": "data/study5a.csv" },
+        { "name": "Study 5b", "path": "data/study5b.csv" },
+        { "name": "Study 5c", "path": "data/study5c.csv" },
+        { "name": "Study 6", "path": "data/study6.csv" },
+        { "name": "Action contexts table", "path": "data/contextsTable.csv" },
+        { "name": "Generated actions", "path": "data/actualActions.csv" }
+      ]
+    },
+    {
+      "label": "Stimuli",
+      "files": [
+        { "name": "Study 1a (Word)", "path": "stimuli/Study1a.docx" },
+        { "name": "Study 1a (Qualtrics)", "path": "stimuli/Study1a.qsf" },
+        { "name": "Study 1b (Word)", "path": "stimuli/Study1b.docx" },
+        { "name": "Study 1b (Qualtrics)", "path": "stimuli/Study1b.qsf" },
+        { "name": "Study 1c (Word)", "path": "stimuli/Study1c.docx" },
+        { "name": "Study 1c (Qualtrics)", "path": "stimuli/Study1c.qsf" },
+        { "name": "Study 2 (Word)", "path": "stimuli/Study2.docx" },
+        { "name": "Study 2 (Qualtrics)", "path": "stimuli/Study2.qsf" },
+        { "name": "Study 3 (Word)", "path": "stimuli/Study3.docx" },
+        { "name": "Study 3 (Qualtrics)", "path": "stimuli/Study3.qsf" },
+        { "name": "Study 4 (Word)", "path": "stimuli/Study4.docx" },
+        { "name": "Study 4 (Qualtrics)", "path": "stimuli/Study4.qsf" },
+        { "name": "Study 5a (Word)", "path": "stimuli/Study5a.docx" },
+        { "name": "Study 5a (Qualtrics)", "path": "stimuli/Study5a.qsf" },
+        { "name": "Study 5b (Word)", "path": "stimuli/Study5b.docx" },
+        { "name": "Study 5b (Qualtrics)", "path": "stimuli/Study5b.qsf" },
+        { "name": "Study 5c (Word)", "path": "stimuli/Study5c.docx" },
+        { "name": "Study 5c (Qualtrics)", "path": "stimuli/Study5c.qsf" },
+        { "name": "Study 6 (Word)", "path": "stimuli/Study6.docx" },
+        { "name": "Study 6 (Qualtrics)", "path": "stimuli/Study6.qsf" }
+      ]
+    },
+    {
+      "label": "Coding",
+      "files": [
+        { "name": "Coding key", "path": "coding/textsCodingKey.csv" },
+        { "name": "Possibility generation — Rater 1", "path": "coding/pg_coding_rater1.csv" },
+        { "name": "Possibility generation — Rater 2", "path": "coding/pg_coding_rater2.csv" },
+        { "name": "Possibility generation — Rater 3", "path": "coding/pg_coding_rater3.csv" },
+        { "name": "Decision coding — Rater 1", "path": "coding/decision_coding_rater1.csv" },
+        { "name": "Decision coding — Rater 2", "path": "coding/decision_coding_rater2.csv" },
+        { "name": "Decision coding — Rater 3", "path": "coding/decision_coding_rater3.csv" }
+      ]
+    }
+  ]
+}

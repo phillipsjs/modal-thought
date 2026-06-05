@@ -1,5 +1,16 @@
 [
   {
+    "title": "Modal spaces as a foundation for high-level cognition",
+    "authors": ["Hecht, E.", "Phillips, J."],
+    "year": 2024,
+    "status": "unpublished",
+    "slug": "modal-spaces",
+    "tags": ["modal cognition", "possibility"],
+    "links": {
+      "manuscript": "materials/modal-spaces/paper.html"
+    }
+  },
+  {
     "title": "How we know what not to think",
     "authors": ["Phillips, J.", "Morris, A.", "Cushman, F."],
     "year": 2019,
